@@ -2,8 +2,12 @@
 /public/data/* text eol=lf
 /public/licenses/* text eol=lf
 /data-evaluation/*.json text eol=lf
+/public/audio/*.md text eol=lf
+/public/audio/*.txt text eol=lf
+/public/audio/*.wav binary
 
 # These upstream texts intentionally retain their original whitespace.
 /public/data/cedict-original-header.txt -whitespace
 /public/data/cedict-sample-source.txt -whitespace
 /public/licenses/CC-BY-SA-4.0.txt -whitespace
+/public/audio/Kokoro-ONNX-model-card.md -whitespace

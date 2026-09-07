@@ -1,0 +1,16 @@
+{
+  "name": "lexiharbor-voice-build",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate.ts",
+    "check": "node verify.mjs",
+    "check:coverage": "tsx coverage.ts"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "kokoro-js": "1.2.1",
+    "tsx": "4.20.6"
+  }
+}

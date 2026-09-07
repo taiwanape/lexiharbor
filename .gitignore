@@ -4,6 +4,7 @@ dist/
 web-build/
 .corpus-cache/
 outputs/
+tools/voice/.model-cache/
 *.jks
 *.keystore
 google-services.json
