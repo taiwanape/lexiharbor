@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "cc-cedict-2026-09-06",
+  "title": "CC-CEDICT",
+  "attribution": "CC-CEDICT contributors; published by MDBG. CC-CEDICT continues CEDICT, started by Paul Denisowski in 1997.",
+  "publisherPage": "https://www.mdbg.net/chinese/dictionary?page=cedict",
+  "releasePolicy": "https://cc-cedict.org/editor/editor.php?handler=Download",
+  "retrievedAt": "2026-09-07T07:53:08.138Z",
+  "upstreamReleaseDate": "2026-09-06T07:40:00Z",
+  "upstreamEntryCount": 124988,
+  "archive": {
+    "url": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+    "cachePath": ".corpus-cache/cedict-release.txt.gz",
+    "sha256": "70fee391949cec73eaec73476e0b6058930439cb61f435579f90209a1bb70b26",
+    "bytes": 3972273
+  },
+  "original": {
+    "cachePath": ".corpus-cache/cedict-release.u8",
+    "sha256": "76e7e169e7609f51abcd15b89579a627cd330b994818cd9b6d97677955794866",
+    "bytes": 9842665
+  },
+  "originalHeaderPath": "public/data/cedict-original-header.txt",
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "textUrl": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "path": "public/licenses/CC-BY-SA-4.0.txt",
+    "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+    "bytes": 20138
+  },
+  "changes": [
+    "Selected requested Traditional Chinese headwords into a small development subset.",
+    "Split slash-separated English definitions into a JSON array without rewriting their text.",
+    "Added stable SHA-256-derived entry identifiers and source metadata."
+  ],
+  "adapter": "LexiHarbor project",
+  "adaptedDataLicense": "CC-BY-SA-4.0",
+  "sample": {
+    "path": "public/data/cedict-sample.json",
+    "sha256": "beb3f96cd93294d870c51dd593d4e245a51f0d0bafe9c9c72fb3d67f05a27ea4",
+    "entryCount": 489,
+    "headwordCount": 439
+  },
+  "redistributableSource": {
+    "path": "public/data/cedict-sample-source.txt",
+    "sha256": "5f651dc1ce14d896ec8960b34bcb541bd3ee2e2f5f3729fac61e833d9c6ff3f6",
+    "description": "All selected source records, unchanged, with the upstream header. This is the complete source for the distributed sample, not the complete upstream dictionary."
+  },
+  "selection": {
+    "path": "data-evaluation/sample-headwords.json",
+    "requestedHeadwords": 440,
+    "missingHeadwords": [
+      "一天"
+    ],
+    "order": "original upstream order"
+  },
+  "limitations": [
+    "Chinese-to-English dictionary with English reverse lookup; not a complete English-to-Traditional-Chinese learning dictionary.",
+    "Development subset selected for familiar topics; not a frequency-balanced or representative corpus.",
+    "No full human editorial review has been completed; definition matches are not validation of translations or English senses.",
+    "No implied endorsement by the upstream project or publisher."
+  ]
+}

@@ -1,0 +1,9 @@
+# Preserve checksum-pinned corpus and license bytes on Windows checkouts.
+/public/data/* text eol=lf
+/public/licenses/* text eol=lf
+/data-evaluation/*.json text eol=lf
+
+# These upstream texts intentionally retain their original whitespace.
+/public/data/cedict-original-header.txt -whitespace
+/public/data/cedict-sample-source.txt -whitespace
+/public/licenses/CC-BY-SA-4.0.txt -whitespace

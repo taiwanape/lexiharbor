@@ -1,0 +1,521 @@
+# CC-CEDICT
+# Community maintained free Chinese-English dictionary.
+# 
+# Published by MDBG
+# 
+# License:
+# Creative Commons Attribution-ShareAlike 4.0 International License
+# https://creativecommons.org/licenses/by-sa/4.0/
+# 
+# Referenced works:
+# CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski
+# 
+# CC-CEDICT can be downloaded from:
+# https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+# 
+# Additions and corrections can be sent through:
+# https://cc-cedict.org/editor/editor.php
+# 
+# For more information about CC-CEDICT see:
+# https://cc-cedict.org/wiki/
+# 
+#! version=1
+#! subversion=0
+#! format=ts
+#! charset=UTF-8
+#! entries=124988
+#! publisher=MDBG
+#! license=https://creativecommons.org/licenses/by-sa/4.0/
+#! date=2026-09-06T07:40:00Z
+#! time=1788680400
+# LexiHarbor research subset: selection only; full source header above describes the upstream full release.
+# Subset entries: 489
+丈夫 丈夫 [zhang4 fu5] /husband/
+下午 下午 [xia4 wu3] /afternoon/CL:個|个[ge4]/p.m./
+不同 不同 [bu4 tong2] /different/distinct/not the same/not alike/
+中午 中午 [zhong1 wu3] /noon/midday/CL:個|个[ge4]/
+中文 中文 [Zhong1 wen2] /Chinese language/
+乳酪 乳酪 [ru3 lao4] /cheese/
+乾淨 干净 [gan1 jing4] /clean/neat/
+人 人 [ren2] /person; people/CL:個|个[ge4],位[wei4],名[ming2]/
+今天 今天 [jin1 tian1] /today/the present time; now/
+介紹 介绍 [jie4 shao4] /to introduce (sb to sb)/to give a presentation/to present (sb for a job etc)/introduction/
+付錢 付钱 [fu4 qian2] /to pay/
+以前 以前 [yi3 qian2] /before/formerly/previous/ago/
+以後 以后 [yi3 hou4] /after/later/afterwards/following/later on/in the future/
+低 低 [di1] /low/beneath/to lower (one's head)/to let droop/to hang down/to incline/
+住 住 [zhu4] /to live; to reside; to stay/to stop; to cease/(result complement indicating firmness or a stable achieved state)/
+作業 作业 [zuo4 ye4] /school assignment/homework/work/task/operation/CL:個|个[ge4]/to operate/
+使用 使用 [shi3 yong4] /to use/to employ/to apply/to make use of/
+來 来 [lai2] /to come/(used as a substitute for a more specific verb)/hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5])/ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])/for the past (amount of time)/(prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4])/(between two verbs) in order to/(after a round number) approximately/(used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])/
+便宜 便宜 [bian4 yi2] /convenient/
+便宜 便宜 [pian2 yi5] /cheap; inexpensive/a petty advantage/to let sb off lightly/
+信 信 [xin4] /letter/mail/CL:封[feng1]/to trust/to believe/to profess faith in/truthful/confidence/trust/at will/at random/
+信用卡 信用卡 [xin4 yong4 ka3] /credit card/
+修理 修理 [xiu1 li3] /to repair/to fix/to prune/to trim/(coll.) to sort sb out/to fix sb/
+借 借 [jie4] /to borrow/(used in combination with 給|给[gei3] or 出[chu1] etc) to lend/to make use of; to avail oneself of/(sometimes followed by 著|着[zhe5]) by; with/
+做 做 [zuo4] /to make; to produce/to write; to compose/to do; to engage in; to hold (a party etc)/(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)/(of a thing) to serve as; to be used for/to assume (an air or manner)/
+停 停 [ting2] /to stop/to halt/to park (a car)/
+健康 健康 [jian4 kang1] /health/healthy/
+傷心 伤心 [shang1 xin1] /to grieve/to be broken-hearted/to feel deeply hurt/
+價格 价格 [jia4 ge2] /price/
+光 光 [guang1] /light; ray (CL:道[dao4])/bright; shiny/only; merely/used up; finished/to leave (a part of the body) uncovered/
+免費 免费 [mian3 fei4] /free (of charge)/
+公司 公司 [gong1 si1] /company; firm; corporation/CL:家[jia1]/
+公園 公园 [gong1 yuan2] /park (for public recreation)/CL:座[zuo4]/
+公平 公平 [gong1 ping2] /fair/impartial/
+公車 公车 [gong1 che1] /bus/abbr. for 公共汽車|公共汽车[gong1 gong4 qi4 che1]/car belonging to an organization and used by its members (government car, police car, company car etc)/abbr. for 公務用車|公务用车[gong1 wu4 yong4 che1]/
+冬天 冬天 [dong1 tian1] /winter/
+冰箱 冰箱 [bing1 xiang1] /refrigerator/(old) icebox/
+冷 冷 [Leng3] /surname Leng/
+冷 冷 [leng3] /cold/
+出發 出发 [chu1 fa1] /to set off/to start (on a journey)/
+刀 刀 [Dao1] /surname Dao/
+刀 刀 [dao1] /knife; blade; single-edged sword; cutlass (CL:把[ba3])/(slang) (loanword) dollar/classifier for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs/(Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)/(Internet slang) to knife (sb) (often used hyperbolically, as in 想刀他[xiang3 dao1 ta1] "I could kill him!")/
+分享 分享 [fen1 xiang3] /to share (esp. sth enjoyable, useful or beneficial)/
+分鐘 分钟 [fen1 zhong1] /minute/
+切 切 [qie1] /to cut; to slice; to carve/(math.) tangential/
+切 切 [qie4] /definitely; absolutely (not)/(scoffing or dismissive interjection) Yeah, right.; Tut!/to grind/(bound form) close to/(bound form) eager/to correspond to/(used to indicate that the fanqie 反切[fan3 qie4] system should be applied to the previous two characters)/
+到達 到达 [dao4 da2] /to reach; to arrive/
+刷牙 刷牙 [shua1 ya2] /to brush one's teeth/
+前面 前面 [qian2 mian4] /ahead/in front/preceding/above/also pr. [qian2 mian5]/
+勇敢 勇敢 [yong3 gan3] /brave; courageous/
+動物 动物 [dong4 wu4] /animal/
+午夜 午夜 [wu3 ye4] /midnight/
+午餐 午餐 [wu3 can1] /lunch/luncheon/CL:份[fen4],頓|顿[dun4],次[ci4]/
+危險 危险 [wei1 xian3] /danger/dangerous/
+去 去 [qu4] /to go/to go to (a place)/(of a time etc) last/just passed/to send/to remove/to get rid of/to reduce/to be apart from in space or time/to die (euphemism)/to play (a part)/(when used either before or after a verb) to go in order to do sth/(after a verb of motion indicates movement away from the speaker)/(used after certain verbs to indicate detachment or separation)/
+叉子 叉子 [cha1 zi5] /fork/CL:把[ba3]/
+口渴 口渴 [kou3 ke3] /thirsty/
+句子 句子 [ju4 zi5] /sentence/CL:個|个[ge4]/
+叫 叫 [jiao4] /to shout/to call/to order/to ask/to be called/by (indicates agent in the passive mood)/
+可能 可能 [ke3 neng2] /might (happen)/possible/probable/possibility/probability/maybe/perhaps/CL:個|个[ge4]/
+右 右 [you4] /(bound form) right; right-hand side/(bound form) (politics) right of center/(bound form) (old) west/(literary) the right side as the side of precedence/
+司機 司机 [si1 ji1] /chauffeur; driver/
+吃 吃 [chi1] /to eat; to consume/to eat at (a cafeteria etc)/to eradicate; to destroy/to absorb/to suffer (shock, injury, defeat etc)/
+同事 同事 [tong2 shi4] /colleague; co-worker/
+同意 同意 [tong2 yi4] /to agree/to consent/to approve/
+名字 名字 [ming2 zi5] /name (of a person or thing)/
+吵 吵 [chao1] /used in 吵吵[chao1 chao5]/Taiwan pr. [chao3]/
+吵 吵 [chao3] /noisy; loud/to quarrel; to argue/
+咖啡 咖啡 [ka1 fei1] /(loanword) coffee/CL:杯[bei1]/
+哥哥 哥哥 [ge1 ge5] /older brother/CL:個|个[ge4],位[wei4]/
+哭 哭 [ku1] /to cry; to weep/
+唱歌 唱歌 [chang4 ge1] /to sing a song/
+商店 商店 [shang1 dian4] /store; shop/CL:家[jia1]/
+問 问 [wen4] /to ask; to inquire/
+問題 问题 [wen4 ti2] /question/problem/issue/topic/CL:個|个[ge4]/
+喜歡 喜欢 [xi3 huan5] /to like; to be fond of/
+喝 喝 [he1] /to drink/variant of 嗬[he1]/
+喝 喝 [he4] /to shout/
+單字 单字 [dan1 zi4] /single Chinese character/(Tw) word (of a foreign language)/
+嘴 嘴 [zui3] /mouth/beak/nozzle/spout (of teapot etc)/CL:張|张[zhang1],個|个[ge4]/
+回來 回来 [hui2 lai5] /to return; to come back/
+回答 回答 [hui2 da2] /to reply; to answer/reply; answer/
+困難 困难 [kun4 nan5] /difficult/challenging/straitened circumstances/difficult situation/
+國家 国家 [guo2 jia1] /country; nation; state/
+圖書館 图书馆 [tu2 shu1 guan3] /library/CL:家[jia1],個|个[ge4]/
+地圖 地图 [di4 tu2] /map/CL:張|张[zhang1],本[ben3]/
+地址 地址 [di4 zhi3] /address/CL:個|个[ge4]/
+地板 地板 [di4 ban3] /floor/
+坐 坐 [Zuo4] /surname Zuo/
+坐 坐 [zuo4] /to sit/to take a seat/to take (a bus, airplane etc)/to bear fruit/variant of 座[zuo4]/
+城市 城市 [cheng2 shi4] /city; town/CL:座[zuo4]/
+壞 坏 [huai4] /bad/spoiled/broken/to break down/(suffix) to the utmost/
+夏天 夏天 [xia4 tian1] /summer/CL:個|个[ge4]/
+外套 外套 [wai4 tao4] /outer garment; jacket; coat/CL:件[jian4]/
+大 大 [da4] /big; large; great/older (than another person)/eldest (as in 大姐[da4 jie3])/greatly; freely; fully/(dialect) father/(dialect) uncle (father's brother)/
+大 大 [dai4] /see 大夫[dai4 fu5]/
+天氣 天气 [tian1 qi4] /weather/
+天空 天空 [tian1 kong1] /sky/
+太陽 太阳 [tai4 yang5] /sun/sunlight; sunshine/temple (on the side of the human head) (abbr. for 太陽穴|太阳穴[tai4 yang2 xue2])/
+失去 失去 [shi1 qu4] /to lose/
+女人 女人 [nu:3 ren2] /woman/
+女人 女人 [nu:3 ren5] /wife/
+女孩 女孩 [nu:3 hai2] /girl; lass/
+奶油 奶油 [nai3 you2] /cream/butter/(coll.) effeminate/
+好 好 [hao3] /good/appropriate; proper/all right!/(before a verb) easy to/(before a verb) good to/(before an adjective for exclamatory effect) so/(verb complement indicating completion)/(of two people) close; on intimate terms/(after a form of address) hello/
+好 好 [hao4] /to be fond of; to have a tendency to; to be prone to/
+好奇 好奇 [hao4 qi2] /inquisitive/curious/inquisitiveness/curiosity/
+妹妹 妹妹 [mei4 mei5] /younger sister/young woman/CL:個|个[ge4]/
+妻子 妻子 [qi1 zi3] /wife and children/
+妻子 妻子 [qi1 zi5] /wife/
+姐姐 姐姐 [jie3 jie5] /older sister/CL:個|个[ge4]/
+媽媽 妈妈 [ma1 ma5] /mama/mommy/mother/CL:個|个[ge4],位[wei4]/
+嬰兒 婴儿 [ying1 er2] /infant/baby/CL:個|个[ge4]/lead (Pb)/
+字母 字母 [zi4 mu3] /letter (of the alphabet)/CL:個|个[ge4]/
+存款 存款 [cun2 kuan3] /to deposit money (in a bank etc)/bank savings/bank deposit/
+孩子 孩子 [hai2 zi5] /child/
+學校 学校 [xue2 xiao4] /school/CL:所[suo3]/
+學生 学生 [xue2 sheng5] /student/schoolchild/
+學習 学习 [xue2 xi2] /to learn; to study/
+安全 安全 [an1 quan2] /safe; secure/safety; security/
+安靜 安静 [an1 jing4] /quiet/peaceful/calm/
+完成 完成 [wan2 cheng2] /to complete; to accomplish/
+客人 客人 [ke4 ren2] /visitor/guest/customer/client/CL:位[wei4]/
+客廳 客厅 [ke4 ting1] /living room; sitting room/CL:間|间[jian1]/
+害怕 害怕 [hai4 pa4] /to be afraid; to be scared/
+家 家 [jia1] /home/family/(polite) my (sister, uncle etc)/classifier for families or businesses/refers to the philosophical schools of pre-Han China/noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian/CL:個|个[ge4]/
+家庭 家庭 [jia1 ting2] /family; household/CL:戶|户[hu4]/
+容易 容易 [rong2 yi4] /easy; straightforward/likely; liable to; apt to/
+寫 写 [xie3] /to write/
+寫 写 [xie4] /used in 寫意|写意[xie4 yi4]/
+尋找 寻找 [xun2 zhao3] /to seek; to look for/
+小 小 [xiao3] /small/tiny/few/young/
+小時 小时 [xiao3 shi2] /hour/CL:個|个[ge4]/
+展覽會 展览会 [zhan3 lan3 hui4] /exhibition; show/
+山 山 [Shan1] /surname Shan/
+山 山 [shan1] /mountain; hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms to spin cocoons on/
+工作 工作 [gong1 zuo4] /to work/(of a machine) to operate/job/work/task/CL:個|个[ge4],份[fen4],項|项[xiang4]/
+左 左 [Zuo3] /surname Zuo/
+左 左 [zuo3] /left/the Left (politics)/east/unorthodox/queer/wrong/differing/opposite/variant of 佐[zuo3]/
+市場 市场 [shi4 chang3] /marketplace; market; bazaar/(economics) market/
+希望 希望 [xi1 wang4] /to hope/a hope; a wish/
+帳戶 帐户 [zhang4 hu4] /variant of 賬戶|账户[zhang4 hu4]/
+帶 带 [dai4] /band/belt/girdle/ribbon/tire/area/zone/region/CL:條|条[tiao2]/to wear/to carry/to take along/to bear (i.e. to have)/to lead/to bring/to look after/to raise/
+帽子 帽子 [mao4 zi5] /hat/cap/(fig.) label/bad name/CL:頂|顶[ding3]/
+幫助 帮助 [bang1 zhu4] /assistance; aid/to help; to assist/
+年 年 [Nian2] /surname Nian/
+年 年 [nian2] /year/CL:個|个[ge4]/
+年輕 年轻 [nian2 qing1] /young/
+床 床 [chuang2] /bed; couch (furniture that one can lie down on) (CL:張|张[zhang1])/bed; bottom (of rivers, oceans, gardens etc)/frame; chassis/classifier for blankets, quilts etc/
+廁所 厕所 [ce4 suo3] /toilet; lavatory/CL:間|间[jian1],處|处[chu4]/
+廚房 厨房 [chu2 fang2] /kitchen/CL:間|间[jian1]/
+建立 建立 [jian4 li4] /to establish/to set up/to found/
+弟弟 弟弟 [di4 di5] /younger brother/CL:個|个[ge4],位[wei4]/
+彈簧 弹簧 [tan2 huang2] /spring/
+後面 后面 [hou4 mian5] /the back; the rear; the last bit/behind; near the end; at the back/later; afterwards/
+得到 得到 [de2 dao4] /to get; to obtain; to receive/
+心 心 [xin1] /heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]/
+忘記 忘记 [wang4 ji4] /to forget/
+忙 忙 [mang2] /busy/hurriedly/to hurry/to rush/
+快 快 [kuai4] /rapid/quick/speed/rate/soon/almost/to make haste/clever/sharp (of knives or wits)/forthright/plainspoken/gratified/pleased/pleasant/
+快樂 快乐 [kuai4 le4] /happy; joyful/
+想 想 [xiang3] /to think (about)/to think of; to devise/to think (that); to believe (that)/to desire; to want (to)/to miss (feel wistful about the absence of)/
+愛 爱 [ai4] /to love; to be fond of; to like/affection/to be inclined (to do sth); to tend to (happen)/
+感冒 感冒 [gan3 mao4] /to catch cold/(common) cold/CL:場|场[chang2],次[ci4]/(coll.) to be interested in (often used in the negative)/(Tw) to detest/can't stand/
+慢 慢 [man4] /slow/
+戒指 戒指 [jie4 zhi5] /(finger) ring/
+房子 房子 [fang2 zi5] /house/building (single- or two-story)/apartment/room/CL:棟|栋[dong4],幢[zhuang4],座[zuo4],套[tao4],間|间[jian1]/
+房間 房间 [fang2 jian1] /room/CL:間|间[jian1]/
+手 手 [shou3] /hand/(formal) to hold/person engaged in certain types of work/person skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]/
+手機 手机 [shou3 ji1] /cell phone; mobile phone/CL:部[bu4],臺|台[tai2]/
+手錶 手表 [shou3 biao3] /wristwatch/CL:塊|块[kuai4],隻|只[zhi1],個|个[ge4]/
+打擊 打击 [da3 ji1] /to hit/to strike/to attack/to crack down on sth/blow/(psychological) shock/percussion (music)/
+打破 打破 [da3 po4] /to break; to smash/
+打算 打算 [da3 suan4] /to plan/to intend/to calculate/plan/intention/calculation/CL:個|个[ge4]/
+打開 打开 [da3 kai1] /to open/to show (a ticket)/to turn on/to switch on/
+打電話 打电话 [da3 dian4 hua4] /to make a telephone call/
+找到 找到 [zhao3 dao4] /to find/
+拒絕 拒绝 [ju4 jue2] /to refuse; to decline; to reject/
+拿 拿 [na2] /to hold/to seize/to catch/to apprehend/to take/(used in the same way as 把[ba3]: to mark the following noun as a direct object)/
+揮手 挥手 [hui1 shou3] /to wave (one's hand)/
+搬家 搬家 [ban1 jia1] /to move house; to relocate/to remove (sth)/
+擔心 担心 [dan1 xin1] /anxious/worried/uneasy/to worry/to be anxious/
+收到 收到 [shou1 dao4] /to receive/
+收據 收据 [shou1 ju4] /receipt/CL:張|张[zhang1]/
+改變 改变 [gai3 bian4] /to change/to alter/to transform/
+放 放 [fang4] /to put/to place/to release/to free/to let go/to let out/to set off (fireworks)/
+故事 故事 [gu4 shi4] /old practice/
+故事 故事 [gu4 shi5] /narrative; story; tale/
+教 教 [Jiao4] /surname Jiao/
+教 教 [jiao1] /to teach; to instruct/
+教 教 [jiao4] /(bound form) to teach; to instruct/a religion/to cause (sb to do sth); to tell (sb to do sth)/
+教室 教室 [jiao4 shi4] /classroom/CL:間|间[jian1]/
+新 新 [Xin1] /abbr. for Xinjiang 新疆[Xin1 jiang1]/abbr. for Singapore 新加坡[Xin1 jia1 po1]/surname Xin/
+新 新 [xin1] /new/newly/meso- (chemistry)/
+新聞 新闻 [xin1 wen2] /news/CL:條|条[tiao2]/
+旅行 旅行 [lu:3 xing2] /to travel/journey; trip/CL:趟[tang4],次[ci4]/
+旅遊 旅游 [lu:3 you2] /trip/journey/tourism/travel/tour/to travel/
+旅館 旅馆 [lu:3 guan3] /hotel/CL:家[jia1]/
+日期 日期 [ri4 qi1] /date/
+早 早 [zao3] /early/morning/Good morning!/long ago/prematurely/
+早上 早上 [zao3 shang5] /early morning/CL:個|个[ge4]/
+早餐 早餐 [zao3 can1] /breakfast/CL:份[fen4],頓|顿[dun4],次[ci4]/
+昂貴 昂贵 [ang2 gui4] /expensive/costly/
+昆蟲 昆虫 [kun1 chong2] /insect/CL:隻|只[zhi1],群[qun2],堆[dui1]/
+明天 明天 [ming2 tian1] /tomorrow/
+星星 星星 [xing1 xing5] /(coll.) a star; the stars in the sky/
+星期 星期 [xing1 qi1] /week/CL:個|个[ge4]/day of the week/Sunday/
+春天 春天 [chun1 tian1] /spring (season)/CL:個|个[ge4]/
+昨天 昨天 [zuo2 tian1] /yesterday/
+是 是 [shi4] /to be (followed by substantives only)/correct; right; true/(respectful acknowledgement of a command) very well/(adverb for emphatic assertion)/
+時間 时间 [shi2 jian1] /(concept of) time/(duration of) time/(point in) time/
+晚 晚 [wan3] /evening/night/late/
+晚上 晚上 [wan3 shang5] /evening/night/CL:個|个[ge4]/in the evening/
+晚餐 晚餐 [wan3 can1] /evening meal; dinner/CL:份[fen4],頓|顿[dun4],次[ci4]/
+書 书 [Shu1] /abbr. for 書經|书经[Shu1 jing1]/
+書 书 [shu1] /book/letter/document/CL:本[ben3],冊|册[ce4],部[bu4]/to write/
+書寫 书写 [shu1 xie3] /to write/
+會議 会议 [hui4 yi4] /meeting/conference/CL:場|场[chang3],屆|届[jie4]/
+月 月 [yue4] /moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]/
+月亮 月亮 [yue4 liang5] /the moon/
+有 有 [you3] /to have; there is/(bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)/
+有趣 有趣 [you3 qu4] /interesting; fascinating; amusing/
+朋友 朋友 [peng2 you5] /friend/CL:個|个[ge4],位[wei4]/
+杯子 杯子 [bei1 zi5] /cup/glass/CL:個|个[ge4],隻|只[zhi1]/
+果汁 果汁 [guo3 zhi1] /fruit juice/
+桌子 桌子 [zhuo1 zi5] /table/desk/CL:張|张[zhang1],套[tao4]/
+棗 枣 [zao3] /(bound form) jujube; Chinese date (Zizyphus jujuba)/
+椅子 椅子 [yi3 zi5] /chair/CL:把[ba3],張|张[zhang1]/
+樓層 楼层 [lou2 ceng2] /floor; story (of a building)/
+樹 树 [shu4] /tree/CL:棵[ke1]/to cultivate/to set up/
+樹皮 树皮 [shu4 pi2] /tree bark/
+橘子 橘子 [ju2 zi5] /tangerine/CL:個|个[ge4],瓣[ban4]/
+機場 机场 [ji1 chang3] /airport; airfield/(slang) service provider for Shadowsocks or similar software for circumventing Internet censorship/CL:家[jia1],處|处[chu4]/
+檢查 检查 [jian3 cha2] /inspection/to examine/to inspect/CL:次[ci4]/
+檸檬 柠檬 [ning2 meng2] /lemon/
+正確 正确 [zheng4 que4] /correct; sound; right; proper/
+正面 正面 [zheng4 mian4] /front/obverse side/right side/positive/direct/open/
+母親 母亲 [mu3 qin1] /mother/
+比賽 比赛 [bi3 sai4] /competition (sports etc)/match/CL:場|场[chang3],次[ci4]/to compete/
+比較 比较 [bi3 jiao4] /to compare/to contrast/comparatively/relatively/quite/comparison/
+毛巾 毛巾 [mao2 jin1] /towel/CL:條|条[tiao2]/
+水 水 [Shui3] /surname Shui/Shui ethnic group/
+水 水 [shui3] /water/(after a name) ... River/to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4])/(coll.) lacking in substance; shoddy/(bound form) additional cost; extra income/classifier for washings of a garment/
+水果 水果 [shui3 guo3] /fruit/
+決定 决定 [jue2 ding4] /to decide; to determine; to make up one's mind/decision (CL:個|个[ge4],項|项[xiang4])/
+汽車 汽车 [qi4 che1] /car/automobile/bus/CL:輛|辆[liang4]/
+沙發 沙发 [sha1 fa1] /(loanword) sofa (CL:條|条[tiao2],張|张[zhang1])/(Internet slang) first reply to a forum post/
+河 河 [he2] /river (CL:條|条[tiao2],道[dao4])/(bound form) the Yellow River/(bound form) the Milky Way/(bound form) (on restaurant menus) rice noodles 河粉[he2 fen3]/
+河岸 河岸 [he2 an4] /riverside/river bank/
+泉 泉 [quan2] /spring (small stream)/mouth of a spring/coin (archaic)/
+法庭 法庭 [fa3 ting2] /court of law/
+波浪 波浪 [bo1 lang4] /wave/
+洋蔥 洋葱 [yang2 cong1] /onion (Allium cepa)/bulb onion/
+洗 洗 [xi3] /to wash; to bathe/to develop (photographs)/to shuffle (cards etc)/to erase (a recording)/
+洗 洗 [xian3] /used in 洗馬|洗马[xian3 ma3]/
+洗澡 洗澡 [xi3 zao3] /to bathe/to take a shower/
+洗衣機 洗衣机 [xi3 yi1 ji1] /washing machine; washer/CL:臺|台[tai2]/
+浴室 浴室 [yu4 shi4] /bathroom; shower room (CL:間|间[jian1])/bathhouse/
+海 海 [Hai3] /surname Hai/
+海 海 [hai3] /ocean/sea/CL:個|个[ge4],片[pian4]/great number of people or things/(dialect) numerous/
+清潔 清洁 [qing1 jie2] /clean/to clean/
+游泳 游泳 [you2 yong3] /swimming/to swim/
+湖 湖 [hu2] /lake/
+湯匙 汤匙 [tang1 chi2] /soup spoon/tablespoon/CL:把[ba3]/
+溫暖 温暖 [wen1 nuan3] /warm/
+演奏 演奏 [yan3 zou4] /to perform on a musical instrument/
+火柴 火柴 [huo3 chai2] /match (for lighting fire)/CL:根[gen1],盒[he2]/
+火車 火车 [huo3 che1] /train/CL:列[lie4],節|节[jie2],班[ban1],趟[tang4]/
+無聊 无聊 [wu2 liao2] /bored/boring/senseless/
+照顧 照顾 [zhao4 gu5] /to take care of/to show consideration/to attend to/to look after/
+煮 煮 [zhu3] /to cook/to boil/
+熱 热 [re4] /to warm up/to heat up/hot (of weather)/heat/fervent/
+燈 灯 [deng1] /lamp/light/lantern/CL:盞|盏[zhan3]/
+父親 父亲 [fu4 qin1] /father/also pr. [fu4 qin5]/CL:個|个[ge4]/
+爸爸 爸爸 [ba4 ba5] /(coll.) father; dad/CL:位[wei4]/
+牙齒 牙齿 [ya2 chi3] /tooth/dental/CL:顆|颗[ke1]/
+牛 牛 [Niu2] /surname Niu/
+牛 牛 [niu2] /ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome/
+牛奶 牛奶 [niu2 nai3] /cow's milk/CL:瓶[ping2],杯[bei1]/
+牛肉 牛肉 [niu2 rou4] /beef/
+狗 狗 [gou3] /dog/CL:隻|只[zhi1],條|条[tiao2]/
+玩 玩 [wan2] /to play/to have fun/to trifle with/toy/sth used for amusement/curio or antique (Taiwan pr. [wan4])/to keep sth for entertainment/
+玫瑰 玫瑰 [mei2 gui1] /rugosa rose (shrub) (Rosa rugosa) (CL:棵[ke1])/rose flower (CL:朵[duo3])/
+現在 现在 [xian4 zai4] /now; at present; currently/
+球場 球场 [qiu2 chang3] /stadium/sports ground/court/pitch/field/golf course/CL:個|个[ge4],處|处[chu4]/
+理解 理解 [li3 jie3] /to comprehend; to understand/
+生意 生意 [sheng1 yi4] /life force/vitality/
+生意 生意 [sheng1 yi5] /business/CL:筆|笔[bi3]/
+生日 生日 [sheng1 ri4] /birthday/CL:個|个[ge4]/
+生氣 生气 [sheng1 qi4] /to get angry; to be furious/vitality; liveliness/
+生病 生病 [sheng1 bing4] /to fall ill/
+男人 男人 [nan2 ren2] /a man/a male/men/CL:個|个[ge4]/
+男孩 男孩 [nan2 hai2] /boy/
+番茄 番茄 [fan1 qie2] /tomato/
+畫 画 [hua4] /to draw; to paint/picture; painting (CL:幅[fu2],張|张[zhang1])/to draw (a line) (variant of 劃|划[hua4])/stroke of a Chinese character (variant of 劃|划[hua4])/(calligraphy) horizontal stroke (variant of 劃|划[hua4])/
+疼痛 疼痛 [teng2 tong4] /pain/(of a body part) to be painful; to be sore; to hurt/(of a person) to be in pain/
+發燒 发烧 [fa1 shao1] /to have a high temperature (from illness); to have a fever/(fig.) to be fascinated with; to obsess over/(fig.) flourishing; thriving; popular/
+盤子 盘子 [pan2 zi5] /tray/plate/dish/CL:個|个[ge4]/
+相信 相信 [xiang1 xin4] /to believe; to be convinced; to accept as true/
+相同 相同 [xiang1 tong2] /identical; same/
+看 看 [kan1] /to look after/to take care of/to watch/to guard/
+看 看 [kan4] /to see; to look at/to read/to watch/to visit; to call on/to consider; to regard as/to look after/to treat (a patient or illness)/to depend on/to feel (that)/(after a verb) to give it a try/to watch out for/
+真的 真的 [zhen1 de5] /really; truly; indeed/real; true; genuine/(math.) proper/
+眼睛 眼睛 [yan3 jing5] /eye/CL:隻|只[zhi1],雙|双[shuang1]/
+眼鏡 眼镜 [yan3 jing4] /spectacles/eyeglasses/CL:副[fu4]/
+睡覺 睡觉 [shui4 jiao4] /to go to bed/to sleep/
+知道 知道 [zhi1 dao4] /to know; to become aware of/also pr. [zhi1dao5]/
+短 短 [duan3] /short/brief/to lack/weak point/fault/
+碗 碗 [wan3] /bowl/cup/CL:隻|只[zhi1],個|个[ge4]/
+票 票 [piao4] /ticket/ballot/banknote/CL:張|张[zhang1]/person held for ransom/amateur performance of Chinese opera/classifier for groups, batches, business transactions/
+秋天 秋天 [qiu1 tian1] /autumn/CL:個|个[ge4]/
+秋季 秋季 [qiu1 ji4] /autumn/fall/
+秒 秒 [miao3] /second (unit of time)/arc second (angular measurement unit)/(coll.) instantly/
+空閒 空闲 [kong4 xian2] /leisure; spare time/(of a person) free; unoccupied/(of equipment, rooms etc) unused; idle; vacant/
+穿 穿 [chuan1] /to bore through; to pierce; to perforate/to go through (e.g. a tunnel); to cross (e.g. a street)/to thread; to string together/to wear; to put on (clothes, shoes etc.)/verb complement indicating thoroughness or completion/
+窗戶 窗户 [chuang1 hu5] /window/CL:個|个[ge4],扇[shan4]/
+站 站 [zhan4] /station/to stand/to halt/to stop/branch of a company or organization/website/
+笑 笑 [xiao4] /to laugh; to smile/to laugh at/
+筆 笔 [bi3] /writing brush; writing implement (pen, pencil etc) (CL:支[zhi1],枝[zhi1])/brushstroke; stroke (in painting or calligraphy)/(bound form) style of writing; literary manner; technique of brushwork/(classifier) stroke of a Chinese character/(classifier) sum of money; financial transaction; piece of business/(literary) to write (with a brush or pen)/
+筆記 笔记 [bi3 ji4] /to take down (in writing)/notes/a type of literature consisting mainly of short sketches/CL:本[ben3]/
+等 等 [deng3] /to wait for; to await/by the time; when; till/and so on; etc.; et al./(bound form) class; rank; grade/(bound form) equal to; same as/(used to end an enumeration)/(literary) (plural suffix attached to a personal pronoun or noun)/
+等待 等待 [deng3 dai4] /to wait; to wait for/
+答案 答案 [da2 an4] /answer/solution/CL:個|个[ge4]/
+筷子 筷子 [kuai4 zi5] /chopsticks/CL:對|对[dui4],根[gen1],把[ba3],雙|双[shuang1]/
+米飯 米饭 [mi3 fan4] /(cooked) rice/
+糖 糖 [tang2] /sugar/sweets/candy/CL:顆|颗[ke1],塊|块[kuai4]/
+約會 约会 [yue1 hui4] /appointment/engagement/date/CL:次[ci4],個|个[ge4]/to arrange to meet/
+紙 纸 [zhi3] /paper (CL:張|张[zhang1],沓[da2])/classifier for documents, letters etc/
+累 累 [lei3] /to accumulate/to involve or implicate (Taiwan pr. [lei4])/continuous/repeated/
+累 累 [lei4] /tired/weary/to strain/to wear out/to work hard/
+結束 结束 [jie2 shu4] /to end; to finish; to conclude/
+給 给 [gei3] /to/for/for the benefit of/to give/to allow/to do sth (for sb)/(grammatical equivalent of 被)/(grammatical equivalent of 把)/(sentence intensifier)/
+給 给 [ji3] /(bound form) to supply; to provide/(literary) sufficient; abundant/
+經營 经营 [jing1 ying2] /to engage in (business etc); to run; to operate/
+練習 练习 [lian4 xi2] /to practice/exercise/drill/practice/CL:個|个[ge4]/
+繼續 继续 [ji4 xu4] /to continue; to proceed with; to go on with/
+美麗 美丽 [mei3 li4] /beautiful/
+老 老 [lao3] /prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity/old (of people)/venerable (person)/experienced/of long standing/always/all the time/of the past/very/outdated/(of meat etc) tough/
+老師 老师 [lao3 shi1] /teacher/
+老闆 老板 [Lao3 ban3] /Robam (brand)/
+老闆 老板 [lao3 ban3] /boss; proprietor/
+考試 考试 [kao3 shi4] /to take an exam/exam/CL:次[ci4]/
+耳朵 耳朵 [er3 duo5] /ear/CL:隻|只[zhi1],個|个[ge4],對|对[dui4]/handle (on a cup)/
+聽 听 [ting1] /to listen to; to hear/to heed; to obey/a can (loanword from English "tin")/classifier for canned beverages/to let be; to allow (Taiwan pr. [ting4])/(literary) to administer; to deal with (Taiwan pr. [ting4])/
+肥皂 肥皂 [fei2 zao4] /soap/CL:塊|块[kuai4],條|条[tiao2]/
+背部 背部 [bei4 bu4] /back (of a human or other vertebrate, or of an object)/
+胡蘿蔔 胡萝卜 [hu2 luo2 bo5] /carrot/
+脫下 脱下 [tuo1 xia4] /to take off (clothing)/
+腳 脚 [jiao3] /foot/leg (of an animal or an object)/base (of an object)/CL:雙|双[shuang1],隻|只[zhi1]/classifier for kicks/
+腳 脚 [jue2] /role (variant of 角[jue2])/
+臉 脸 [lian3] /face/CL:張|张[zhang1],個|个[ge4]/
+臥室 卧室 [wo4 shi4] /bedroom/CL:間|间[jian1]/
+自行車 自行车 [zi4 xing2 che1] /bicycle; bike/CL:輛|辆[liang4]/
+舊 旧 [jiu4] /old/opposite: new 新/former/worn (with age)/
+船 船 [chuan2] /boat/vessel/ship/CL:條|条[tiao2],艘[sou1],隻|只[zhi1]/
+花 花 [Hua1] /surname Hua/
+花 花 [hua1] /flower/blossom/CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]/fancy pattern/florid/to spend (money, time)/(coll.) lecherous/lustful/
+花費 花费 [hua1 fei4] /expense/cost/to spend (time or money)/expenditure/
+英文 英文 [Ying1 wen2] /English (language)/
+茶 茶 [cha2] /tea/tea plant/CL:杯[bei1],壺|壶[hu2]/
+草 草 [cao3] /grass/straw/manuscript/draft (of a document)/careless/rough/CL:棵[ke1],撮[zuo3],株[zhu1],根[gen1]/
+草 草 [cao4] /variant of 肏[cao4]/
+草莓 草莓 [cao3 mei2] /strawberry/CL:顆|颗[ke1]/(Tw) hickey/love bite/
+菜單 菜单 [cai4 dan1] /menu/CL:份[fen4],張|张[zhang1]/
+落下 落下 [luo4 xia4] /to fall/to drop/to land (of projectile)/
+葉子 叶子 [ye4 zi5] /leaf (CL:片[pian4])/(slang) marijuana/
+葡萄 葡萄 [pu2 tao5] /grape/
+蔬菜 蔬菜 [shu1 cai4] /vegetables/
+藥 药 [yao4] /medicine/drug/substance used for a specific purpose (e.g. poisoning, explosion, fermenting)/CL:種|种[zhong3],服[fu4],味[wei4]/to poison/
+蘋果 苹果 [Ping2 guo3] /Apple (American tech company)/
+蘋果 苹果 [ping2 guo3] /apple/CL:個|个[ge4],顆|颗[ke1]/
+行李 行李 [xing2 li5] /luggage/CL:件[jian4]/
+街道 街道 [jie1 dao4] /street/CL:條|条[tiao2]/subdistrict/residential district/
+衣服 衣服 [yi1 fu5] /clothes/CL:件[jian4],套[tao4]/
+袋子 袋子 [dai4 zi5] /bag/
+裙子 裙子 [qun2 zi5] /skirt/CL:條|条[tiao2]/
+褲子 裤子 [ku4 zi5] /trousers; pants/CL:條|条[tiao2]/
+襪子 袜子 [wa4 zi5] /socks/stockings/CL:隻|只[zhi1],對|对[dui4],雙|双[shuang1]/
+襯衫 衬衫 [chen4 shan1] /shirt/blouse/CL:件[jian4]/
+西瓜 西瓜 [xi1 gua1] /watermelon/CL:顆|颗[ke1]/
+見面 见面 [jian4 mian4] /to meet; to see each other/CL:次[ci4]/
+解釋 解释 [jie3 shi4] /explanation/to explain/to interpret/to resolve/CL:個|个[ge4]/
+計劃 计划 [ji4 hua4] /plan/project/program/to plan/to map out/CL:個|个[ge4],項|项[xiang4]/
+計程車 计程车 [ji4 cheng2 che1] /(Tw) taxi; cab/
+記得 记得 [ji4 de5] /to remember/
+語言 语言 [yu3 yan2] /language/CL:門|门[men2],種|种[zhong3]/
+說 说 [shui4] /to persuade/
+說 说 [shuo1] /to speak; to talk; to say/to explain; to comment/to scold; to tell off/(bound form) theory; doctrine/
+課程 课程 [ke4 cheng2] /course; academic program/CL:堂[tang2],節|节[jie2],門|门[men2]/
+警察 警察 [jing3 cha2] /police; police officer/
+護士 护士 [hu4 shi5] /nurse/
+護照 护照 [hu4 zhao4] /passport/CL:本[ben3],個|个[ge4]/
+豬肉 猪肉 [zhu1 rou4] /pork/
+貓 猫 [mao1] /cat (CL:隻|只[zhi1])/(dialect) to hide oneself/(loanword) (coll.) modem/
+貓 猫 [mao2] /used in 貓腰|猫腰[mao2 yao1]/
+買 买 [mai3] /to buy/to purchase/
+賣 卖 [mai4] /to sell/to betray/to spare no effort/to show off or flaunt/
+走 走 [zou3] /to walk/to go/to run/to move (of vehicle)/to visit/to leave/to go away/to die (euph.)/from/through/away (in compound verbs, such as 撤走[che4 zou3])/to change (shape, form, meaning)/
+起床 起床 [qi3 chuang2] /to get out of bed; to get up/
+起飛 起飞 [qi3 fei1] /(of an aircraft or rocket) to take off; to lift off/(fig.) (of an enterprise etc) to start to develop rapidly/
+超市 超市 [chao1 shi4] /supermarket (abbr. for 超級市場|超级市场[chao1 ji2 shi4 chang3])/CL:家[jia1]/
+足夠 足够 [zu2 gou4] /enough; sufficient/
+跑 跑 [pao2] /(of an animal) to paw (the ground)/
+跑 跑 [pao3] /to run/to run away/to escape/to run around (on errands etc)/(of a gas or liquid) to leak or evaporate/(verb complement) away/off/
+跑步 跑步 [pao3 bu4] /to run/to jog/(military) to march at the double/
+路 路 [Lu4] /surname Lu/
+路 路 [lu4] /road (CL:條|条[tiao2])/journey/route/line (bus etc)/sort; kind/
+跳舞 跳舞 [tiao4 wu3] /to dance/
+身體 身体 [shen1 ti3] /the body/one's health/
+車站 车站 [che1 zhan4] /rail station/bus stop/CL:處|处[chu4],個|个[ge4]/
+輕 轻 [qing1] /light/easy/gentle/soft/reckless/unimportant/frivolous/small in number/unstressed/neutral/to disparage/
+辦公室 办公室 [ban4 gong1 shi4] /office; business premises/
+迷路 迷路 [mi2 lu4] /to lose the way/lost/labyrinth/labyrinthus vestibularis (of the inner ear)/
+送 送 [song4] /to send; to deliver; to transmit/to give (as a present)/to see (sb) off/to accompany; to go along with/
+週末 周末 [zhou1 mo4] /weekend/
+運轉 运转 [yun4 zhuan3] /to work/to operate/to revolve/to turn around/
+選擇 选择 [xuan3 ze2] /to select; to pick/choice; option; alternative/
+邀請 邀请 [yao1 qing3] /to invite/invitation/CL:個|个[ge4]/
+還 还 [Huan2] /surname Huan/
+還 还 [hai2] /still/still in progress/still more/yet/even more/in addition/fairly/passably (good)/as early as/even/also/else/
+還 还 [huan2] /to pay back/to return/
+部分 部分 [bu4 fen5] /part; portion; piece/Taiwan pr. [bu4fen4]/
+郵局 邮局 [you2 ju2] /post office/CL:家[jia1],個|个[ge4]/
+鄉村 乡村 [xiang1 cun1] /rustic/village/countryside/
+鄰居 邻居 [lin2 ju1] /neighbor/
+醒 醒 [xing3] /to wake up/to be awake/to become aware/to sober up/to come to/
+醫生 医生 [yi1 sheng1] /doctor; medical practitioner/
+醫院 医院 [yi1 yuan4] /hospital/CL:所[suo3],家[jia1],座[zuo4]/
+重要 重要 [zhong4 yao4] /important; significant; major/
+鉛筆 铅笔 [qian1 bi3] /(lead) pencil/CL:支[zhi1],枝[zhi1],桿|杆[gan3]/
+銀行 银行 [yin2 hang2] /bank/CL:家[jia1],個|个[ge4]/
+錢 钱 [Qian2] /surname Qian/
+錢 钱 [qian2] /coin/money/CL:筆|笔[bi3]/unit of weight, one tenth of a tael 兩|两[liang3]/
+錢包 钱包 [qian2 bao1] /purse/wallet/
+錯誤 错误 [cuo4 wu4] /mistaken; false; wrong/error; mistake/CL:個|个[ge4]/
+鑰匙 钥匙 [yao4 shi5] /key/CL:把[ba3]/
+長 长 [chang2] /long/(bound form) length/(bound form) strong point; forte/(bound form) to be good at/(literary) surplus; spare (Taiwan pr. [zhang4])/
+長 长 [zhang3] /chief/head/elder/to grow/to develop/to increase/to enhance/
+門 门 [Men2] /surname Men/
+門 门 [men2] /gate; door; doorway; gateway; opening (CL:扇[shan4])/valve; switch; other door-like or gate-like structure/way to do sth; knack; method; approach/family; household; lineage/(bound form) sect; school; faction (religious or academic)/(bound form) class; category; division; phylum/classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc/(suffix) -gate (scandal)/
+開始 开始 [kai1 shi3] /to begin; to start/beginning; start/
+開車 开车 [kai1 che1] /to drive a car (or train etc)/(slang) to post sexual content online; to make a sexual joke/
+閱讀 阅读 [yue4 du2] /to read/reading/
+關心 关心 [guan1 xin1] /to be concerned about; to care about/
+關閉 关闭 [guan1 bi4] /to close; to shut (a window etc)/(of a shop, school etc) to shut down/
+附近 附近 [fu4 jin4] /nearby; neighboring/(in the) vicinity (of); neighborhood/
+雞肉 鸡肉 [ji1 rou4] /chicken meat/
+雞蛋 鸡蛋 [ji1 dan4] /(chicken) egg/hen's egg/CL:個|个[ge4],打[da2]/
+離開 离开 [li2 kai1] /to depart; to leave/
+雨 雨 [yu3] /rain/CL:陣|阵[zhen4],場|场[chang2]/
+雨 雨 [yu4] /(literary) to rain/(of rain, snow etc) to fall/to precipitate/to wet/
+雨傘 雨伞 [yu3 san3] /umbrella/CL:把[ba3]/
+雪 雪 [Xue3] /surname Xue/
+雪 雪 [xue3] /snow/CL:場|场[chang2]/(literary) to wipe away (a humiliation etc)/
+雲 云 [Yun2] /surname Yun/short name for Yunnan 雲南|云南[Yun2 nan2]/
+雲 云 [yun2] /cloud/CL:朵[duo3]/
+電腦 电脑 [dian4 nao3] /computer/CL:臺|台[tai2]/
+電視 电视 [dian4 shi4] /television; TV/CL:臺|台[tai2],部[bu4]/
+電話 电话 [dian4 hua4] /telephone/CL:部[bu4]/phone call/CL:通[tong1]/phone number/
+需要 需要 [xu1 yao4] /to need; to want; to demand; to require/needs/
+鞋子 鞋子 [xie2 zi5] /shoe/
+音符 音符 [yin1 fu2] /(music) note/phonetic component of a Chinese character/phonetic symbol/phonogram/
+預訂 预订 [yu4 ding4] /to place an order/to book ahead/
+頭 头 [tou2] /head/hair style/the top/end/beginning or end/a stub/remnant/chief/boss/side/aspect/first/leading/classifier for pigs or livestock/CL:個|个[ge4]/
+頭 头 [tou5] /suffix for nouns/
+頭髮 头发 [tou2 fa5] /hair (on the head)/
+風 风 [feng1] /wind/news/style/custom/manner/CL:陣|阵[zhen4],絲|丝[si1]/
+飛 飞 [fei1] /to fly/
+飛機 飞机 [fei1 ji1] /airplane/CL:架[jia4]/
+食物 食物 [shi2 wu4] /food/
+飢餓 饥饿 [ji1 e4] /hunger/starvation/famine/
+飯店 饭店 [fan4 dian4] /restaurant/hotel/CL:家[jia1]/
+餐廳 餐厅 [can1 ting1] /dining hall/dining room/restaurant/CL:間|间[jian1],家[jia1]/
+香蕉 香蕉 [xiang1 jiao1] /banana/CL:根[gen1],把[ba3]/
+馬 马 [Ma3] /surname Ma/abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]/
+馬 马 [ma3] /horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western chess/
+馬鈴薯 马铃薯 [ma3 ling2 shu3] /potato/
+骯髒 肮脏 [ang1 zang1] /dirty; filthy/despicable/
+高 高 [Gao1] /surname Gao/
+高 高 [gao1] /high/tall/above average/loud/your (honorific)/
+魚 鱼 [Yu2] /surname Yu/
+魚 鱼 [yu2] /fish (CL:條|条[tiao2],尾[wei3])/used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])/
+鳥 鸟 [diao3] /variant of 屌[diao3]/penis/
+鳥 鸟 [niao3] /bird/CL:隻|只[zhi1],群[qun2]/"bird" radical in Chinese characters (Kangxi radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn/
+鹽 盐 [yan2] /salt/CL:粒[li4]/
+麵包 面包 [mian4 bao1] /bread/CL:片[pian4],塊|块[kuai4]/
+麵條 面条 [mian4 tiao2] /noodles/
+點燃 点燃 [dian3 ran2] /to ignite/to set on fire/aflame/
+鼻子 鼻子 [bi2 zi5] /nose/CL:個|个[ge4],隻|只[zhi1]/

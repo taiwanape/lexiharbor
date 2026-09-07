@@ -1,13 +1,17 @@
 {
   "name": "lexiharbor",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "private": true,
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "web": "expo start --web",
-    "predeploy": "expo export --platform web",
+    "build:web": "node scripts/build-web.mjs",
+    "predeploy": "node scripts/build-web.mjs",
+    "preview": "node scripts/preview.mjs",
+    "corpus:build": "node scripts/corpus-build.mjs",
+    "corpus:evaluate": "node scripts/corpus-evaluate.mjs",
     "deploy": "gh-pages --dotfiles --nojekyll -d dist",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts"
