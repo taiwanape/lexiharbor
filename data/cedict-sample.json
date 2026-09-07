@@ -1,0 +1,5298 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "cc-cedict-2026-09-06",
+  "direction": "zh-en",
+  "license": "CC-BY-SA-4.0",
+  "entries": [
+    {
+      "id": "cedict:12a43ed0992871f9807f27ea",
+      "traditional": "丈夫",
+      "simplified": "丈夫",
+      "pinyin": "zhang4 fu5",
+      "definitions": [
+        "husband"
+      ]
+    },
+    {
+      "id": "cedict:25eb0d37fd0dba444c63efbb",
+      "traditional": "下午",
+      "simplified": "下午",
+      "pinyin": "xia4 wu3",
+      "definitions": [
+        "afternoon",
+        "CL:個|个[ge4]",
+        "p.m."
+      ]
+    },
+    {
+      "id": "cedict:3a63509c87c4b36122e9a78d",
+      "traditional": "不同",
+      "simplified": "不同",
+      "pinyin": "bu4 tong2",
+      "definitions": [
+        "different",
+        "distinct",
+        "not the same",
+        "not alike"
+      ]
+    },
+    {
+      "id": "cedict:0c69fb7ab36e0446a8a79427",
+      "traditional": "中午",
+      "simplified": "中午",
+      "pinyin": "zhong1 wu3",
+      "definitions": [
+        "noon",
+        "midday",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:de641ce136964d9f2962c310",
+      "traditional": "中文",
+      "simplified": "中文",
+      "pinyin": "Zhong1 wen2",
+      "definitions": [
+        "Chinese language"
+      ]
+    },
+    {
+      "id": "cedict:203349f934e0f706e168fa94",
+      "traditional": "乳酪",
+      "simplified": "乳酪",
+      "pinyin": "ru3 lao4",
+      "definitions": [
+        "cheese"
+      ]
+    },
+    {
+      "id": "cedict:f27b94644d32437e086fe7c4",
+      "traditional": "乾淨",
+      "simplified": "干净",
+      "pinyin": "gan1 jing4",
+      "definitions": [
+        "clean",
+        "neat"
+      ]
+    },
+    {
+      "id": "cedict:475e9099f8aedeca1742c259",
+      "traditional": "人",
+      "simplified": "人",
+      "pinyin": "ren2",
+      "definitions": [
+        "person; people",
+        "CL:個|个[ge4],位[wei4],名[ming2]"
+      ]
+    },
+    {
+      "id": "cedict:0f4455b4c2cc3aa5cd401c83",
+      "traditional": "今天",
+      "simplified": "今天",
+      "pinyin": "jin1 tian1",
+      "definitions": [
+        "today",
+        "the present time; now"
+      ]
+    },
+    {
+      "id": "cedict:3d2eeb57590348518661f9e4",
+      "traditional": "介紹",
+      "simplified": "介绍",
+      "pinyin": "jie4 shao4",
+      "definitions": [
+        "to introduce (sb to sb)",
+        "to give a presentation",
+        "to present (sb for a job etc)",
+        "introduction"
+      ]
+    },
+    {
+      "id": "cedict:206f5b18c3beac95671fc2f6",
+      "traditional": "付錢",
+      "simplified": "付钱",
+      "pinyin": "fu4 qian2",
+      "definitions": [
+        "to pay"
+      ]
+    },
+    {
+      "id": "cedict:8e7954ae077562d84da3173a",
+      "traditional": "以前",
+      "simplified": "以前",
+      "pinyin": "yi3 qian2",
+      "definitions": [
+        "before",
+        "formerly",
+        "previous",
+        "ago"
+      ]
+    },
+    {
+      "id": "cedict:e9d2d345ead66036f0538382",
+      "traditional": "以後",
+      "simplified": "以后",
+      "pinyin": "yi3 hou4",
+      "definitions": [
+        "after",
+        "later",
+        "afterwards",
+        "following",
+        "later on",
+        "in the future"
+      ]
+    },
+    {
+      "id": "cedict:25d80f735ab4b9b8d3959a8c",
+      "traditional": "低",
+      "simplified": "低",
+      "pinyin": "di1",
+      "definitions": [
+        "low",
+        "beneath",
+        "to lower (one's head)",
+        "to let droop",
+        "to hang down",
+        "to incline"
+      ]
+    },
+    {
+      "id": "cedict:e1d9e4f86ac0eb09f1270206",
+      "traditional": "住",
+      "simplified": "住",
+      "pinyin": "zhu4",
+      "definitions": [
+        "to live; to reside; to stay",
+        "to stop; to cease",
+        "(result complement indicating firmness or a stable achieved state)"
+      ]
+    },
+    {
+      "id": "cedict:182e93d2cb87f5e88f06e214",
+      "traditional": "作業",
+      "simplified": "作业",
+      "pinyin": "zuo4 ye4",
+      "definitions": [
+        "school assignment",
+        "homework",
+        "work",
+        "task",
+        "operation",
+        "CL:個|个[ge4]",
+        "to operate"
+      ]
+    },
+    {
+      "id": "cedict:348ac00ebe3a4a50bbf538ee",
+      "traditional": "使用",
+      "simplified": "使用",
+      "pinyin": "shi3 yong4",
+      "definitions": [
+        "to use",
+        "to employ",
+        "to apply",
+        "to make use of"
+      ]
+    },
+    {
+      "id": "cedict:2638ace7587a122cfbb82270",
+      "traditional": "來",
+      "simplified": "来",
+      "pinyin": "lai2",
+      "definitions": [
+        "to come",
+        "(used as a substitute for a more specific verb)",
+        "hither (directional complement for motion toward the speaker, as in 回來|回来[hui2 lai5])",
+        "ever since (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])",
+        "for the past (amount of time)",
+        "(prefix) the coming ...; the next ... (as in 來世|来世[lai2 shi4])",
+        "(between two verbs) in order to",
+        "(after a round number) approximately",
+        "(used after 得[de2] to indicate possibility, as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as in 吃不來|吃不来[chi1 bu5 lai2])"
+      ]
+    },
+    {
+      "id": "cedict:dffdf7f0ca256c557cf29f81",
+      "traditional": "便宜",
+      "simplified": "便宜",
+      "pinyin": "bian4 yi2",
+      "definitions": [
+        "convenient"
+      ]
+    },
+    {
+      "id": "cedict:65d1836774970517bca46202",
+      "traditional": "便宜",
+      "simplified": "便宜",
+      "pinyin": "pian2 yi5",
+      "definitions": [
+        "cheap; inexpensive",
+        "a petty advantage",
+        "to let sb off lightly"
+      ]
+    },
+    {
+      "id": "cedict:7b85e0ef2d29855c5e6f3e96",
+      "traditional": "信",
+      "simplified": "信",
+      "pinyin": "xin4",
+      "definitions": [
+        "letter",
+        "mail",
+        "CL:封[feng1]",
+        "to trust",
+        "to believe",
+        "to profess faith in",
+        "truthful",
+        "confidence",
+        "trust",
+        "at will",
+        "at random"
+      ]
+    },
+    {
+      "id": "cedict:e8058f90015865e44d80ffbc",
+      "traditional": "信用卡",
+      "simplified": "信用卡",
+      "pinyin": "xin4 yong4 ka3",
+      "definitions": [
+        "credit card"
+      ]
+    },
+    {
+      "id": "cedict:97c111343e4e5df83b9d35fd",
+      "traditional": "修理",
+      "simplified": "修理",
+      "pinyin": "xiu1 li3",
+      "definitions": [
+        "to repair",
+        "to fix",
+        "to prune",
+        "to trim",
+        "(coll.) to sort sb out",
+        "to fix sb"
+      ]
+    },
+    {
+      "id": "cedict:bbe3fa1e2bb0896548d3159a",
+      "traditional": "借",
+      "simplified": "借",
+      "pinyin": "jie4",
+      "definitions": [
+        "to borrow",
+        "(used in combination with 給|给[gei3] or 出[chu1] etc) to lend",
+        "to make use of; to avail oneself of",
+        "(sometimes followed by 著|着[zhe5]) by; with"
+      ]
+    },
+    {
+      "id": "cedict:7fb7b8dd54c746ed943947b3",
+      "traditional": "做",
+      "simplified": "做",
+      "pinyin": "zuo4",
+      "definitions": [
+        "to make; to produce",
+        "to write; to compose",
+        "to do; to engage in; to hold (a party etc)",
+        "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
+        "(of a thing) to serve as; to be used for",
+        "to assume (an air or manner)"
+      ]
+    },
+    {
+      "id": "cedict:be6eb6438967281224afb86f",
+      "traditional": "停",
+      "simplified": "停",
+      "pinyin": "ting2",
+      "definitions": [
+        "to stop",
+        "to halt",
+        "to park (a car)"
+      ]
+    },
+    {
+      "id": "cedict:d0188c0c15c44e73cb24defd",
+      "traditional": "健康",
+      "simplified": "健康",
+      "pinyin": "jian4 kang1",
+      "definitions": [
+        "health",
+        "healthy"
+      ]
+    },
+    {
+      "id": "cedict:21cb310900cf2b4c67a805b3",
+      "traditional": "傷心",
+      "simplified": "伤心",
+      "pinyin": "shang1 xin1",
+      "definitions": [
+        "to grieve",
+        "to be broken-hearted",
+        "to feel deeply hurt"
+      ]
+    },
+    {
+      "id": "cedict:5a21d6937d209e6d1c9663bb",
+      "traditional": "價格",
+      "simplified": "价格",
+      "pinyin": "jia4 ge2",
+      "definitions": [
+        "price"
+      ]
+    },
+    {
+      "id": "cedict:b221d012375a97ff54ed70ce",
+      "traditional": "光",
+      "simplified": "光",
+      "pinyin": "guang1",
+      "definitions": [
+        "light; ray (CL:道[dao4])",
+        "bright; shiny",
+        "only; merely",
+        "used up; finished",
+        "to leave (a part of the body) uncovered"
+      ]
+    },
+    {
+      "id": "cedict:b646497f6456213ecb162bed",
+      "traditional": "免費",
+      "simplified": "免费",
+      "pinyin": "mian3 fei4",
+      "definitions": [
+        "free (of charge)"
+      ]
+    },
+    {
+      "id": "cedict:253af08381c104b07a436353",
+      "traditional": "公司",
+      "simplified": "公司",
+      "pinyin": "gong1 si1",
+      "definitions": [
+        "company; firm; corporation",
+        "CL:家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:d1a6cbdae6e8a3cb56629e8a",
+      "traditional": "公園",
+      "simplified": "公园",
+      "pinyin": "gong1 yuan2",
+      "definitions": [
+        "park (for public recreation)",
+        "CL:座[zuo4]"
+      ]
+    },
+    {
+      "id": "cedict:e6d4e5694d31fc3e481d0544",
+      "traditional": "公平",
+      "simplified": "公平",
+      "pinyin": "gong1 ping2",
+      "definitions": [
+        "fair",
+        "impartial"
+      ]
+    },
+    {
+      "id": "cedict:bfeccd3f63abc576b7b4d010",
+      "traditional": "公車",
+      "simplified": "公车",
+      "pinyin": "gong1 che1",
+      "definitions": [
+        "bus",
+        "abbr. for 公共汽車|公共汽车[gong1 gong4 qi4 che1]",
+        "car belonging to an organization and used by its members (government car, police car, company car etc)",
+        "abbr. for 公務用車|公务用车[gong1 wu4 yong4 che1]"
+      ]
+    },
+    {
+      "id": "cedict:d48f9ce72200ff10ae7bb3e4",
+      "traditional": "冬天",
+      "simplified": "冬天",
+      "pinyin": "dong1 tian1",
+      "definitions": [
+        "winter"
+      ]
+    },
+    {
+      "id": "cedict:257d791b84bc78a4d541bedf",
+      "traditional": "冰箱",
+      "simplified": "冰箱",
+      "pinyin": "bing1 xiang1",
+      "definitions": [
+        "refrigerator",
+        "(old) icebox"
+      ]
+    },
+    {
+      "id": "cedict:1cc1a946f9b545d1c761871a",
+      "traditional": "冷",
+      "simplified": "冷",
+      "pinyin": "Leng3",
+      "definitions": [
+        "surname Leng"
+      ]
+    },
+    {
+      "id": "cedict:05c853875a206f8f1c6ab2da",
+      "traditional": "冷",
+      "simplified": "冷",
+      "pinyin": "leng3",
+      "definitions": [
+        "cold"
+      ]
+    },
+    {
+      "id": "cedict:8ce38eaa11314cbbce84aec3",
+      "traditional": "出發",
+      "simplified": "出发",
+      "pinyin": "chu1 fa1",
+      "definitions": [
+        "to set off",
+        "to start (on a journey)"
+      ]
+    },
+    {
+      "id": "cedict:260fe997cce529fda492dab3",
+      "traditional": "刀",
+      "simplified": "刀",
+      "pinyin": "Dao1",
+      "definitions": [
+        "surname Dao"
+      ]
+    },
+    {
+      "id": "cedict:aa98716bdbc8700a32bebd59",
+      "traditional": "刀",
+      "simplified": "刀",
+      "pinyin": "dao1",
+      "definitions": [
+        "knife; blade; single-edged sword; cutlass (CL:把[ba3])",
+        "(slang) (loanword) dollar",
+        "classifier for sets of one hundred sheets (of paper)",
+        "classifier for knife cuts or stabs",
+        "(Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)",
+        "(Internet slang) to knife (sb) (often used hyperbolically, as in 想刀他[xiang3 dao1 ta1] \"I could kill him!\")"
+      ]
+    },
+    {
+      "id": "cedict:3f3ecfaf993dd65127e383af",
+      "traditional": "分享",
+      "simplified": "分享",
+      "pinyin": "fen1 xiang3",
+      "definitions": [
+        "to share (esp. sth enjoyable, useful or beneficial)"
+      ]
+    },
+    {
+      "id": "cedict:7bdf220ed8597bf638227438",
+      "traditional": "分鐘",
+      "simplified": "分钟",
+      "pinyin": "fen1 zhong1",
+      "definitions": [
+        "minute"
+      ]
+    },
+    {
+      "id": "cedict:fa4bf0dc7789b47a890078b3",
+      "traditional": "切",
+      "simplified": "切",
+      "pinyin": "qie1",
+      "definitions": [
+        "to cut; to slice; to carve",
+        "(math.) tangential"
+      ]
+    },
+    {
+      "id": "cedict:b19e894e2dfa94df7e52b625",
+      "traditional": "切",
+      "simplified": "切",
+      "pinyin": "qie4",
+      "definitions": [
+        "definitely; absolutely (not)",
+        "(scoffing or dismissive interjection) Yeah, right.; Tut!",
+        "to grind",
+        "(bound form) close to",
+        "(bound form) eager",
+        "to correspond to",
+        "(used to indicate that the fanqie 反切[fan3 qie4] system should be applied to the previous two characters)"
+      ]
+    },
+    {
+      "id": "cedict:07d3d4f24c7b12f2241f0591",
+      "traditional": "到達",
+      "simplified": "到达",
+      "pinyin": "dao4 da2",
+      "definitions": [
+        "to reach; to arrive"
+      ]
+    },
+    {
+      "id": "cedict:4773d48a7c9c42da1582b3d6",
+      "traditional": "刷牙",
+      "simplified": "刷牙",
+      "pinyin": "shua1 ya2",
+      "definitions": [
+        "to brush one's teeth"
+      ]
+    },
+    {
+      "id": "cedict:bb93e6455185829b386105d3",
+      "traditional": "前面",
+      "simplified": "前面",
+      "pinyin": "qian2 mian4",
+      "definitions": [
+        "ahead",
+        "in front",
+        "preceding",
+        "above",
+        "also pr. [qian2 mian5]"
+      ]
+    },
+    {
+      "id": "cedict:b9052b89897fe678ff960cdd",
+      "traditional": "勇敢",
+      "simplified": "勇敢",
+      "pinyin": "yong3 gan3",
+      "definitions": [
+        "brave; courageous"
+      ]
+    },
+    {
+      "id": "cedict:0b85c4dd29cc01c945eefb15",
+      "traditional": "動物",
+      "simplified": "动物",
+      "pinyin": "dong4 wu4",
+      "definitions": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cedict:e9c7827ec3e1a7c847e4c3a6",
+      "traditional": "午夜",
+      "simplified": "午夜",
+      "pinyin": "wu3 ye4",
+      "definitions": [
+        "midnight"
+      ]
+    },
+    {
+      "id": "cedict:0bdb4920ee8b1336dd8b91bb",
+      "traditional": "午餐",
+      "simplified": "午餐",
+      "pinyin": "wu3 can1",
+      "definitions": [
+        "lunch",
+        "luncheon",
+        "CL:份[fen4],頓|顿[dun4],次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:ee546312fcab614427e061b7",
+      "traditional": "危險",
+      "simplified": "危险",
+      "pinyin": "wei1 xian3",
+      "definitions": [
+        "danger",
+        "dangerous"
+      ]
+    },
+    {
+      "id": "cedict:b0a641472c09dc59bd943ff1",
+      "traditional": "去",
+      "simplified": "去",
+      "pinyin": "qu4",
+      "definitions": [
+        "to go",
+        "to go to (a place)",
+        "(of a time etc) last",
+        "just passed",
+        "to send",
+        "to remove",
+        "to get rid of",
+        "to reduce",
+        "to be apart from in space or time",
+        "to die (euphemism)",
+        "to play (a part)",
+        "(when used either before or after a verb) to go in order to do sth",
+        "(after a verb of motion indicates movement away from the speaker)",
+        "(used after certain verbs to indicate detachment or separation)"
+      ]
+    },
+    {
+      "id": "cedict:83397cbbd4ff94bbeb8edbe3",
+      "traditional": "叉子",
+      "simplified": "叉子",
+      "pinyin": "cha1 zi5",
+      "definitions": [
+        "fork",
+        "CL:把[ba3]"
+      ]
+    },
+    {
+      "id": "cedict:1b11db906c1cb09a573ce695",
+      "traditional": "口渴",
+      "simplified": "口渴",
+      "pinyin": "kou3 ke3",
+      "definitions": [
+        "thirsty"
+      ]
+    },
+    {
+      "id": "cedict:1f6fd23dbd299e6c97037970",
+      "traditional": "句子",
+      "simplified": "句子",
+      "pinyin": "ju4 zi5",
+      "definitions": [
+        "sentence",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:2533540b78f7fa54b9577280",
+      "traditional": "叫",
+      "simplified": "叫",
+      "pinyin": "jiao4",
+      "definitions": [
+        "to shout",
+        "to call",
+        "to order",
+        "to ask",
+        "to be called",
+        "by (indicates agent in the passive mood)"
+      ]
+    },
+    {
+      "id": "cedict:1c6ed7d5d3aabd38a5597657",
+      "traditional": "可能",
+      "simplified": "可能",
+      "pinyin": "ke3 neng2",
+      "definitions": [
+        "might (happen)",
+        "possible",
+        "probable",
+        "possibility",
+        "probability",
+        "maybe",
+        "perhaps",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:fb79157ea7db1d09f745240f",
+      "traditional": "右",
+      "simplified": "右",
+      "pinyin": "you4",
+      "definitions": [
+        "(bound form) right; right-hand side",
+        "(bound form) (politics) right of center",
+        "(bound form) (old) west",
+        "(literary) the right side as the side of precedence"
+      ]
+    },
+    {
+      "id": "cedict:20967cb154caa69a04693fe0",
+      "traditional": "司機",
+      "simplified": "司机",
+      "pinyin": "si1 ji1",
+      "definitions": [
+        "chauffeur; driver"
+      ]
+    },
+    {
+      "id": "cedict:9e8b2c01f8391a71b7832c3a",
+      "traditional": "吃",
+      "simplified": "吃",
+      "pinyin": "chi1",
+      "definitions": [
+        "to eat; to consume",
+        "to eat at (a cafeteria etc)",
+        "to eradicate; to destroy",
+        "to absorb",
+        "to suffer (shock, injury, defeat etc)"
+      ]
+    },
+    {
+      "id": "cedict:cdd60e42efb4eb3e340d7f4a",
+      "traditional": "同事",
+      "simplified": "同事",
+      "pinyin": "tong2 shi4",
+      "definitions": [
+        "colleague; co-worker"
+      ]
+    },
+    {
+      "id": "cedict:eaba712b6bdf054398b3487d",
+      "traditional": "同意",
+      "simplified": "同意",
+      "pinyin": "tong2 yi4",
+      "definitions": [
+        "to agree",
+        "to consent",
+        "to approve"
+      ]
+    },
+    {
+      "id": "cedict:0bb9d25dfdaedae9691d4dd2",
+      "traditional": "名字",
+      "simplified": "名字",
+      "pinyin": "ming2 zi5",
+      "definitions": [
+        "name (of a person or thing)"
+      ]
+    },
+    {
+      "id": "cedict:2c53141e7d60478b925f32dd",
+      "traditional": "吵",
+      "simplified": "吵",
+      "pinyin": "chao1",
+      "definitions": [
+        "used in 吵吵[chao1 chao5]",
+        "Taiwan pr. [chao3]"
+      ]
+    },
+    {
+      "id": "cedict:b64af4d8f4d12f15ed40030d",
+      "traditional": "吵",
+      "simplified": "吵",
+      "pinyin": "chao3",
+      "definitions": [
+        "noisy; loud",
+        "to quarrel; to argue"
+      ]
+    },
+    {
+      "id": "cedict:b81397daef887fddeffab69f",
+      "traditional": "咖啡",
+      "simplified": "咖啡",
+      "pinyin": "ka1 fei1",
+      "definitions": [
+        "(loanword) coffee",
+        "CL:杯[bei1]"
+      ]
+    },
+    {
+      "id": "cedict:969ec5f50325f32c37f03df0",
+      "traditional": "哥哥",
+      "simplified": "哥哥",
+      "pinyin": "ge1 ge5",
+      "definitions": [
+        "older brother",
+        "CL:個|个[ge4],位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:03b5d03ddca9cede60b040c0",
+      "traditional": "哭",
+      "simplified": "哭",
+      "pinyin": "ku1",
+      "definitions": [
+        "to cry; to weep"
+      ]
+    },
+    {
+      "id": "cedict:e2d2c41cc7378677e9e1468f",
+      "traditional": "唱歌",
+      "simplified": "唱歌",
+      "pinyin": "chang4 ge1",
+      "definitions": [
+        "to sing a song"
+      ]
+    },
+    {
+      "id": "cedict:c162fa46db9433aa11528e49",
+      "traditional": "商店",
+      "simplified": "商店",
+      "pinyin": "shang1 dian4",
+      "definitions": [
+        "store; shop",
+        "CL:家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:a3249b56994cc1f5ab67e873",
+      "traditional": "問",
+      "simplified": "问",
+      "pinyin": "wen4",
+      "definitions": [
+        "to ask; to inquire"
+      ]
+    },
+    {
+      "id": "cedict:ef293e183eb2145491b98d21",
+      "traditional": "問題",
+      "simplified": "问题",
+      "pinyin": "wen4 ti2",
+      "definitions": [
+        "question",
+        "problem",
+        "issue",
+        "topic",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:7587f764d30783b3ef8297d5",
+      "traditional": "喜歡",
+      "simplified": "喜欢",
+      "pinyin": "xi3 huan5",
+      "definitions": [
+        "to like; to be fond of"
+      ]
+    },
+    {
+      "id": "cedict:702c84a8dbf81c769013f72f",
+      "traditional": "喝",
+      "simplified": "喝",
+      "pinyin": "he1",
+      "definitions": [
+        "to drink",
+        "variant of 嗬[he1]"
+      ]
+    },
+    {
+      "id": "cedict:1cb9fa426f4d50efee5e57eb",
+      "traditional": "喝",
+      "simplified": "喝",
+      "pinyin": "he4",
+      "definitions": [
+        "to shout"
+      ]
+    },
+    {
+      "id": "cedict:4f31c6a2ab3fcc0ad754c51d",
+      "traditional": "單字",
+      "simplified": "单字",
+      "pinyin": "dan1 zi4",
+      "definitions": [
+        "single Chinese character",
+        "(Tw) word (of a foreign language)"
+      ]
+    },
+    {
+      "id": "cedict:337180ed2f4e97567a6b803e",
+      "traditional": "嘴",
+      "simplified": "嘴",
+      "pinyin": "zui3",
+      "definitions": [
+        "mouth",
+        "beak",
+        "nozzle",
+        "spout (of teapot etc)",
+        "CL:張|张[zhang1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:127a5fd5cf333515a141af02",
+      "traditional": "回來",
+      "simplified": "回来",
+      "pinyin": "hui2 lai5",
+      "definitions": [
+        "to return; to come back"
+      ]
+    },
+    {
+      "id": "cedict:1c99f3bf7e24e535dafb77ca",
+      "traditional": "回答",
+      "simplified": "回答",
+      "pinyin": "hui2 da2",
+      "definitions": [
+        "to reply; to answer",
+        "reply; answer"
+      ]
+    },
+    {
+      "id": "cedict:9c24f744fe971eeaf72777b3",
+      "traditional": "困難",
+      "simplified": "困难",
+      "pinyin": "kun4 nan5",
+      "definitions": [
+        "difficult",
+        "challenging",
+        "straitened circumstances",
+        "difficult situation"
+      ]
+    },
+    {
+      "id": "cedict:38d499a2404ca45e332690b6",
+      "traditional": "國家",
+      "simplified": "国家",
+      "pinyin": "guo2 jia1",
+      "definitions": [
+        "country; nation; state"
+      ]
+    },
+    {
+      "id": "cedict:b22075d200e444034142d6b8",
+      "traditional": "圖書館",
+      "simplified": "图书馆",
+      "pinyin": "tu2 shu1 guan3",
+      "definitions": [
+        "library",
+        "CL:家[jia1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:c35f13c45c587609987bc211",
+      "traditional": "地圖",
+      "simplified": "地图",
+      "pinyin": "di4 tu2",
+      "definitions": [
+        "map",
+        "CL:張|张[zhang1],本[ben3]"
+      ]
+    },
+    {
+      "id": "cedict:e81923c2b07e132bc5ff1c54",
+      "traditional": "地址",
+      "simplified": "地址",
+      "pinyin": "di4 zhi3",
+      "definitions": [
+        "address",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:fb82ee5770602831797c8bf8",
+      "traditional": "地板",
+      "simplified": "地板",
+      "pinyin": "di4 ban3",
+      "definitions": [
+        "floor"
+      ]
+    },
+    {
+      "id": "cedict:4fc55080dec20d34f560b306",
+      "traditional": "坐",
+      "simplified": "坐",
+      "pinyin": "Zuo4",
+      "definitions": [
+        "surname Zuo"
+      ]
+    },
+    {
+      "id": "cedict:bd7ac55d774bad3eab25af94",
+      "traditional": "坐",
+      "simplified": "坐",
+      "pinyin": "zuo4",
+      "definitions": [
+        "to sit",
+        "to take a seat",
+        "to take (a bus, airplane etc)",
+        "to bear fruit",
+        "variant of 座[zuo4]"
+      ]
+    },
+    {
+      "id": "cedict:f81b23fc93ff24d99f83fb83",
+      "traditional": "城市",
+      "simplified": "城市",
+      "pinyin": "cheng2 shi4",
+      "definitions": [
+        "city; town",
+        "CL:座[zuo4]"
+      ]
+    },
+    {
+      "id": "cedict:0a04376605e30a810a198896",
+      "traditional": "壞",
+      "simplified": "坏",
+      "pinyin": "huai4",
+      "definitions": [
+        "bad",
+        "spoiled",
+        "broken",
+        "to break down",
+        "(suffix) to the utmost"
+      ]
+    },
+    {
+      "id": "cedict:893f134f5697a81f020a32ea",
+      "traditional": "夏天",
+      "simplified": "夏天",
+      "pinyin": "xia4 tian1",
+      "definitions": [
+        "summer",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:f11d13958182da0137e4b3e5",
+      "traditional": "外套",
+      "simplified": "外套",
+      "pinyin": "wai4 tao4",
+      "definitions": [
+        "outer garment; jacket; coat",
+        "CL:件[jian4]"
+      ]
+    },
+    {
+      "id": "cedict:f2a86a87ac391917d33d3fe5",
+      "traditional": "大",
+      "simplified": "大",
+      "pinyin": "da4",
+      "definitions": [
+        "big; large; great",
+        "older (than another person)",
+        "eldest (as in 大姐[da4 jie3])",
+        "greatly; freely; fully",
+        "(dialect) father",
+        "(dialect) uncle (father's brother)"
+      ]
+    },
+    {
+      "id": "cedict:671cd57125b13efbd3e366dd",
+      "traditional": "大",
+      "simplified": "大",
+      "pinyin": "dai4",
+      "definitions": [
+        "see 大夫[dai4 fu5]"
+      ]
+    },
+    {
+      "id": "cedict:14afd1940874597408989782",
+      "traditional": "天氣",
+      "simplified": "天气",
+      "pinyin": "tian1 qi4",
+      "definitions": [
+        "weather"
+      ]
+    },
+    {
+      "id": "cedict:3a255eadcec386c3f9175a0e",
+      "traditional": "天空",
+      "simplified": "天空",
+      "pinyin": "tian1 kong1",
+      "definitions": [
+        "sky"
+      ]
+    },
+    {
+      "id": "cedict:7d8d5238e65d1e83761105fe",
+      "traditional": "太陽",
+      "simplified": "太阳",
+      "pinyin": "tai4 yang5",
+      "definitions": [
+        "sun",
+        "sunlight; sunshine",
+        "temple (on the side of the human head) (abbr. for 太陽穴|太阳穴[tai4 yang2 xue2])"
+      ]
+    },
+    {
+      "id": "cedict:0f1c0acf13b90f157da6c757",
+      "traditional": "失去",
+      "simplified": "失去",
+      "pinyin": "shi1 qu4",
+      "definitions": [
+        "to lose"
+      ]
+    },
+    {
+      "id": "cedict:43cec9fb1384146f0c3af0f2",
+      "traditional": "女人",
+      "simplified": "女人",
+      "pinyin": "nu:3 ren2",
+      "definitions": [
+        "woman"
+      ]
+    },
+    {
+      "id": "cedict:56fbbf2d4cf525414228f3ba",
+      "traditional": "女人",
+      "simplified": "女人",
+      "pinyin": "nu:3 ren5",
+      "definitions": [
+        "wife"
+      ]
+    },
+    {
+      "id": "cedict:59b503e0783df2437cbbcc43",
+      "traditional": "女孩",
+      "simplified": "女孩",
+      "pinyin": "nu:3 hai2",
+      "definitions": [
+        "girl; lass"
+      ]
+    },
+    {
+      "id": "cedict:9a549cae00f38ad8fa4de209",
+      "traditional": "奶油",
+      "simplified": "奶油",
+      "pinyin": "nai3 you2",
+      "definitions": [
+        "cream",
+        "butter",
+        "(coll.) effeminate"
+      ]
+    },
+    {
+      "id": "cedict:0f83c31dc8538d1ff28bf19e",
+      "traditional": "好",
+      "simplified": "好",
+      "pinyin": "hao3",
+      "definitions": [
+        "good",
+        "appropriate; proper",
+        "all right!",
+        "(before a verb) easy to",
+        "(before a verb) good to",
+        "(before an adjective for exclamatory effect) so",
+        "(verb complement indicating completion)",
+        "(of two people) close; on intimate terms",
+        "(after a form of address) hello"
+      ]
+    },
+    {
+      "id": "cedict:29d5d17af580da82d58278ce",
+      "traditional": "好",
+      "simplified": "好",
+      "pinyin": "hao4",
+      "definitions": [
+        "to be fond of; to have a tendency to; to be prone to"
+      ]
+    },
+    {
+      "id": "cedict:8b2f9edb8d85f54becbe313b",
+      "traditional": "好奇",
+      "simplified": "好奇",
+      "pinyin": "hao4 qi2",
+      "definitions": [
+        "inquisitive",
+        "curious",
+        "inquisitiveness",
+        "curiosity"
+      ]
+    },
+    {
+      "id": "cedict:d009ec7badda33f98cfb97ab",
+      "traditional": "妹妹",
+      "simplified": "妹妹",
+      "pinyin": "mei4 mei5",
+      "definitions": [
+        "younger sister",
+        "young woman",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:36378b80b609bbbd2bd1109b",
+      "traditional": "妻子",
+      "simplified": "妻子",
+      "pinyin": "qi1 zi3",
+      "definitions": [
+        "wife and children"
+      ]
+    },
+    {
+      "id": "cedict:3dae24e542f53cd2b6cb86bc",
+      "traditional": "妻子",
+      "simplified": "妻子",
+      "pinyin": "qi1 zi5",
+      "definitions": [
+        "wife"
+      ]
+    },
+    {
+      "id": "cedict:e099e455533a7c6be8022245",
+      "traditional": "姐姐",
+      "simplified": "姐姐",
+      "pinyin": "jie3 jie5",
+      "definitions": [
+        "older sister",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:499d8eab25c13043494e6326",
+      "traditional": "媽媽",
+      "simplified": "妈妈",
+      "pinyin": "ma1 ma5",
+      "definitions": [
+        "mama",
+        "mommy",
+        "mother",
+        "CL:個|个[ge4],位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:0f53abdb1069d93acea682f4",
+      "traditional": "嬰兒",
+      "simplified": "婴儿",
+      "pinyin": "ying1 er2",
+      "definitions": [
+        "infant",
+        "baby",
+        "CL:個|个[ge4]",
+        "lead (Pb)"
+      ]
+    },
+    {
+      "id": "cedict:42afbd58aef45e452318cb28",
+      "traditional": "字母",
+      "simplified": "字母",
+      "pinyin": "zi4 mu3",
+      "definitions": [
+        "letter (of the alphabet)",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:57644b04dacb1fe18a634577",
+      "traditional": "存款",
+      "simplified": "存款",
+      "pinyin": "cun2 kuan3",
+      "definitions": [
+        "to deposit money (in a bank etc)",
+        "bank savings",
+        "bank deposit"
+      ]
+    },
+    {
+      "id": "cedict:d153a53c916f1dbaaeec5d0a",
+      "traditional": "孩子",
+      "simplified": "孩子",
+      "pinyin": "hai2 zi5",
+      "definitions": [
+        "child"
+      ]
+    },
+    {
+      "id": "cedict:db28e1c0332713ff9f6b0f19",
+      "traditional": "學校",
+      "simplified": "学校",
+      "pinyin": "xue2 xiao4",
+      "definitions": [
+        "school",
+        "CL:所[suo3]"
+      ]
+    },
+    {
+      "id": "cedict:ea539b49877c6d0768f2f543",
+      "traditional": "學生",
+      "simplified": "学生",
+      "pinyin": "xue2 sheng5",
+      "definitions": [
+        "student",
+        "schoolchild"
+      ]
+    },
+    {
+      "id": "cedict:e2cfea0f3879687a15cafd73",
+      "traditional": "學習",
+      "simplified": "学习",
+      "pinyin": "xue2 xi2",
+      "definitions": [
+        "to learn; to study"
+      ]
+    },
+    {
+      "id": "cedict:3dbc248c701eda26b5d37288",
+      "traditional": "安全",
+      "simplified": "安全",
+      "pinyin": "an1 quan2",
+      "definitions": [
+        "safe; secure",
+        "safety; security"
+      ]
+    },
+    {
+      "id": "cedict:f663403c55004758eac265f8",
+      "traditional": "安靜",
+      "simplified": "安静",
+      "pinyin": "an1 jing4",
+      "definitions": [
+        "quiet",
+        "peaceful",
+        "calm"
+      ]
+    },
+    {
+      "id": "cedict:af3d56af9f416e59552edd7c",
+      "traditional": "完成",
+      "simplified": "完成",
+      "pinyin": "wan2 cheng2",
+      "definitions": [
+        "to complete; to accomplish"
+      ]
+    },
+    {
+      "id": "cedict:5215f17fefbb724337aa58f8",
+      "traditional": "客人",
+      "simplified": "客人",
+      "pinyin": "ke4 ren2",
+      "definitions": [
+        "visitor",
+        "guest",
+        "customer",
+        "client",
+        "CL:位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:d714b792cd87b8d0c1d12c90",
+      "traditional": "客廳",
+      "simplified": "客厅",
+      "pinyin": "ke4 ting1",
+      "definitions": [
+        "living room; sitting room",
+        "CL:間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:723c47f3c498239d3df97b76",
+      "traditional": "害怕",
+      "simplified": "害怕",
+      "pinyin": "hai4 pa4",
+      "definitions": [
+        "to be afraid; to be scared"
+      ]
+    },
+    {
+      "id": "cedict:9d8b322e68e5e7fbf0a5414d",
+      "traditional": "家",
+      "simplified": "家",
+      "pinyin": "jia1",
+      "definitions": [
+        "home",
+        "family",
+        "(polite) my (sister, uncle etc)",
+        "classifier for families or businesses",
+        "refers to the philosophical schools of pre-Han China",
+        "noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:6f27730b63aca6efc3be30c2",
+      "traditional": "家庭",
+      "simplified": "家庭",
+      "pinyin": "jia1 ting2",
+      "definitions": [
+        "family; household",
+        "CL:戶|户[hu4]"
+      ]
+    },
+    {
+      "id": "cedict:5afd58e23ab2a2058811ce94",
+      "traditional": "容易",
+      "simplified": "容易",
+      "pinyin": "rong2 yi4",
+      "definitions": [
+        "easy; straightforward",
+        "likely; liable to; apt to"
+      ]
+    },
+    {
+      "id": "cedict:18bda123167ebc08332ed03d",
+      "traditional": "寫",
+      "simplified": "写",
+      "pinyin": "xie3",
+      "definitions": [
+        "to write"
+      ]
+    },
+    {
+      "id": "cedict:af3cc58149704bfc004c9a7d",
+      "traditional": "寫",
+      "simplified": "写",
+      "pinyin": "xie4",
+      "definitions": [
+        "used in 寫意|写意[xie4 yi4]"
+      ]
+    },
+    {
+      "id": "cedict:8ab8ee800aebb4bc936f6b04",
+      "traditional": "尋找",
+      "simplified": "寻找",
+      "pinyin": "xun2 zhao3",
+      "definitions": [
+        "to seek; to look for"
+      ]
+    },
+    {
+      "id": "cedict:f96affa8aa66bd7ada07ea61",
+      "traditional": "小",
+      "simplified": "小",
+      "pinyin": "xiao3",
+      "definitions": [
+        "small",
+        "tiny",
+        "few",
+        "young"
+      ]
+    },
+    {
+      "id": "cedict:f7ec0459ab59647cb6a2672e",
+      "traditional": "小時",
+      "simplified": "小时",
+      "pinyin": "xiao3 shi2",
+      "definitions": [
+        "hour",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:4971eb04e3607b4efa7e9f21",
+      "traditional": "展覽會",
+      "simplified": "展览会",
+      "pinyin": "zhan3 lan3 hui4",
+      "definitions": [
+        "exhibition; show"
+      ]
+    },
+    {
+      "id": "cedict:8c2e69a0be3fc34275e9694e",
+      "traditional": "山",
+      "simplified": "山",
+      "pinyin": "Shan1",
+      "definitions": [
+        "surname Shan"
+      ]
+    },
+    {
+      "id": "cedict:2bac7d60627af721608bf4c7",
+      "traditional": "山",
+      "simplified": "山",
+      "pinyin": "shan1",
+      "definitions": [
+        "mountain; hill (CL:座[zuo4])",
+        "(coll.) small bundle of straw for silkworms to spin cocoons on"
+      ]
+    },
+    {
+      "id": "cedict:47e3055ed15552b38244ae44",
+      "traditional": "工作",
+      "simplified": "工作",
+      "pinyin": "gong1 zuo4",
+      "definitions": [
+        "to work",
+        "(of a machine) to operate",
+        "job",
+        "work",
+        "task",
+        "CL:個|个[ge4],份[fen4],項|项[xiang4]"
+      ]
+    },
+    {
+      "id": "cedict:ddef0d22c892c0cc36392e72",
+      "traditional": "左",
+      "simplified": "左",
+      "pinyin": "Zuo3",
+      "definitions": [
+        "surname Zuo"
+      ]
+    },
+    {
+      "id": "cedict:e57fc06558085b02be094dfe",
+      "traditional": "左",
+      "simplified": "左",
+      "pinyin": "zuo3",
+      "definitions": [
+        "left",
+        "the Left (politics)",
+        "east",
+        "unorthodox",
+        "queer",
+        "wrong",
+        "differing",
+        "opposite",
+        "variant of 佐[zuo3]"
+      ]
+    },
+    {
+      "id": "cedict:8142fc0d4d9e881eff6c7a4c",
+      "traditional": "市場",
+      "simplified": "市场",
+      "pinyin": "shi4 chang3",
+      "definitions": [
+        "marketplace; market; bazaar",
+        "(economics) market"
+      ]
+    },
+    {
+      "id": "cedict:a102bbd33451829df528053e",
+      "traditional": "希望",
+      "simplified": "希望",
+      "pinyin": "xi1 wang4",
+      "definitions": [
+        "to hope",
+        "a hope; a wish"
+      ]
+    },
+    {
+      "id": "cedict:ae1c6698a17f61254e34ef49",
+      "traditional": "帳戶",
+      "simplified": "帐户",
+      "pinyin": "zhang4 hu4",
+      "definitions": [
+        "variant of 賬戶|账户[zhang4 hu4]"
+      ]
+    },
+    {
+      "id": "cedict:d74476212103d0b2cdc282c9",
+      "traditional": "帶",
+      "simplified": "带",
+      "pinyin": "dai4",
+      "definitions": [
+        "band",
+        "belt",
+        "girdle",
+        "ribbon",
+        "tire",
+        "area",
+        "zone",
+        "region",
+        "CL:條|条[tiao2]",
+        "to wear",
+        "to carry",
+        "to take along",
+        "to bear (i.e. to have)",
+        "to lead",
+        "to bring",
+        "to look after",
+        "to raise"
+      ]
+    },
+    {
+      "id": "cedict:e2c89d53309f62118fda005b",
+      "traditional": "帽子",
+      "simplified": "帽子",
+      "pinyin": "mao4 zi5",
+      "definitions": [
+        "hat",
+        "cap",
+        "(fig.) label",
+        "bad name",
+        "CL:頂|顶[ding3]"
+      ]
+    },
+    {
+      "id": "cedict:9e0390632ec900cba4c1e79e",
+      "traditional": "幫助",
+      "simplified": "帮助",
+      "pinyin": "bang1 zhu4",
+      "definitions": [
+        "assistance; aid",
+        "to help; to assist"
+      ]
+    },
+    {
+      "id": "cedict:c3bb5c71c9c8599459b1ec04",
+      "traditional": "年",
+      "simplified": "年",
+      "pinyin": "Nian2",
+      "definitions": [
+        "surname Nian"
+      ]
+    },
+    {
+      "id": "cedict:d7c9493decb25803c5f1f33f",
+      "traditional": "年",
+      "simplified": "年",
+      "pinyin": "nian2",
+      "definitions": [
+        "year",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:c4bf0097151b180283ef020d",
+      "traditional": "年輕",
+      "simplified": "年轻",
+      "pinyin": "nian2 qing1",
+      "definitions": [
+        "young"
+      ]
+    },
+    {
+      "id": "cedict:6b6da22060662443f242a217",
+      "traditional": "床",
+      "simplified": "床",
+      "pinyin": "chuang2",
+      "definitions": [
+        "bed; couch (furniture that one can lie down on) (CL:張|张[zhang1])",
+        "bed; bottom (of rivers, oceans, gardens etc)",
+        "frame; chassis",
+        "classifier for blankets, quilts etc"
+      ]
+    },
+    {
+      "id": "cedict:6dd59cce7f4efef7d4704e86",
+      "traditional": "廁所",
+      "simplified": "厕所",
+      "pinyin": "ce4 suo3",
+      "definitions": [
+        "toilet; lavatory",
+        "CL:間|间[jian1],處|处[chu4]"
+      ]
+    },
+    {
+      "id": "cedict:2ffd7b775bae44af10038d2f",
+      "traditional": "廚房",
+      "simplified": "厨房",
+      "pinyin": "chu2 fang2",
+      "definitions": [
+        "kitchen",
+        "CL:間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:f9956dfa858269abb00a4287",
+      "traditional": "建立",
+      "simplified": "建立",
+      "pinyin": "jian4 li4",
+      "definitions": [
+        "to establish",
+        "to set up",
+        "to found"
+      ]
+    },
+    {
+      "id": "cedict:791bfdcd06f920b9e06540af",
+      "traditional": "弟弟",
+      "simplified": "弟弟",
+      "pinyin": "di4 di5",
+      "definitions": [
+        "younger brother",
+        "CL:個|个[ge4],位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:64adc8b4f16da2a6075d2b7b",
+      "traditional": "彈簧",
+      "simplified": "弹簧",
+      "pinyin": "tan2 huang2",
+      "definitions": [
+        "spring"
+      ]
+    },
+    {
+      "id": "cedict:0adc92cb437d5fea72f90c3a",
+      "traditional": "後面",
+      "simplified": "后面",
+      "pinyin": "hou4 mian5",
+      "definitions": [
+        "the back; the rear; the last bit",
+        "behind; near the end; at the back",
+        "later; afterwards"
+      ]
+    },
+    {
+      "id": "cedict:97439f3644da1a6f0ef34cbd",
+      "traditional": "得到",
+      "simplified": "得到",
+      "pinyin": "de2 dao4",
+      "definitions": [
+        "to get; to obtain; to receive"
+      ]
+    },
+    {
+      "id": "cedict:883a5fc9f859a218616b74b1",
+      "traditional": "心",
+      "simplified": "心",
+      "pinyin": "xin1",
+      "definitions": [
+        "heart",
+        "mind",
+        "intention",
+        "center",
+        "core",
+        "CL:顆|颗[ke1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:01d59bc5801cbcc64e386c2f",
+      "traditional": "忘記",
+      "simplified": "忘记",
+      "pinyin": "wang4 ji4",
+      "definitions": [
+        "to forget"
+      ]
+    },
+    {
+      "id": "cedict:197d66a0f2615917409ee943",
+      "traditional": "忙",
+      "simplified": "忙",
+      "pinyin": "mang2",
+      "definitions": [
+        "busy",
+        "hurriedly",
+        "to hurry",
+        "to rush"
+      ]
+    },
+    {
+      "id": "cedict:9be175e777759085ac80dd83",
+      "traditional": "快",
+      "simplified": "快",
+      "pinyin": "kuai4",
+      "definitions": [
+        "rapid",
+        "quick",
+        "speed",
+        "rate",
+        "soon",
+        "almost",
+        "to make haste",
+        "clever",
+        "sharp (of knives or wits)",
+        "forthright",
+        "plainspoken",
+        "gratified",
+        "pleased",
+        "pleasant"
+      ]
+    },
+    {
+      "id": "cedict:b549339d1cb62a38fd36b6a1",
+      "traditional": "快樂",
+      "simplified": "快乐",
+      "pinyin": "kuai4 le4",
+      "definitions": [
+        "happy; joyful"
+      ]
+    },
+    {
+      "id": "cedict:6ceb96693674c3614ec61197",
+      "traditional": "想",
+      "simplified": "想",
+      "pinyin": "xiang3",
+      "definitions": [
+        "to think (about)",
+        "to think of; to devise",
+        "to think (that); to believe (that)",
+        "to desire; to want (to)",
+        "to miss (feel wistful about the absence of)"
+      ]
+    },
+    {
+      "id": "cedict:e28b3bf91bb5ac564abfb19d",
+      "traditional": "愛",
+      "simplified": "爱",
+      "pinyin": "ai4",
+      "definitions": [
+        "to love; to be fond of; to like",
+        "affection",
+        "to be inclined (to do sth); to tend to (happen)"
+      ]
+    },
+    {
+      "id": "cedict:a5dcecec89dfa489f669290a",
+      "traditional": "感冒",
+      "simplified": "感冒",
+      "pinyin": "gan3 mao4",
+      "definitions": [
+        "to catch cold",
+        "(common) cold",
+        "CL:場|场[chang2],次[ci4]",
+        "(coll.) to be interested in (often used in the negative)",
+        "(Tw) to detest",
+        "can't stand"
+      ]
+    },
+    {
+      "id": "cedict:17bf272ccc064e219a122fc6",
+      "traditional": "慢",
+      "simplified": "慢",
+      "pinyin": "man4",
+      "definitions": [
+        "slow"
+      ]
+    },
+    {
+      "id": "cedict:c1e371ce94c1e863f02cb4f0",
+      "traditional": "戒指",
+      "simplified": "戒指",
+      "pinyin": "jie4 zhi5",
+      "definitions": [
+        "(finger) ring"
+      ]
+    },
+    {
+      "id": "cedict:2347f77fcc416132247326c1",
+      "traditional": "房子",
+      "simplified": "房子",
+      "pinyin": "fang2 zi5",
+      "definitions": [
+        "house",
+        "building (single- or two-story)",
+        "apartment",
+        "room",
+        "CL:棟|栋[dong4],幢[zhuang4],座[zuo4],套[tao4],間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:f35c7539f4cd7e20bd3e9009",
+      "traditional": "房間",
+      "simplified": "房间",
+      "pinyin": "fang2 jian1",
+      "definitions": [
+        "room",
+        "CL:間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:3ec1030ef068245ab555d9e7",
+      "traditional": "手",
+      "simplified": "手",
+      "pinyin": "shou3",
+      "definitions": [
+        "hand",
+        "(formal) to hold",
+        "person engaged in certain types of work",
+        "person skilled in certain types of work",
+        "personal(ly)",
+        "convenient",
+        "classifier for skill",
+        "CL:雙|双[shuang1],隻|只[zhi1]"
+      ]
+    },
+    {
+      "id": "cedict:75a441009456f6276e3cf16b",
+      "traditional": "手機",
+      "simplified": "手机",
+      "pinyin": "shou3 ji1",
+      "definitions": [
+        "cell phone; mobile phone",
+        "CL:部[bu4],臺|台[tai2]"
+      ]
+    },
+    {
+      "id": "cedict:353f798022d9c63f501c399f",
+      "traditional": "手錶",
+      "simplified": "手表",
+      "pinyin": "shou3 biao3",
+      "definitions": [
+        "wristwatch",
+        "CL:塊|块[kuai4],隻|只[zhi1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:1ab9876d39797c5a1f6032df",
+      "traditional": "打擊",
+      "simplified": "打击",
+      "pinyin": "da3 ji1",
+      "definitions": [
+        "to hit",
+        "to strike",
+        "to attack",
+        "to crack down on sth",
+        "blow",
+        "(psychological) shock",
+        "percussion (music)"
+      ]
+    },
+    {
+      "id": "cedict:b00f99fb712872dc43c83a39",
+      "traditional": "打破",
+      "simplified": "打破",
+      "pinyin": "da3 po4",
+      "definitions": [
+        "to break; to smash"
+      ]
+    },
+    {
+      "id": "cedict:8c435c9f6643f691726a5d9b",
+      "traditional": "打算",
+      "simplified": "打算",
+      "pinyin": "da3 suan4",
+      "definitions": [
+        "to plan",
+        "to intend",
+        "to calculate",
+        "plan",
+        "intention",
+        "calculation",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:e9e010809c68608d59d517ea",
+      "traditional": "打開",
+      "simplified": "打开",
+      "pinyin": "da3 kai1",
+      "definitions": [
+        "to open",
+        "to show (a ticket)",
+        "to turn on",
+        "to switch on"
+      ]
+    },
+    {
+      "id": "cedict:2f4496bef2ca35132c1dbee9",
+      "traditional": "打電話",
+      "simplified": "打电话",
+      "pinyin": "da3 dian4 hua4",
+      "definitions": [
+        "to make a telephone call"
+      ]
+    },
+    {
+      "id": "cedict:08d719c8b8797786e0be1935",
+      "traditional": "找到",
+      "simplified": "找到",
+      "pinyin": "zhao3 dao4",
+      "definitions": [
+        "to find"
+      ]
+    },
+    {
+      "id": "cedict:01f2a4d648e31bd2dfd98f0f",
+      "traditional": "拒絕",
+      "simplified": "拒绝",
+      "pinyin": "ju4 jue2",
+      "definitions": [
+        "to refuse; to decline; to reject"
+      ]
+    },
+    {
+      "id": "cedict:e0dde58e6e8b4d595c0fc46b",
+      "traditional": "拿",
+      "simplified": "拿",
+      "pinyin": "na2",
+      "definitions": [
+        "to hold",
+        "to seize",
+        "to catch",
+        "to apprehend",
+        "to take",
+        "(used in the same way as 把[ba3]: to mark the following noun as a direct object)"
+      ]
+    },
+    {
+      "id": "cedict:2f2c1e19081a0fdcb8f261be",
+      "traditional": "揮手",
+      "simplified": "挥手",
+      "pinyin": "hui1 shou3",
+      "definitions": [
+        "to wave (one's hand)"
+      ]
+    },
+    {
+      "id": "cedict:547d78d4c586162afbde994f",
+      "traditional": "搬家",
+      "simplified": "搬家",
+      "pinyin": "ban1 jia1",
+      "definitions": [
+        "to move house; to relocate",
+        "to remove (sth)"
+      ]
+    },
+    {
+      "id": "cedict:dbc7c1496f00f14dc291025d",
+      "traditional": "擔心",
+      "simplified": "担心",
+      "pinyin": "dan1 xin1",
+      "definitions": [
+        "anxious",
+        "worried",
+        "uneasy",
+        "to worry",
+        "to be anxious"
+      ]
+    },
+    {
+      "id": "cedict:de7ff5d95ef11113a7d38e04",
+      "traditional": "收到",
+      "simplified": "收到",
+      "pinyin": "shou1 dao4",
+      "definitions": [
+        "to receive"
+      ]
+    },
+    {
+      "id": "cedict:6ec9d97069a55bf344fdf7b8",
+      "traditional": "收據",
+      "simplified": "收据",
+      "pinyin": "shou1 ju4",
+      "definitions": [
+        "receipt",
+        "CL:張|张[zhang1]"
+      ]
+    },
+    {
+      "id": "cedict:2b6354940572a63da3fdd7ea",
+      "traditional": "改變",
+      "simplified": "改变",
+      "pinyin": "gai3 bian4",
+      "definitions": [
+        "to change",
+        "to alter",
+        "to transform"
+      ]
+    },
+    {
+      "id": "cedict:db874793596e7bfc7c635ffa",
+      "traditional": "放",
+      "simplified": "放",
+      "pinyin": "fang4",
+      "definitions": [
+        "to put",
+        "to place",
+        "to release",
+        "to free",
+        "to let go",
+        "to let out",
+        "to set off (fireworks)"
+      ]
+    },
+    {
+      "id": "cedict:d76b40e01142d28573ab8db9",
+      "traditional": "故事",
+      "simplified": "故事",
+      "pinyin": "gu4 shi4",
+      "definitions": [
+        "old practice"
+      ]
+    },
+    {
+      "id": "cedict:c3af9577b25b7de6a8e65962",
+      "traditional": "故事",
+      "simplified": "故事",
+      "pinyin": "gu4 shi5",
+      "definitions": [
+        "narrative; story; tale"
+      ]
+    },
+    {
+      "id": "cedict:aa6be4928eeaa994d2e0452a",
+      "traditional": "教",
+      "simplified": "教",
+      "pinyin": "Jiao4",
+      "definitions": [
+        "surname Jiao"
+      ]
+    },
+    {
+      "id": "cedict:9328117971ce93f7eb28a54b",
+      "traditional": "教",
+      "simplified": "教",
+      "pinyin": "jiao1",
+      "definitions": [
+        "to teach; to instruct"
+      ]
+    },
+    {
+      "id": "cedict:6f1ec4ab094ea926c17550f4",
+      "traditional": "教",
+      "simplified": "教",
+      "pinyin": "jiao4",
+      "definitions": [
+        "(bound form) to teach; to instruct",
+        "a religion",
+        "to cause (sb to do sth); to tell (sb to do sth)"
+      ]
+    },
+    {
+      "id": "cedict:796c6208a9bc967b160f04c9",
+      "traditional": "教室",
+      "simplified": "教室",
+      "pinyin": "jiao4 shi4",
+      "definitions": [
+        "classroom",
+        "CL:間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:691b170a93f133a50ea60932",
+      "traditional": "新",
+      "simplified": "新",
+      "pinyin": "Xin1",
+      "definitions": [
+        "abbr. for Xinjiang 新疆[Xin1 jiang1]",
+        "abbr. for Singapore 新加坡[Xin1 jia1 po1]",
+        "surname Xin"
+      ]
+    },
+    {
+      "id": "cedict:b9fc5e25f53c21c5a0dda4f2",
+      "traditional": "新",
+      "simplified": "新",
+      "pinyin": "xin1",
+      "definitions": [
+        "new",
+        "newly",
+        "meso- (chemistry)"
+      ]
+    },
+    {
+      "id": "cedict:af4a843baaf1532580ac9b65",
+      "traditional": "新聞",
+      "simplified": "新闻",
+      "pinyin": "xin1 wen2",
+      "definitions": [
+        "news",
+        "CL:條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:dabea4ddc3af7a51980bbe4d",
+      "traditional": "旅行",
+      "simplified": "旅行",
+      "pinyin": "lu:3 xing2",
+      "definitions": [
+        "to travel",
+        "journey; trip",
+        "CL:趟[tang4],次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:c87f963828b234ad30c466bf",
+      "traditional": "旅遊",
+      "simplified": "旅游",
+      "pinyin": "lu:3 you2",
+      "definitions": [
+        "trip",
+        "journey",
+        "tourism",
+        "travel",
+        "tour",
+        "to travel"
+      ]
+    },
+    {
+      "id": "cedict:3e2ed3f690106617ec18d0e6",
+      "traditional": "旅館",
+      "simplified": "旅馆",
+      "pinyin": "lu:3 guan3",
+      "definitions": [
+        "hotel",
+        "CL:家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:dfed06370e7a847d44dffd18",
+      "traditional": "日期",
+      "simplified": "日期",
+      "pinyin": "ri4 qi1",
+      "definitions": [
+        "date"
+      ]
+    },
+    {
+      "id": "cedict:4c344f90f1aa5f23d7425586",
+      "traditional": "早",
+      "simplified": "早",
+      "pinyin": "zao3",
+      "definitions": [
+        "early",
+        "morning",
+        "Good morning!",
+        "long ago",
+        "prematurely"
+      ]
+    },
+    {
+      "id": "cedict:9dfba1f69d1ae05f1375ddbd",
+      "traditional": "早上",
+      "simplified": "早上",
+      "pinyin": "zao3 shang5",
+      "definitions": [
+        "early morning",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:c2837864a1138030cf69787d",
+      "traditional": "早餐",
+      "simplified": "早餐",
+      "pinyin": "zao3 can1",
+      "definitions": [
+        "breakfast",
+        "CL:份[fen4],頓|顿[dun4],次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:2fa8e1db4173bf341802530b",
+      "traditional": "昂貴",
+      "simplified": "昂贵",
+      "pinyin": "ang2 gui4",
+      "definitions": [
+        "expensive",
+        "costly"
+      ]
+    },
+    {
+      "id": "cedict:33e81d02e1abc0240b7bbb64",
+      "traditional": "昆蟲",
+      "simplified": "昆虫",
+      "pinyin": "kun1 chong2",
+      "definitions": [
+        "insect",
+        "CL:隻|只[zhi1],群[qun2],堆[dui1]"
+      ]
+    },
+    {
+      "id": "cedict:a1567dac24bd44db304dbe49",
+      "traditional": "明天",
+      "simplified": "明天",
+      "pinyin": "ming2 tian1",
+      "definitions": [
+        "tomorrow"
+      ]
+    },
+    {
+      "id": "cedict:3a46e6b33373a716debde670",
+      "traditional": "星星",
+      "simplified": "星星",
+      "pinyin": "xing1 xing5",
+      "definitions": [
+        "(coll.) a star; the stars in the sky"
+      ]
+    },
+    {
+      "id": "cedict:0ee1319f82d75dbe066200a5",
+      "traditional": "星期",
+      "simplified": "星期",
+      "pinyin": "xing1 qi1",
+      "definitions": [
+        "week",
+        "CL:個|个[ge4]",
+        "day of the week",
+        "Sunday"
+      ]
+    },
+    {
+      "id": "cedict:b243391abef83ea22c1fed0c",
+      "traditional": "春天",
+      "simplified": "春天",
+      "pinyin": "chun1 tian1",
+      "definitions": [
+        "spring (season)",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:462f9b489aa544424eb82474",
+      "traditional": "昨天",
+      "simplified": "昨天",
+      "pinyin": "zuo2 tian1",
+      "definitions": [
+        "yesterday"
+      ]
+    },
+    {
+      "id": "cedict:0170ce62d6631120fe98a99a",
+      "traditional": "是",
+      "simplified": "是",
+      "pinyin": "shi4",
+      "definitions": [
+        "to be (followed by substantives only)",
+        "correct; right; true",
+        "(respectful acknowledgement of a command) very well",
+        "(adverb for emphatic assertion)"
+      ]
+    },
+    {
+      "id": "cedict:06f3b35d4b6e64d12e655b82",
+      "traditional": "時間",
+      "simplified": "时间",
+      "pinyin": "shi2 jian1",
+      "definitions": [
+        "(concept of) time",
+        "(duration of) time",
+        "(point in) time"
+      ]
+    },
+    {
+      "id": "cedict:3b32a8c0faa1fb24ff94313b",
+      "traditional": "晚",
+      "simplified": "晚",
+      "pinyin": "wan3",
+      "definitions": [
+        "evening",
+        "night",
+        "late"
+      ]
+    },
+    {
+      "id": "cedict:c54bae5c38b59fc697201a5d",
+      "traditional": "晚上",
+      "simplified": "晚上",
+      "pinyin": "wan3 shang5",
+      "definitions": [
+        "evening",
+        "night",
+        "CL:個|个[ge4]",
+        "in the evening"
+      ]
+    },
+    {
+      "id": "cedict:beb5916b9d00691c43e50bd9",
+      "traditional": "晚餐",
+      "simplified": "晚餐",
+      "pinyin": "wan3 can1",
+      "definitions": [
+        "evening meal; dinner",
+        "CL:份[fen4],頓|顿[dun4],次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:318a06333eea65615d3674fa",
+      "traditional": "書",
+      "simplified": "书",
+      "pinyin": "Shu1",
+      "definitions": [
+        "abbr. for 書經|书经[Shu1 jing1]"
+      ]
+    },
+    {
+      "id": "cedict:cfee8e093b97c1ba2b126b8c",
+      "traditional": "書",
+      "simplified": "书",
+      "pinyin": "shu1",
+      "definitions": [
+        "book",
+        "letter",
+        "document",
+        "CL:本[ben3],冊|册[ce4],部[bu4]",
+        "to write"
+      ]
+    },
+    {
+      "id": "cedict:5511bca3f0f67c2fd594927d",
+      "traditional": "書寫",
+      "simplified": "书写",
+      "pinyin": "shu1 xie3",
+      "definitions": [
+        "to write"
+      ]
+    },
+    {
+      "id": "cedict:0a7935dcbd7b646a3607c08b",
+      "traditional": "會議",
+      "simplified": "会议",
+      "pinyin": "hui4 yi4",
+      "definitions": [
+        "meeting",
+        "conference",
+        "CL:場|场[chang3],屆|届[jie4]"
+      ]
+    },
+    {
+      "id": "cedict:27d716cc4ca873dc96201b23",
+      "traditional": "月",
+      "simplified": "月",
+      "pinyin": "yue4",
+      "definitions": [
+        "moon",
+        "month",
+        "monthly",
+        "CL:個|个[ge4],輪|轮[lun2]"
+      ]
+    },
+    {
+      "id": "cedict:978d73ff2cf42fc8f72111dd",
+      "traditional": "月亮",
+      "simplified": "月亮",
+      "pinyin": "yue4 liang5",
+      "definitions": [
+        "the moon"
+      ]
+    },
+    {
+      "id": "cedict:12ff003da9e40ddcce495b04",
+      "traditional": "有",
+      "simplified": "有",
+      "pinyin": "you3",
+      "definitions": [
+        "to have; there is",
+        "(bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      ]
+    },
+    {
+      "id": "cedict:51f32c3bf02b102349ec270a",
+      "traditional": "有趣",
+      "simplified": "有趣",
+      "pinyin": "you3 qu4",
+      "definitions": [
+        "interesting; fascinating; amusing"
+      ]
+    },
+    {
+      "id": "cedict:cb9057d1bde3c54df0f3c18f",
+      "traditional": "朋友",
+      "simplified": "朋友",
+      "pinyin": "peng2 you5",
+      "definitions": [
+        "friend",
+        "CL:個|个[ge4],位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:6b94f09fa46a74bd82e92730",
+      "traditional": "杯子",
+      "simplified": "杯子",
+      "pinyin": "bei1 zi5",
+      "definitions": [
+        "cup",
+        "glass",
+        "CL:個|个[ge4],隻|只[zhi1]"
+      ]
+    },
+    {
+      "id": "cedict:6a71be5486f264d8a11c984a",
+      "traditional": "果汁",
+      "simplified": "果汁",
+      "pinyin": "guo3 zhi1",
+      "definitions": [
+        "fruit juice"
+      ]
+    },
+    {
+      "id": "cedict:c1e721e8b6c8b91049d68361",
+      "traditional": "桌子",
+      "simplified": "桌子",
+      "pinyin": "zhuo1 zi5",
+      "definitions": [
+        "table",
+        "desk",
+        "CL:張|张[zhang1],套[tao4]"
+      ]
+    },
+    {
+      "id": "cedict:2becdbf65f8c3673e2a36f69",
+      "traditional": "棗",
+      "simplified": "枣",
+      "pinyin": "zao3",
+      "definitions": [
+        "(bound form) jujube; Chinese date (Zizyphus jujuba)"
+      ]
+    },
+    {
+      "id": "cedict:cd6fa906709756fa723ce416",
+      "traditional": "椅子",
+      "simplified": "椅子",
+      "pinyin": "yi3 zi5",
+      "definitions": [
+        "chair",
+        "CL:把[ba3],張|张[zhang1]"
+      ]
+    },
+    {
+      "id": "cedict:6f89c33a993c9f2994a29102",
+      "traditional": "樓層",
+      "simplified": "楼层",
+      "pinyin": "lou2 ceng2",
+      "definitions": [
+        "floor; story (of a building)"
+      ]
+    },
+    {
+      "id": "cedict:d8fc6aa0a801b38ff2c2a112",
+      "traditional": "樹",
+      "simplified": "树",
+      "pinyin": "shu4",
+      "definitions": [
+        "tree",
+        "CL:棵[ke1]",
+        "to cultivate",
+        "to set up"
+      ]
+    },
+    {
+      "id": "cedict:8fd877ff2f57b04d712c703b",
+      "traditional": "樹皮",
+      "simplified": "树皮",
+      "pinyin": "shu4 pi2",
+      "definitions": [
+        "tree bark"
+      ]
+    },
+    {
+      "id": "cedict:be9e5bc294399c11b7aee032",
+      "traditional": "橘子",
+      "simplified": "橘子",
+      "pinyin": "ju2 zi5",
+      "definitions": [
+        "tangerine",
+        "CL:個|个[ge4],瓣[ban4]"
+      ]
+    },
+    {
+      "id": "cedict:acda17a1b3eeb81332e8fad5",
+      "traditional": "機場",
+      "simplified": "机场",
+      "pinyin": "ji1 chang3",
+      "definitions": [
+        "airport; airfield",
+        "(slang) service provider for Shadowsocks or similar software for circumventing Internet censorship",
+        "CL:家[jia1],處|处[chu4]"
+      ]
+    },
+    {
+      "id": "cedict:503225d4ee41c9fe1b3c9e96",
+      "traditional": "檢查",
+      "simplified": "检查",
+      "pinyin": "jian3 cha2",
+      "definitions": [
+        "inspection",
+        "to examine",
+        "to inspect",
+        "CL:次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:3bdd3d80f26b4434f7ff506b",
+      "traditional": "檸檬",
+      "simplified": "柠檬",
+      "pinyin": "ning2 meng2",
+      "definitions": [
+        "lemon"
+      ]
+    },
+    {
+      "id": "cedict:ef53902fabd953c474cec499",
+      "traditional": "正確",
+      "simplified": "正确",
+      "pinyin": "zheng4 que4",
+      "definitions": [
+        "correct; sound; right; proper"
+      ]
+    },
+    {
+      "id": "cedict:a92397c1762df8b372178608",
+      "traditional": "正面",
+      "simplified": "正面",
+      "pinyin": "zheng4 mian4",
+      "definitions": [
+        "front",
+        "obverse side",
+        "right side",
+        "positive",
+        "direct",
+        "open"
+      ]
+    },
+    {
+      "id": "cedict:401fba4de6c2e3ba8c048d73",
+      "traditional": "母親",
+      "simplified": "母亲",
+      "pinyin": "mu3 qin1",
+      "definitions": [
+        "mother"
+      ]
+    },
+    {
+      "id": "cedict:50830a21929b6760b58d8c1b",
+      "traditional": "比賽",
+      "simplified": "比赛",
+      "pinyin": "bi3 sai4",
+      "definitions": [
+        "competition (sports etc)",
+        "match",
+        "CL:場|场[chang3],次[ci4]",
+        "to compete"
+      ]
+    },
+    {
+      "id": "cedict:0d3f1f17bfdaa11e864dd3a6",
+      "traditional": "比較",
+      "simplified": "比较",
+      "pinyin": "bi3 jiao4",
+      "definitions": [
+        "to compare",
+        "to contrast",
+        "comparatively",
+        "relatively",
+        "quite",
+        "comparison"
+      ]
+    },
+    {
+      "id": "cedict:233f5d10d12b666a543fbd8d",
+      "traditional": "毛巾",
+      "simplified": "毛巾",
+      "pinyin": "mao2 jin1",
+      "definitions": [
+        "towel",
+        "CL:條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:fe8c8ead541b75646c7e6244",
+      "traditional": "水",
+      "simplified": "水",
+      "pinyin": "Shui3",
+      "definitions": [
+        "surname Shui",
+        "Shui ethnic group"
+      ]
+    },
+    {
+      "id": "cedict:fd64ed88819a94863335b2a1",
+      "traditional": "水",
+      "simplified": "水",
+      "pinyin": "shui3",
+      "definitions": [
+        "water",
+        "(after a name) ... River",
+        "to swim (used mostly in 會水|会水[hui4 shui3] and 水性[shui3 xing4])",
+        "(coll.) lacking in substance; shoddy",
+        "(bound form) additional cost; extra income",
+        "classifier for washings of a garment"
+      ]
+    },
+    {
+      "id": "cedict:fbf6dfcf9d2f3a8614c5cc6b",
+      "traditional": "水果",
+      "simplified": "水果",
+      "pinyin": "shui3 guo3",
+      "definitions": [
+        "fruit"
+      ]
+    },
+    {
+      "id": "cedict:510dbef0065c856aa1929c78",
+      "traditional": "決定",
+      "simplified": "决定",
+      "pinyin": "jue2 ding4",
+      "definitions": [
+        "to decide; to determine; to make up one's mind",
+        "decision (CL:個|个[ge4],項|项[xiang4])"
+      ]
+    },
+    {
+      "id": "cedict:319f657f58d9989b22b6432d",
+      "traditional": "汽車",
+      "simplified": "汽车",
+      "pinyin": "qi4 che1",
+      "definitions": [
+        "car",
+        "automobile",
+        "bus",
+        "CL:輛|辆[liang4]"
+      ]
+    },
+    {
+      "id": "cedict:08894ba4f9258b965a09457e",
+      "traditional": "沙發",
+      "simplified": "沙发",
+      "pinyin": "sha1 fa1",
+      "definitions": [
+        "(loanword) sofa (CL:條|条[tiao2],張|张[zhang1])",
+        "(Internet slang) first reply to a forum post"
+      ]
+    },
+    {
+      "id": "cedict:f660d423989c89da8595d78a",
+      "traditional": "河",
+      "simplified": "河",
+      "pinyin": "he2",
+      "definitions": [
+        "river (CL:條|条[tiao2],道[dao4])",
+        "(bound form) the Yellow River",
+        "(bound form) the Milky Way",
+        "(bound form) (on restaurant menus) rice noodles 河粉[he2 fen3]"
+      ]
+    },
+    {
+      "id": "cedict:c5ebac39f5a6535e7ffa2d5e",
+      "traditional": "河岸",
+      "simplified": "河岸",
+      "pinyin": "he2 an4",
+      "definitions": [
+        "riverside",
+        "river bank"
+      ]
+    },
+    {
+      "id": "cedict:da8d564f2783438d4e6b15fa",
+      "traditional": "泉",
+      "simplified": "泉",
+      "pinyin": "quan2",
+      "definitions": [
+        "spring (small stream)",
+        "mouth of a spring",
+        "coin (archaic)"
+      ]
+    },
+    {
+      "id": "cedict:7324bb8e39c19792cd9f9c66",
+      "traditional": "法庭",
+      "simplified": "法庭",
+      "pinyin": "fa3 ting2",
+      "definitions": [
+        "court of law"
+      ]
+    },
+    {
+      "id": "cedict:36bc5b4de6377f3e9c68b9a9",
+      "traditional": "波浪",
+      "simplified": "波浪",
+      "pinyin": "bo1 lang4",
+      "definitions": [
+        "wave"
+      ]
+    },
+    {
+      "id": "cedict:737c2831f9f464f0f8db7e7e",
+      "traditional": "洋蔥",
+      "simplified": "洋葱",
+      "pinyin": "yang2 cong1",
+      "definitions": [
+        "onion (Allium cepa)",
+        "bulb onion"
+      ]
+    },
+    {
+      "id": "cedict:57e3f70f663a8e2685510d54",
+      "traditional": "洗",
+      "simplified": "洗",
+      "pinyin": "xi3",
+      "definitions": [
+        "to wash; to bathe",
+        "to develop (photographs)",
+        "to shuffle (cards etc)",
+        "to erase (a recording)"
+      ]
+    },
+    {
+      "id": "cedict:6af71c2ffb12a512658f04c5",
+      "traditional": "洗",
+      "simplified": "洗",
+      "pinyin": "xian3",
+      "definitions": [
+        "used in 洗馬|洗马[xian3 ma3]"
+      ]
+    },
+    {
+      "id": "cedict:9804f92a7bb26e2506dc205c",
+      "traditional": "洗澡",
+      "simplified": "洗澡",
+      "pinyin": "xi3 zao3",
+      "definitions": [
+        "to bathe",
+        "to take a shower"
+      ]
+    },
+    {
+      "id": "cedict:a9712f0618b9db3c51b23e17",
+      "traditional": "洗衣機",
+      "simplified": "洗衣机",
+      "pinyin": "xi3 yi1 ji1",
+      "definitions": [
+        "washing machine; washer",
+        "CL:臺|台[tai2]"
+      ]
+    },
+    {
+      "id": "cedict:45e473992247aa06ab70778c",
+      "traditional": "浴室",
+      "simplified": "浴室",
+      "pinyin": "yu4 shi4",
+      "definitions": [
+        "bathroom; shower room (CL:間|间[jian1])",
+        "bathhouse"
+      ]
+    },
+    {
+      "id": "cedict:e56a728d5ec083890eb2dd6c",
+      "traditional": "海",
+      "simplified": "海",
+      "pinyin": "Hai3",
+      "definitions": [
+        "surname Hai"
+      ]
+    },
+    {
+      "id": "cedict:f624eaa30a431fe2d5ccda2c",
+      "traditional": "海",
+      "simplified": "海",
+      "pinyin": "hai3",
+      "definitions": [
+        "ocean",
+        "sea",
+        "CL:個|个[ge4],片[pian4]",
+        "great number of people or things",
+        "(dialect) numerous"
+      ]
+    },
+    {
+      "id": "cedict:203e9ed5e46eb8c289195cc7",
+      "traditional": "清潔",
+      "simplified": "清洁",
+      "pinyin": "qing1 jie2",
+      "definitions": [
+        "clean",
+        "to clean"
+      ]
+    },
+    {
+      "id": "cedict:a403562cfcafb5b5ba0dce02",
+      "traditional": "游泳",
+      "simplified": "游泳",
+      "pinyin": "you2 yong3",
+      "definitions": [
+        "swimming",
+        "to swim"
+      ]
+    },
+    {
+      "id": "cedict:eb9f492e8d3fafa2e536f570",
+      "traditional": "湖",
+      "simplified": "湖",
+      "pinyin": "hu2",
+      "definitions": [
+        "lake"
+      ]
+    },
+    {
+      "id": "cedict:45e9fb2734ccba2cce76a248",
+      "traditional": "湯匙",
+      "simplified": "汤匙",
+      "pinyin": "tang1 chi2",
+      "definitions": [
+        "soup spoon",
+        "tablespoon",
+        "CL:把[ba3]"
+      ]
+    },
+    {
+      "id": "cedict:65b68aa52ab2bee2b9ca34a1",
+      "traditional": "溫暖",
+      "simplified": "温暖",
+      "pinyin": "wen1 nuan3",
+      "definitions": [
+        "warm"
+      ]
+    },
+    {
+      "id": "cedict:f5dc76afa6bea984cec59c27",
+      "traditional": "演奏",
+      "simplified": "演奏",
+      "pinyin": "yan3 zou4",
+      "definitions": [
+        "to perform on a musical instrument"
+      ]
+    },
+    {
+      "id": "cedict:3c9d79d1472f3a3104968ddf",
+      "traditional": "火柴",
+      "simplified": "火柴",
+      "pinyin": "huo3 chai2",
+      "definitions": [
+        "match (for lighting fire)",
+        "CL:根[gen1],盒[he2]"
+      ]
+    },
+    {
+      "id": "cedict:668c2465a4aa5499c65ba954",
+      "traditional": "火車",
+      "simplified": "火车",
+      "pinyin": "huo3 che1",
+      "definitions": [
+        "train",
+        "CL:列[lie4],節|节[jie2],班[ban1],趟[tang4]"
+      ]
+    },
+    {
+      "id": "cedict:8d30de569cf23c937dbde2c7",
+      "traditional": "無聊",
+      "simplified": "无聊",
+      "pinyin": "wu2 liao2",
+      "definitions": [
+        "bored",
+        "boring",
+        "senseless"
+      ]
+    },
+    {
+      "id": "cedict:3da2b4b7664c90092e72368a",
+      "traditional": "照顧",
+      "simplified": "照顾",
+      "pinyin": "zhao4 gu5",
+      "definitions": [
+        "to take care of",
+        "to show consideration",
+        "to attend to",
+        "to look after"
+      ]
+    },
+    {
+      "id": "cedict:374730f1206df64815b05048",
+      "traditional": "煮",
+      "simplified": "煮",
+      "pinyin": "zhu3",
+      "definitions": [
+        "to cook",
+        "to boil"
+      ]
+    },
+    {
+      "id": "cedict:897a8c929a08ef45cab2fe70",
+      "traditional": "熱",
+      "simplified": "热",
+      "pinyin": "re4",
+      "definitions": [
+        "to warm up",
+        "to heat up",
+        "hot (of weather)",
+        "heat",
+        "fervent"
+      ]
+    },
+    {
+      "id": "cedict:b3bfecb0042ba08225e0448d",
+      "traditional": "燈",
+      "simplified": "灯",
+      "pinyin": "deng1",
+      "definitions": [
+        "lamp",
+        "light",
+        "lantern",
+        "CL:盞|盏[zhan3]"
+      ]
+    },
+    {
+      "id": "cedict:3b3dce1a678bcb09aca0ceda",
+      "traditional": "父親",
+      "simplified": "父亲",
+      "pinyin": "fu4 qin1",
+      "definitions": [
+        "father",
+        "also pr. [fu4 qin5]",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:0aeefdb72b1c8a3011821c44",
+      "traditional": "爸爸",
+      "simplified": "爸爸",
+      "pinyin": "ba4 ba5",
+      "definitions": [
+        "(coll.) father; dad",
+        "CL:位[wei4]"
+      ]
+    },
+    {
+      "id": "cedict:56e0e282bcd7dbdef49ca2be",
+      "traditional": "牙齒",
+      "simplified": "牙齿",
+      "pinyin": "ya2 chi3",
+      "definitions": [
+        "tooth",
+        "dental",
+        "CL:顆|颗[ke1]"
+      ]
+    },
+    {
+      "id": "cedict:30e14c7099d213c363621953",
+      "traditional": "牛",
+      "simplified": "牛",
+      "pinyin": "Niu2",
+      "definitions": [
+        "surname Niu"
+      ]
+    },
+    {
+      "id": "cedict:fc2aa336ae0db276cfa501dc",
+      "traditional": "牛",
+      "simplified": "牛",
+      "pinyin": "niu2",
+      "definitions": [
+        "ox",
+        "cow",
+        "bull",
+        "CL:條|条[tiao2],頭|头[tou2]",
+        "newton (abbr. for 牛頓|牛顿[niu2 dun4])",
+        "(slang) awesome"
+      ]
+    },
+    {
+      "id": "cedict:2e5e08bbcbcf4c6765946c16",
+      "traditional": "牛奶",
+      "simplified": "牛奶",
+      "pinyin": "niu2 nai3",
+      "definitions": [
+        "cow's milk",
+        "CL:瓶[ping2],杯[bei1]"
+      ]
+    },
+    {
+      "id": "cedict:85a94747810fb5013c34ceb4",
+      "traditional": "牛肉",
+      "simplified": "牛肉",
+      "pinyin": "niu2 rou4",
+      "definitions": [
+        "beef"
+      ]
+    },
+    {
+      "id": "cedict:ec2ce7589a25b6622c7e5f6f",
+      "traditional": "狗",
+      "simplified": "狗",
+      "pinyin": "gou3",
+      "definitions": [
+        "dog",
+        "CL:隻|只[zhi1],條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:61fdcc680cd50b40040c8fe2",
+      "traditional": "玩",
+      "simplified": "玩",
+      "pinyin": "wan2",
+      "definitions": [
+        "to play",
+        "to have fun",
+        "to trifle with",
+        "toy",
+        "sth used for amusement",
+        "curio or antique (Taiwan pr. [wan4])",
+        "to keep sth for entertainment"
+      ]
+    },
+    {
+      "id": "cedict:c54634f892111587faa2447d",
+      "traditional": "玫瑰",
+      "simplified": "玫瑰",
+      "pinyin": "mei2 gui1",
+      "definitions": [
+        "rugosa rose (shrub) (Rosa rugosa) (CL:棵[ke1])",
+        "rose flower (CL:朵[duo3])"
+      ]
+    },
+    {
+      "id": "cedict:d45c7fbfc9e945f510cce4c1",
+      "traditional": "現在",
+      "simplified": "现在",
+      "pinyin": "xian4 zai4",
+      "definitions": [
+        "now; at present; currently"
+      ]
+    },
+    {
+      "id": "cedict:d868aa5b719e048539b91145",
+      "traditional": "球場",
+      "simplified": "球场",
+      "pinyin": "qiu2 chang3",
+      "definitions": [
+        "stadium",
+        "sports ground",
+        "court",
+        "pitch",
+        "field",
+        "golf course",
+        "CL:個|个[ge4],處|处[chu4]"
+      ]
+    },
+    {
+      "id": "cedict:ea910dab110025076c3e218a",
+      "traditional": "理解",
+      "simplified": "理解",
+      "pinyin": "li3 jie3",
+      "definitions": [
+        "to comprehend; to understand"
+      ]
+    },
+    {
+      "id": "cedict:1d13fd033c2dc7ab13d794cf",
+      "traditional": "生意",
+      "simplified": "生意",
+      "pinyin": "sheng1 yi4",
+      "definitions": [
+        "life force",
+        "vitality"
+      ]
+    },
+    {
+      "id": "cedict:874c1290d772375e359a8dc0",
+      "traditional": "生意",
+      "simplified": "生意",
+      "pinyin": "sheng1 yi5",
+      "definitions": [
+        "business",
+        "CL:筆|笔[bi3]"
+      ]
+    },
+    {
+      "id": "cedict:99b4c3b12e32b82af20916a1",
+      "traditional": "生日",
+      "simplified": "生日",
+      "pinyin": "sheng1 ri4",
+      "definitions": [
+        "birthday",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:6f519c84d362278aba892fae",
+      "traditional": "生氣",
+      "simplified": "生气",
+      "pinyin": "sheng1 qi4",
+      "definitions": [
+        "to get angry; to be furious",
+        "vitality; liveliness"
+      ]
+    },
+    {
+      "id": "cedict:0cf9a3a94b82295c32d22432",
+      "traditional": "生病",
+      "simplified": "生病",
+      "pinyin": "sheng1 bing4",
+      "definitions": [
+        "to fall ill"
+      ]
+    },
+    {
+      "id": "cedict:d0666be7a66a9901513b0f7b",
+      "traditional": "男人",
+      "simplified": "男人",
+      "pinyin": "nan2 ren2",
+      "definitions": [
+        "a man",
+        "a male",
+        "men",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:967a7a5bc0679aea0922e79b",
+      "traditional": "男孩",
+      "simplified": "男孩",
+      "pinyin": "nan2 hai2",
+      "definitions": [
+        "boy"
+      ]
+    },
+    {
+      "id": "cedict:91aa6d5fdc7e6462d3518dab",
+      "traditional": "番茄",
+      "simplified": "番茄",
+      "pinyin": "fan1 qie2",
+      "definitions": [
+        "tomato"
+      ]
+    },
+    {
+      "id": "cedict:a316b2c971b224457bf9c179",
+      "traditional": "畫",
+      "simplified": "画",
+      "pinyin": "hua4",
+      "definitions": [
+        "to draw; to paint",
+        "picture; painting (CL:幅[fu2],張|张[zhang1])",
+        "to draw (a line) (variant of 劃|划[hua4])",
+        "stroke of a Chinese character (variant of 劃|划[hua4])",
+        "(calligraphy) horizontal stroke (variant of 劃|划[hua4])"
+      ]
+    },
+    {
+      "id": "cedict:8a58859ad234438650ec2cca",
+      "traditional": "疼痛",
+      "simplified": "疼痛",
+      "pinyin": "teng2 tong4",
+      "definitions": [
+        "pain",
+        "(of a body part) to be painful; to be sore; to hurt",
+        "(of a person) to be in pain"
+      ]
+    },
+    {
+      "id": "cedict:63f73e7ccde6ccb2ea1da940",
+      "traditional": "發燒",
+      "simplified": "发烧",
+      "pinyin": "fa1 shao1",
+      "definitions": [
+        "to have a high temperature (from illness); to have a fever",
+        "(fig.) to be fascinated with; to obsess over",
+        "(fig.) flourishing; thriving; popular"
+      ]
+    },
+    {
+      "id": "cedict:20ae71e1ba44227be84a5e9e",
+      "traditional": "盤子",
+      "simplified": "盘子",
+      "pinyin": "pan2 zi5",
+      "definitions": [
+        "tray",
+        "plate",
+        "dish",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:ed12ccd6fc56cbe493abc456",
+      "traditional": "相信",
+      "simplified": "相信",
+      "pinyin": "xiang1 xin4",
+      "definitions": [
+        "to believe; to be convinced; to accept as true"
+      ]
+    },
+    {
+      "id": "cedict:9041d686a7bca94c91dfda28",
+      "traditional": "相同",
+      "simplified": "相同",
+      "pinyin": "xiang1 tong2",
+      "definitions": [
+        "identical; same"
+      ]
+    },
+    {
+      "id": "cedict:8cb09c42d1c40f1103c51814",
+      "traditional": "看",
+      "simplified": "看",
+      "pinyin": "kan1",
+      "definitions": [
+        "to look after",
+        "to take care of",
+        "to watch",
+        "to guard"
+      ]
+    },
+    {
+      "id": "cedict:b72adb973412bf93a1820393",
+      "traditional": "看",
+      "simplified": "看",
+      "pinyin": "kan4",
+      "definitions": [
+        "to see; to look at",
+        "to read",
+        "to watch",
+        "to visit; to call on",
+        "to consider; to regard as",
+        "to look after",
+        "to treat (a patient or illness)",
+        "to depend on",
+        "to feel (that)",
+        "(after a verb) to give it a try",
+        "to watch out for"
+      ]
+    },
+    {
+      "id": "cedict:c2d62c8ac20d8beba0aa1d23",
+      "traditional": "真的",
+      "simplified": "真的",
+      "pinyin": "zhen1 de5",
+      "definitions": [
+        "really; truly; indeed",
+        "real; true; genuine",
+        "(math.) proper"
+      ]
+    },
+    {
+      "id": "cedict:dfe7f2ab8506d86e5bbaa1b1",
+      "traditional": "眼睛",
+      "simplified": "眼睛",
+      "pinyin": "yan3 jing5",
+      "definitions": [
+        "eye",
+        "CL:隻|只[zhi1],雙|双[shuang1]"
+      ]
+    },
+    {
+      "id": "cedict:a6e9150a7685ebded3faa98e",
+      "traditional": "眼鏡",
+      "simplified": "眼镜",
+      "pinyin": "yan3 jing4",
+      "definitions": [
+        "spectacles",
+        "eyeglasses",
+        "CL:副[fu4]"
+      ]
+    },
+    {
+      "id": "cedict:ef575997fe3f8c761c2086ef",
+      "traditional": "睡覺",
+      "simplified": "睡觉",
+      "pinyin": "shui4 jiao4",
+      "definitions": [
+        "to go to bed",
+        "to sleep"
+      ]
+    },
+    {
+      "id": "cedict:731741b9d1900956e672486b",
+      "traditional": "知道",
+      "simplified": "知道",
+      "pinyin": "zhi1 dao4",
+      "definitions": [
+        "to know; to become aware of",
+        "also pr. [zhi1dao5]"
+      ]
+    },
+    {
+      "id": "cedict:0abe63d1177a20db0120d5dc",
+      "traditional": "短",
+      "simplified": "短",
+      "pinyin": "duan3",
+      "definitions": [
+        "short",
+        "brief",
+        "to lack",
+        "weak point",
+        "fault"
+      ]
+    },
+    {
+      "id": "cedict:28353a83dfed77f62ad257e4",
+      "traditional": "碗",
+      "simplified": "碗",
+      "pinyin": "wan3",
+      "definitions": [
+        "bowl",
+        "cup",
+        "CL:隻|只[zhi1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:ae3cb04f25c26f43f899b728",
+      "traditional": "票",
+      "simplified": "票",
+      "pinyin": "piao4",
+      "definitions": [
+        "ticket",
+        "ballot",
+        "banknote",
+        "CL:張|张[zhang1]",
+        "person held for ransom",
+        "amateur performance of Chinese opera",
+        "classifier for groups, batches, business transactions"
+      ]
+    },
+    {
+      "id": "cedict:0f5467b296a04852f6574f49",
+      "traditional": "秋天",
+      "simplified": "秋天",
+      "pinyin": "qiu1 tian1",
+      "definitions": [
+        "autumn",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:7f806814ce4d84a2450cb2c1",
+      "traditional": "秋季",
+      "simplified": "秋季",
+      "pinyin": "qiu1 ji4",
+      "definitions": [
+        "autumn",
+        "fall"
+      ]
+    },
+    {
+      "id": "cedict:2d5f28022236bbe394514295",
+      "traditional": "秒",
+      "simplified": "秒",
+      "pinyin": "miao3",
+      "definitions": [
+        "second (unit of time)",
+        "arc second (angular measurement unit)",
+        "(coll.) instantly"
+      ]
+    },
+    {
+      "id": "cedict:6aa3a55280325331c512cf2a",
+      "traditional": "空閒",
+      "simplified": "空闲",
+      "pinyin": "kong4 xian2",
+      "definitions": [
+        "leisure; spare time",
+        "(of a person) free; unoccupied",
+        "(of equipment, rooms etc) unused; idle; vacant"
+      ]
+    },
+    {
+      "id": "cedict:f4e3663e46dc52c802abe895",
+      "traditional": "穿",
+      "simplified": "穿",
+      "pinyin": "chuan1",
+      "definitions": [
+        "to bore through; to pierce; to perforate",
+        "to go through (e.g. a tunnel); to cross (e.g. a street)",
+        "to thread; to string together",
+        "to wear; to put on (clothes, shoes etc.)",
+        "verb complement indicating thoroughness or completion"
+      ]
+    },
+    {
+      "id": "cedict:22e86f35e4fdf59b33332907",
+      "traditional": "窗戶",
+      "simplified": "窗户",
+      "pinyin": "chuang1 hu5",
+      "definitions": [
+        "window",
+        "CL:個|个[ge4],扇[shan4]"
+      ]
+    },
+    {
+      "id": "cedict:39bd788ce2e8172a5258e75e",
+      "traditional": "站",
+      "simplified": "站",
+      "pinyin": "zhan4",
+      "definitions": [
+        "station",
+        "to stand",
+        "to halt",
+        "to stop",
+        "branch of a company or organization",
+        "website"
+      ]
+    },
+    {
+      "id": "cedict:48463e9dc1f8908cbd83064d",
+      "traditional": "笑",
+      "simplified": "笑",
+      "pinyin": "xiao4",
+      "definitions": [
+        "to laugh; to smile",
+        "to laugh at"
+      ]
+    },
+    {
+      "id": "cedict:982f38bf5dc0a594e515c305",
+      "traditional": "筆",
+      "simplified": "笔",
+      "pinyin": "bi3",
+      "definitions": [
+        "writing brush; writing implement (pen, pencil etc) (CL:支[zhi1],枝[zhi1])",
+        "brushstroke; stroke (in painting or calligraphy)",
+        "(bound form) style of writing; literary manner; technique of brushwork",
+        "(classifier) stroke of a Chinese character",
+        "(classifier) sum of money; financial transaction; piece of business",
+        "(literary) to write (with a brush or pen)"
+      ]
+    },
+    {
+      "id": "cedict:8853a926f83c21d0688d6dd8",
+      "traditional": "筆記",
+      "simplified": "笔记",
+      "pinyin": "bi3 ji4",
+      "definitions": [
+        "to take down (in writing)",
+        "notes",
+        "a type of literature consisting mainly of short sketches",
+        "CL:本[ben3]"
+      ]
+    },
+    {
+      "id": "cedict:91a1ef3a2e5e67429881dd17",
+      "traditional": "等",
+      "simplified": "等",
+      "pinyin": "deng3",
+      "definitions": [
+        "to wait for; to await",
+        "by the time; when; till",
+        "and so on; etc.; et al.",
+        "(bound form) class; rank; grade",
+        "(bound form) equal to; same as",
+        "(used to end an enumeration)",
+        "(literary) (plural suffix attached to a personal pronoun or noun)"
+      ]
+    },
+    {
+      "id": "cedict:6fb14518ae2d52a130f3fbdb",
+      "traditional": "等待",
+      "simplified": "等待",
+      "pinyin": "deng3 dai4",
+      "definitions": [
+        "to wait; to wait for"
+      ]
+    },
+    {
+      "id": "cedict:2c0f3953b78f25cb839fca00",
+      "traditional": "答案",
+      "simplified": "答案",
+      "pinyin": "da2 an4",
+      "definitions": [
+        "answer",
+        "solution",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:7ebcb71dc60adf429d93ccbf",
+      "traditional": "筷子",
+      "simplified": "筷子",
+      "pinyin": "kuai4 zi5",
+      "definitions": [
+        "chopsticks",
+        "CL:對|对[dui4],根[gen1],把[ba3],雙|双[shuang1]"
+      ]
+    },
+    {
+      "id": "cedict:74098ac7f33b8eb72b538bb0",
+      "traditional": "米飯",
+      "simplified": "米饭",
+      "pinyin": "mi3 fan4",
+      "definitions": [
+        "(cooked) rice"
+      ]
+    },
+    {
+      "id": "cedict:9655b902158e3699f75ec1ca",
+      "traditional": "糖",
+      "simplified": "糖",
+      "pinyin": "tang2",
+      "definitions": [
+        "sugar",
+        "sweets",
+        "candy",
+        "CL:顆|颗[ke1],塊|块[kuai4]"
+      ]
+    },
+    {
+      "id": "cedict:73a346b21d9df6a6e4aa071a",
+      "traditional": "約會",
+      "simplified": "约会",
+      "pinyin": "yue1 hui4",
+      "definitions": [
+        "appointment",
+        "engagement",
+        "date",
+        "CL:次[ci4],個|个[ge4]",
+        "to arrange to meet"
+      ]
+    },
+    {
+      "id": "cedict:8e64324438840f91d200ed8b",
+      "traditional": "紙",
+      "simplified": "纸",
+      "pinyin": "zhi3",
+      "definitions": [
+        "paper (CL:張|张[zhang1],沓[da2])",
+        "classifier for documents, letters etc"
+      ]
+    },
+    {
+      "id": "cedict:a26c4bfe1450a9b8011b7e57",
+      "traditional": "累",
+      "simplified": "累",
+      "pinyin": "lei3",
+      "definitions": [
+        "to accumulate",
+        "to involve or implicate (Taiwan pr. [lei4])",
+        "continuous",
+        "repeated"
+      ]
+    },
+    {
+      "id": "cedict:0ddae4db8d8fd8dff24df00a",
+      "traditional": "累",
+      "simplified": "累",
+      "pinyin": "lei4",
+      "definitions": [
+        "tired",
+        "weary",
+        "to strain",
+        "to wear out",
+        "to work hard"
+      ]
+    },
+    {
+      "id": "cedict:f327f6ad438c5a481d367623",
+      "traditional": "結束",
+      "simplified": "结束",
+      "pinyin": "jie2 shu4",
+      "definitions": [
+        "to end; to finish; to conclude"
+      ]
+    },
+    {
+      "id": "cedict:60d6818532c189e93f9b7c27",
+      "traditional": "給",
+      "simplified": "给",
+      "pinyin": "gei3",
+      "definitions": [
+        "to",
+        "for",
+        "for the benefit of",
+        "to give",
+        "to allow",
+        "to do sth (for sb)",
+        "(grammatical equivalent of 被)",
+        "(grammatical equivalent of 把)",
+        "(sentence intensifier)"
+      ]
+    },
+    {
+      "id": "cedict:ee7cab581cfa36aa914dce11",
+      "traditional": "給",
+      "simplified": "给",
+      "pinyin": "ji3",
+      "definitions": [
+        "(bound form) to supply; to provide",
+        "(literary) sufficient; abundant"
+      ]
+    },
+    {
+      "id": "cedict:3e4f7fcbf58a78e4858420d8",
+      "traditional": "經營",
+      "simplified": "经营",
+      "pinyin": "jing1 ying2",
+      "definitions": [
+        "to engage in (business etc); to run; to operate"
+      ]
+    },
+    {
+      "id": "cedict:89721a311044e80fb37ad78d",
+      "traditional": "練習",
+      "simplified": "练习",
+      "pinyin": "lian4 xi2",
+      "definitions": [
+        "to practice",
+        "exercise",
+        "drill",
+        "practice",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:47a6df900ec2dba3f9125e94",
+      "traditional": "繼續",
+      "simplified": "继续",
+      "pinyin": "ji4 xu4",
+      "definitions": [
+        "to continue; to proceed with; to go on with"
+      ]
+    },
+    {
+      "id": "cedict:194183593d522a0fd04c458a",
+      "traditional": "美麗",
+      "simplified": "美丽",
+      "pinyin": "mei3 li4",
+      "definitions": [
+        "beautiful"
+      ]
+    },
+    {
+      "id": "cedict:9096b1613b7933791876d7c6",
+      "traditional": "老",
+      "simplified": "老",
+      "pinyin": "lao3",
+      "definitions": [
+        "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+        "old (of people)",
+        "venerable (person)",
+        "experienced",
+        "of long standing",
+        "always",
+        "all the time",
+        "of the past",
+        "very",
+        "outdated",
+        "(of meat etc) tough"
+      ]
+    },
+    {
+      "id": "cedict:411b2da13bc14f2d6bea5cf2",
+      "traditional": "老師",
+      "simplified": "老师",
+      "pinyin": "lao3 shi1",
+      "definitions": [
+        "teacher"
+      ]
+    },
+    {
+      "id": "cedict:b2b7c8090fbff16d5299afe7",
+      "traditional": "老闆",
+      "simplified": "老板",
+      "pinyin": "Lao3 ban3",
+      "definitions": [
+        "Robam (brand)"
+      ]
+    },
+    {
+      "id": "cedict:57a1f0a7ce8375f0c4d8367b",
+      "traditional": "老闆",
+      "simplified": "老板",
+      "pinyin": "lao3 ban3",
+      "definitions": [
+        "boss; proprietor"
+      ]
+    },
+    {
+      "id": "cedict:7df3dfbb4fb95b0f35ea26cf",
+      "traditional": "考試",
+      "simplified": "考试",
+      "pinyin": "kao3 shi4",
+      "definitions": [
+        "to take an exam",
+        "exam",
+        "CL:次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:57623565db687ea7bb3100c0",
+      "traditional": "耳朵",
+      "simplified": "耳朵",
+      "pinyin": "er3 duo5",
+      "definitions": [
+        "ear",
+        "CL:隻|只[zhi1],個|个[ge4],對|对[dui4]",
+        "handle (on a cup)"
+      ]
+    },
+    {
+      "id": "cedict:801ba9ba5def22f1f4c8ca6b",
+      "traditional": "聽",
+      "simplified": "听",
+      "pinyin": "ting1",
+      "definitions": [
+        "to listen to; to hear",
+        "to heed; to obey",
+        "a can (loanword from English \"tin\")",
+        "classifier for canned beverages",
+        "to let be; to allow (Taiwan pr. [ting4])",
+        "(literary) to administer; to deal with (Taiwan pr. [ting4])"
+      ]
+    },
+    {
+      "id": "cedict:3daec3b3385d45dbe869fecf",
+      "traditional": "肥皂",
+      "simplified": "肥皂",
+      "pinyin": "fei2 zao4",
+      "definitions": [
+        "soap",
+        "CL:塊|块[kuai4],條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:5c50c150e374a1d5bdc0a261",
+      "traditional": "背部",
+      "simplified": "背部",
+      "pinyin": "bei4 bu4",
+      "definitions": [
+        "back (of a human or other vertebrate, or of an object)"
+      ]
+    },
+    {
+      "id": "cedict:f58af482ad5cae41ef166e15",
+      "traditional": "胡蘿蔔",
+      "simplified": "胡萝卜",
+      "pinyin": "hu2 luo2 bo5",
+      "definitions": [
+        "carrot"
+      ]
+    },
+    {
+      "id": "cedict:49fe79e733fe216b1c399aae",
+      "traditional": "脫下",
+      "simplified": "脱下",
+      "pinyin": "tuo1 xia4",
+      "definitions": [
+        "to take off (clothing)"
+      ]
+    },
+    {
+      "id": "cedict:70873a9e2fc5316b854a876f",
+      "traditional": "腳",
+      "simplified": "脚",
+      "pinyin": "jiao3",
+      "definitions": [
+        "foot",
+        "leg (of an animal or an object)",
+        "base (of an object)",
+        "CL:雙|双[shuang1],隻|只[zhi1]",
+        "classifier for kicks"
+      ]
+    },
+    {
+      "id": "cedict:083fc8a30ee58f5c2009378b",
+      "traditional": "腳",
+      "simplified": "脚",
+      "pinyin": "jue2",
+      "definitions": [
+        "role (variant of 角[jue2])"
+      ]
+    },
+    {
+      "id": "cedict:7e4c2c57aefbfbbebbd7bdbb",
+      "traditional": "臉",
+      "simplified": "脸",
+      "pinyin": "lian3",
+      "definitions": [
+        "face",
+        "CL:張|张[zhang1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:5fffbb86f38ad92b732b38f4",
+      "traditional": "臥室",
+      "simplified": "卧室",
+      "pinyin": "wo4 shi4",
+      "definitions": [
+        "bedroom",
+        "CL:間|间[jian1]"
+      ]
+    },
+    {
+      "id": "cedict:6fb0f5ac684bd734906e81c9",
+      "traditional": "自行車",
+      "simplified": "自行车",
+      "pinyin": "zi4 xing2 che1",
+      "definitions": [
+        "bicycle; bike",
+        "CL:輛|辆[liang4]"
+      ]
+    },
+    {
+      "id": "cedict:cd013d03a8081a1f40e25ae4",
+      "traditional": "舊",
+      "simplified": "旧",
+      "pinyin": "jiu4",
+      "definitions": [
+        "old",
+        "opposite: new 新",
+        "former",
+        "worn (with age)"
+      ]
+    },
+    {
+      "id": "cedict:d4d442dc9ff6f088808a219d",
+      "traditional": "船",
+      "simplified": "船",
+      "pinyin": "chuan2",
+      "definitions": [
+        "boat",
+        "vessel",
+        "ship",
+        "CL:條|条[tiao2],艘[sou1],隻|只[zhi1]"
+      ]
+    },
+    {
+      "id": "cedict:0d7cd0844d2272c90d0e2f04",
+      "traditional": "花",
+      "simplified": "花",
+      "pinyin": "Hua1",
+      "definitions": [
+        "surname Hua"
+      ]
+    },
+    {
+      "id": "cedict:dd4e0bf8f2a08e94643fc339",
+      "traditional": "花",
+      "simplified": "花",
+      "pinyin": "hua1",
+      "definitions": [
+        "flower",
+        "blossom",
+        "CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]",
+        "fancy pattern",
+        "florid",
+        "to spend (money, time)",
+        "(coll.) lecherous",
+        "lustful"
+      ]
+    },
+    {
+      "id": "cedict:c48e514ed63e87a372b91ffc",
+      "traditional": "花費",
+      "simplified": "花费",
+      "pinyin": "hua1 fei4",
+      "definitions": [
+        "expense",
+        "cost",
+        "to spend (time or money)",
+        "expenditure"
+      ]
+    },
+    {
+      "id": "cedict:39fef89997cfc8e52a4458f4",
+      "traditional": "英文",
+      "simplified": "英文",
+      "pinyin": "Ying1 wen2",
+      "definitions": [
+        "English (language)"
+      ]
+    },
+    {
+      "id": "cedict:92ac2378eed7203576ecd7d0",
+      "traditional": "茶",
+      "simplified": "茶",
+      "pinyin": "cha2",
+      "definitions": [
+        "tea",
+        "tea plant",
+        "CL:杯[bei1],壺|壶[hu2]"
+      ]
+    },
+    {
+      "id": "cedict:e030a71fe3df0e70e4796c88",
+      "traditional": "草",
+      "simplified": "草",
+      "pinyin": "cao3",
+      "definitions": [
+        "grass",
+        "straw",
+        "manuscript",
+        "draft (of a document)",
+        "careless",
+        "rough",
+        "CL:棵[ke1],撮[zuo3],株[zhu1],根[gen1]"
+      ]
+    },
+    {
+      "id": "cedict:d970df5a5536aace5873db13",
+      "traditional": "草",
+      "simplified": "草",
+      "pinyin": "cao4",
+      "definitions": [
+        "variant of 肏[cao4]"
+      ]
+    },
+    {
+      "id": "cedict:1f9df02fd9e2448601cd1514",
+      "traditional": "草莓",
+      "simplified": "草莓",
+      "pinyin": "cao3 mei2",
+      "definitions": [
+        "strawberry",
+        "CL:顆|颗[ke1]",
+        "(Tw) hickey",
+        "love bite"
+      ]
+    },
+    {
+      "id": "cedict:13c17ec4d00734403b8d4f52",
+      "traditional": "菜單",
+      "simplified": "菜单",
+      "pinyin": "cai4 dan1",
+      "definitions": [
+        "menu",
+        "CL:份[fen4],張|张[zhang1]"
+      ]
+    },
+    {
+      "id": "cedict:392aa85478677922f826d365",
+      "traditional": "落下",
+      "simplified": "落下",
+      "pinyin": "luo4 xia4",
+      "definitions": [
+        "to fall",
+        "to drop",
+        "to land (of projectile)"
+      ]
+    },
+    {
+      "id": "cedict:1bb45e4b88a1751c5a2cd434",
+      "traditional": "葉子",
+      "simplified": "叶子",
+      "pinyin": "ye4 zi5",
+      "definitions": [
+        "leaf (CL:片[pian4])",
+        "(slang) marijuana"
+      ]
+    },
+    {
+      "id": "cedict:5263a0b8c475ce949ceacf59",
+      "traditional": "葡萄",
+      "simplified": "葡萄",
+      "pinyin": "pu2 tao5",
+      "definitions": [
+        "grape"
+      ]
+    },
+    {
+      "id": "cedict:59c39624a42fda1516ae394e",
+      "traditional": "蔬菜",
+      "simplified": "蔬菜",
+      "pinyin": "shu1 cai4",
+      "definitions": [
+        "vegetables"
+      ]
+    },
+    {
+      "id": "cedict:35caac260a3347b4ed0309d8",
+      "traditional": "藥",
+      "simplified": "药",
+      "pinyin": "yao4",
+      "definitions": [
+        "medicine",
+        "drug",
+        "substance used for a specific purpose (e.g. poisoning, explosion, fermenting)",
+        "CL:種|种[zhong3],服[fu4],味[wei4]",
+        "to poison"
+      ]
+    },
+    {
+      "id": "cedict:e010e70eed95208482c014f8",
+      "traditional": "蘋果",
+      "simplified": "苹果",
+      "pinyin": "Ping2 guo3",
+      "definitions": [
+        "Apple (American tech company)"
+      ]
+    },
+    {
+      "id": "cedict:cc6ea14cf9bc780fd04bfcd7",
+      "traditional": "蘋果",
+      "simplified": "苹果",
+      "pinyin": "ping2 guo3",
+      "definitions": [
+        "apple",
+        "CL:個|个[ge4],顆|颗[ke1]"
+      ]
+    },
+    {
+      "id": "cedict:acb3579c79e6cf8a27a30345",
+      "traditional": "行李",
+      "simplified": "行李",
+      "pinyin": "xing2 li5",
+      "definitions": [
+        "luggage",
+        "CL:件[jian4]"
+      ]
+    },
+    {
+      "id": "cedict:944ed422a9af1b684c5dba52",
+      "traditional": "街道",
+      "simplified": "街道",
+      "pinyin": "jie1 dao4",
+      "definitions": [
+        "street",
+        "CL:條|条[tiao2]",
+        "subdistrict",
+        "residential district"
+      ]
+    },
+    {
+      "id": "cedict:6137d812ee3dd54b8ae53920",
+      "traditional": "衣服",
+      "simplified": "衣服",
+      "pinyin": "yi1 fu5",
+      "definitions": [
+        "clothes",
+        "CL:件[jian4],套[tao4]"
+      ]
+    },
+    {
+      "id": "cedict:fccb13bb44501d11cf8b1002",
+      "traditional": "袋子",
+      "simplified": "袋子",
+      "pinyin": "dai4 zi5",
+      "definitions": [
+        "bag"
+      ]
+    },
+    {
+      "id": "cedict:b08185c68ffa045433daa4eb",
+      "traditional": "裙子",
+      "simplified": "裙子",
+      "pinyin": "qun2 zi5",
+      "definitions": [
+        "skirt",
+        "CL:條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:b8f0d64714a2d83d08794579",
+      "traditional": "褲子",
+      "simplified": "裤子",
+      "pinyin": "ku4 zi5",
+      "definitions": [
+        "trousers; pants",
+        "CL:條|条[tiao2]"
+      ]
+    },
+    {
+      "id": "cedict:f913b7b3ff9fa0016bb35dfd",
+      "traditional": "襪子",
+      "simplified": "袜子",
+      "pinyin": "wa4 zi5",
+      "definitions": [
+        "socks",
+        "stockings",
+        "CL:隻|只[zhi1],對|对[dui4],雙|双[shuang1]"
+      ]
+    },
+    {
+      "id": "cedict:d4ccff196ff1f38c14e82383",
+      "traditional": "襯衫",
+      "simplified": "衬衫",
+      "pinyin": "chen4 shan1",
+      "definitions": [
+        "shirt",
+        "blouse",
+        "CL:件[jian4]"
+      ]
+    },
+    {
+      "id": "cedict:52eba9159addd309567543a7",
+      "traditional": "西瓜",
+      "simplified": "西瓜",
+      "pinyin": "xi1 gua1",
+      "definitions": [
+        "watermelon",
+        "CL:顆|颗[ke1]"
+      ]
+    },
+    {
+      "id": "cedict:ecd3f539520023b39f9c90dc",
+      "traditional": "見面",
+      "simplified": "见面",
+      "pinyin": "jian4 mian4",
+      "definitions": [
+        "to meet; to see each other",
+        "CL:次[ci4]"
+      ]
+    },
+    {
+      "id": "cedict:4c02349c12004c60e0348f17",
+      "traditional": "解釋",
+      "simplified": "解释",
+      "pinyin": "jie3 shi4",
+      "definitions": [
+        "explanation",
+        "to explain",
+        "to interpret",
+        "to resolve",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:4f38025cae0cfe12cf62a2f2",
+      "traditional": "計劃",
+      "simplified": "计划",
+      "pinyin": "ji4 hua4",
+      "definitions": [
+        "plan",
+        "project",
+        "program",
+        "to plan",
+        "to map out",
+        "CL:個|个[ge4],項|项[xiang4]"
+      ]
+    },
+    {
+      "id": "cedict:4b7873981852e491b57b3bd0",
+      "traditional": "計程車",
+      "simplified": "计程车",
+      "pinyin": "ji4 cheng2 che1",
+      "definitions": [
+        "(Tw) taxi; cab"
+      ]
+    },
+    {
+      "id": "cedict:1357f43f3ab9090bbd0edc47",
+      "traditional": "記得",
+      "simplified": "记得",
+      "pinyin": "ji4 de5",
+      "definitions": [
+        "to remember"
+      ]
+    },
+    {
+      "id": "cedict:a6a8736117038ceb37d92f5d",
+      "traditional": "語言",
+      "simplified": "语言",
+      "pinyin": "yu3 yan2",
+      "definitions": [
+        "language",
+        "CL:門|门[men2],種|种[zhong3]"
+      ]
+    },
+    {
+      "id": "cedict:0bf046c518b12fee1c56b1f5",
+      "traditional": "說",
+      "simplified": "说",
+      "pinyin": "shui4",
+      "definitions": [
+        "to persuade"
+      ]
+    },
+    {
+      "id": "cedict:ba0f15f0e7dd5b12a883f595",
+      "traditional": "說",
+      "simplified": "说",
+      "pinyin": "shuo1",
+      "definitions": [
+        "to speak; to talk; to say",
+        "to explain; to comment",
+        "to scold; to tell off",
+        "(bound form) theory; doctrine"
+      ]
+    },
+    {
+      "id": "cedict:3ea069b426b890d09e0698b9",
+      "traditional": "課程",
+      "simplified": "课程",
+      "pinyin": "ke4 cheng2",
+      "definitions": [
+        "course; academic program",
+        "CL:堂[tang2],節|节[jie2],門|门[men2]"
+      ]
+    },
+    {
+      "id": "cedict:7e18b4dc6d1236e95e40c212",
+      "traditional": "警察",
+      "simplified": "警察",
+      "pinyin": "jing3 cha2",
+      "definitions": [
+        "police; police officer"
+      ]
+    },
+    {
+      "id": "cedict:b5b8c21cebba0bd3f9e79686",
+      "traditional": "護士",
+      "simplified": "护士",
+      "pinyin": "hu4 shi5",
+      "definitions": [
+        "nurse"
+      ]
+    },
+    {
+      "id": "cedict:ec6ef0db49c1fb14640e4c09",
+      "traditional": "護照",
+      "simplified": "护照",
+      "pinyin": "hu4 zhao4",
+      "definitions": [
+        "passport",
+        "CL:本[ben3],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:143cb07f3a96027f25c884a6",
+      "traditional": "豬肉",
+      "simplified": "猪肉",
+      "pinyin": "zhu1 rou4",
+      "definitions": [
+        "pork"
+      ]
+    },
+    {
+      "id": "cedict:b8f64f53e45b2d3c3afcd98f",
+      "traditional": "貓",
+      "simplified": "猫",
+      "pinyin": "mao1",
+      "definitions": [
+        "cat (CL:隻|只[zhi1])",
+        "(dialect) to hide oneself",
+        "(loanword) (coll.) modem"
+      ]
+    },
+    {
+      "id": "cedict:4738698baf119b791256cc2c",
+      "traditional": "貓",
+      "simplified": "猫",
+      "pinyin": "mao2",
+      "definitions": [
+        "used in 貓腰|猫腰[mao2 yao1]"
+      ]
+    },
+    {
+      "id": "cedict:8925c46c136a0f01f92adcf0",
+      "traditional": "買",
+      "simplified": "买",
+      "pinyin": "mai3",
+      "definitions": [
+        "to buy",
+        "to purchase"
+      ]
+    },
+    {
+      "id": "cedict:c19f456242ae15d6cf9a8c64",
+      "traditional": "賣",
+      "simplified": "卖",
+      "pinyin": "mai4",
+      "definitions": [
+        "to sell",
+        "to betray",
+        "to spare no effort",
+        "to show off or flaunt"
+      ]
+    },
+    {
+      "id": "cedict:a48b207fdc6c00ef864866f5",
+      "traditional": "走",
+      "simplified": "走",
+      "pinyin": "zou3",
+      "definitions": [
+        "to walk",
+        "to go",
+        "to run",
+        "to move (of vehicle)",
+        "to visit",
+        "to leave",
+        "to go away",
+        "to die (euph.)",
+        "from",
+        "through",
+        "away (in compound verbs, such as 撤走[che4 zou3])",
+        "to change (shape, form, meaning)"
+      ]
+    },
+    {
+      "id": "cedict:a7c18c160b5637dc1f8f673b",
+      "traditional": "起床",
+      "simplified": "起床",
+      "pinyin": "qi3 chuang2",
+      "definitions": [
+        "to get out of bed; to get up"
+      ]
+    },
+    {
+      "id": "cedict:20007d992d027293e38440e1",
+      "traditional": "起飛",
+      "simplified": "起飞",
+      "pinyin": "qi3 fei1",
+      "definitions": [
+        "(of an aircraft or rocket) to take off; to lift off",
+        "(fig.) (of an enterprise etc) to start to develop rapidly"
+      ]
+    },
+    {
+      "id": "cedict:1105838dc0ed22cb1994fb00",
+      "traditional": "超市",
+      "simplified": "超市",
+      "pinyin": "chao1 shi4",
+      "definitions": [
+        "supermarket (abbr. for 超級市場|超级市场[chao1 ji2 shi4 chang3])",
+        "CL:家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:107fcaece96fbdd1cdf3af4f",
+      "traditional": "足夠",
+      "simplified": "足够",
+      "pinyin": "zu2 gou4",
+      "definitions": [
+        "enough; sufficient"
+      ]
+    },
+    {
+      "id": "cedict:0db967615e432c47e1096cf6",
+      "traditional": "跑",
+      "simplified": "跑",
+      "pinyin": "pao2",
+      "definitions": [
+        "(of an animal) to paw (the ground)"
+      ]
+    },
+    {
+      "id": "cedict:fc32796d1c10bb59692a5acf",
+      "traditional": "跑",
+      "simplified": "跑",
+      "pinyin": "pao3",
+      "definitions": [
+        "to run",
+        "to run away",
+        "to escape",
+        "to run around (on errands etc)",
+        "(of a gas or liquid) to leak or evaporate",
+        "(verb complement) away",
+        "off"
+      ]
+    },
+    {
+      "id": "cedict:f04238b404af758aa99d287f",
+      "traditional": "跑步",
+      "simplified": "跑步",
+      "pinyin": "pao3 bu4",
+      "definitions": [
+        "to run",
+        "to jog",
+        "(military) to march at the double"
+      ]
+    },
+    {
+      "id": "cedict:a48a76d17dfafa8e51a073b4",
+      "traditional": "路",
+      "simplified": "路",
+      "pinyin": "Lu4",
+      "definitions": [
+        "surname Lu"
+      ]
+    },
+    {
+      "id": "cedict:9daee078bbb85f215f5b4517",
+      "traditional": "路",
+      "simplified": "路",
+      "pinyin": "lu4",
+      "definitions": [
+        "road (CL:條|条[tiao2])",
+        "journey",
+        "route",
+        "line (bus etc)",
+        "sort; kind"
+      ]
+    },
+    {
+      "id": "cedict:3a1db0427b56a765e34277d5",
+      "traditional": "跳舞",
+      "simplified": "跳舞",
+      "pinyin": "tiao4 wu3",
+      "definitions": [
+        "to dance"
+      ]
+    },
+    {
+      "id": "cedict:ca476e4dc7eec5f02c92f076",
+      "traditional": "身體",
+      "simplified": "身体",
+      "pinyin": "shen1 ti3",
+      "definitions": [
+        "the body",
+        "one's health"
+      ]
+    },
+    {
+      "id": "cedict:4439c4d276eabb20887086a6",
+      "traditional": "車站",
+      "simplified": "车站",
+      "pinyin": "che1 zhan4",
+      "definitions": [
+        "rail station",
+        "bus stop",
+        "CL:處|处[chu4],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:40fdfabfc2ea8fca2f04fc5d",
+      "traditional": "輕",
+      "simplified": "轻",
+      "pinyin": "qing1",
+      "definitions": [
+        "light",
+        "easy",
+        "gentle",
+        "soft",
+        "reckless",
+        "unimportant",
+        "frivolous",
+        "small in number",
+        "unstressed",
+        "neutral",
+        "to disparage"
+      ]
+    },
+    {
+      "id": "cedict:e466e771dbb1d0c7adbbc462",
+      "traditional": "辦公室",
+      "simplified": "办公室",
+      "pinyin": "ban4 gong1 shi4",
+      "definitions": [
+        "office; business premises"
+      ]
+    },
+    {
+      "id": "cedict:4abe00acd6e5efc65dac23ad",
+      "traditional": "迷路",
+      "simplified": "迷路",
+      "pinyin": "mi2 lu4",
+      "definitions": [
+        "to lose the way",
+        "lost",
+        "labyrinth",
+        "labyrinthus vestibularis (of the inner ear)"
+      ]
+    },
+    {
+      "id": "cedict:cbb674253ac8bdc34f6fe0ff",
+      "traditional": "送",
+      "simplified": "送",
+      "pinyin": "song4",
+      "definitions": [
+        "to send; to deliver; to transmit",
+        "to give (as a present)",
+        "to see (sb) off",
+        "to accompany; to go along with"
+      ]
+    },
+    {
+      "id": "cedict:d1b7202994f33c833a141f0b",
+      "traditional": "週末",
+      "simplified": "周末",
+      "pinyin": "zhou1 mo4",
+      "definitions": [
+        "weekend"
+      ]
+    },
+    {
+      "id": "cedict:142bbc0b256d8de5217af2cd",
+      "traditional": "運轉",
+      "simplified": "运转",
+      "pinyin": "yun4 zhuan3",
+      "definitions": [
+        "to work",
+        "to operate",
+        "to revolve",
+        "to turn around"
+      ]
+    },
+    {
+      "id": "cedict:5b15a629432688aa63cd225d",
+      "traditional": "選擇",
+      "simplified": "选择",
+      "pinyin": "xuan3 ze2",
+      "definitions": [
+        "to select; to pick",
+        "choice; option; alternative"
+      ]
+    },
+    {
+      "id": "cedict:609842effb5f4a108e582628",
+      "traditional": "邀請",
+      "simplified": "邀请",
+      "pinyin": "yao1 qing3",
+      "definitions": [
+        "to invite",
+        "invitation",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:0d79eb038231bd693aae109a",
+      "traditional": "還",
+      "simplified": "还",
+      "pinyin": "Huan2",
+      "definitions": [
+        "surname Huan"
+      ]
+    },
+    {
+      "id": "cedict:ab00a36b458945282131edeb",
+      "traditional": "還",
+      "simplified": "还",
+      "pinyin": "hai2",
+      "definitions": [
+        "still",
+        "still in progress",
+        "still more",
+        "yet",
+        "even more",
+        "in addition",
+        "fairly",
+        "passably (good)",
+        "as early as",
+        "even",
+        "also",
+        "else"
+      ]
+    },
+    {
+      "id": "cedict:48ed3c7d12c4ce21eb1d9998",
+      "traditional": "還",
+      "simplified": "还",
+      "pinyin": "huan2",
+      "definitions": [
+        "to pay back",
+        "to return"
+      ]
+    },
+    {
+      "id": "cedict:dea53ea243263a4ebc0770ce",
+      "traditional": "部分",
+      "simplified": "部分",
+      "pinyin": "bu4 fen5",
+      "definitions": [
+        "part; portion; piece",
+        "Taiwan pr. [bu4fen4]"
+      ]
+    },
+    {
+      "id": "cedict:7db5f9744c6c0ab13787c2b4",
+      "traditional": "郵局",
+      "simplified": "邮局",
+      "pinyin": "you2 ju2",
+      "definitions": [
+        "post office",
+        "CL:家[jia1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:55809022d7c66ffc04e77499",
+      "traditional": "鄉村",
+      "simplified": "乡村",
+      "pinyin": "xiang1 cun1",
+      "definitions": [
+        "rustic",
+        "village",
+        "countryside"
+      ]
+    },
+    {
+      "id": "cedict:46740603fdca9d05e5006c8b",
+      "traditional": "鄰居",
+      "simplified": "邻居",
+      "pinyin": "lin2 ju1",
+      "definitions": [
+        "neighbor"
+      ]
+    },
+    {
+      "id": "cedict:5c5f6b9a71c1b8549d81dcf5",
+      "traditional": "醒",
+      "simplified": "醒",
+      "pinyin": "xing3",
+      "definitions": [
+        "to wake up",
+        "to be awake",
+        "to become aware",
+        "to sober up",
+        "to come to"
+      ]
+    },
+    {
+      "id": "cedict:93b966429dc8f5e78923da38",
+      "traditional": "醫生",
+      "simplified": "医生",
+      "pinyin": "yi1 sheng1",
+      "definitions": [
+        "doctor; medical practitioner"
+      ]
+    },
+    {
+      "id": "cedict:c8c5ce99279c9a5b6da52080",
+      "traditional": "醫院",
+      "simplified": "医院",
+      "pinyin": "yi1 yuan4",
+      "definitions": [
+        "hospital",
+        "CL:所[suo3],家[jia1],座[zuo4]"
+      ]
+    },
+    {
+      "id": "cedict:f04ebd0717363d8d0514fa47",
+      "traditional": "重要",
+      "simplified": "重要",
+      "pinyin": "zhong4 yao4",
+      "definitions": [
+        "important; significant; major"
+      ]
+    },
+    {
+      "id": "cedict:4043bdf38380a3eea2703e6a",
+      "traditional": "鉛筆",
+      "simplified": "铅笔",
+      "pinyin": "qian1 bi3",
+      "definitions": [
+        "(lead) pencil",
+        "CL:支[zhi1],枝[zhi1],桿|杆[gan3]"
+      ]
+    },
+    {
+      "id": "cedict:505d948c967e5149455c3da7",
+      "traditional": "銀行",
+      "simplified": "银行",
+      "pinyin": "yin2 hang2",
+      "definitions": [
+        "bank",
+        "CL:家[jia1],個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:c71b80c0adc159cc0713fc56",
+      "traditional": "錢",
+      "simplified": "钱",
+      "pinyin": "Qian2",
+      "definitions": [
+        "surname Qian"
+      ]
+    },
+    {
+      "id": "cedict:d5883b52dfd874b050ec3b9d",
+      "traditional": "錢",
+      "simplified": "钱",
+      "pinyin": "qian2",
+      "definitions": [
+        "coin",
+        "money",
+        "CL:筆|笔[bi3]",
+        "unit of weight, one tenth of a tael 兩|两[liang3]"
+      ]
+    },
+    {
+      "id": "cedict:e9bd491fc3be0c056f5bd41e",
+      "traditional": "錢包",
+      "simplified": "钱包",
+      "pinyin": "qian2 bao1",
+      "definitions": [
+        "purse",
+        "wallet"
+      ]
+    },
+    {
+      "id": "cedict:601ce06119dcc70be3a07f98",
+      "traditional": "錯誤",
+      "simplified": "错误",
+      "pinyin": "cuo4 wu4",
+      "definitions": [
+        "mistaken; false; wrong",
+        "error; mistake",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:94f11a0071b8871bfdceba7b",
+      "traditional": "鑰匙",
+      "simplified": "钥匙",
+      "pinyin": "yao4 shi5",
+      "definitions": [
+        "key",
+        "CL:把[ba3]"
+      ]
+    },
+    {
+      "id": "cedict:a3b3b2f6f3a7ea10bc23e0d8",
+      "traditional": "長",
+      "simplified": "长",
+      "pinyin": "chang2",
+      "definitions": [
+        "long",
+        "(bound form) length",
+        "(bound form) strong point; forte",
+        "(bound form) to be good at",
+        "(literary) surplus; spare (Taiwan pr. [zhang4])"
+      ]
+    },
+    {
+      "id": "cedict:8bb5520b1a2b04d8748d3e64",
+      "traditional": "長",
+      "simplified": "长",
+      "pinyin": "zhang3",
+      "definitions": [
+        "chief",
+        "head",
+        "elder",
+        "to grow",
+        "to develop",
+        "to increase",
+        "to enhance"
+      ]
+    },
+    {
+      "id": "cedict:79d0738467706d8b7499bcfe",
+      "traditional": "門",
+      "simplified": "门",
+      "pinyin": "Men2",
+      "definitions": [
+        "surname Men"
+      ]
+    },
+    {
+      "id": "cedict:dd86e909c2fcbd1a7e76631d",
+      "traditional": "門",
+      "simplified": "门",
+      "pinyin": "men2",
+      "definitions": [
+        "gate; door; doorway; gateway; opening (CL:扇[shan4])",
+        "valve; switch; other door-like or gate-like structure",
+        "way to do sth; knack; method; approach",
+        "family; household; lineage",
+        "(bound form) sect; school; faction (religious or academic)",
+        "(bound form) class; category; division; phylum",
+        "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+        "(suffix) -gate (scandal)"
+      ]
+    },
+    {
+      "id": "cedict:05d5e1309458ca400cadf2a0",
+      "traditional": "開始",
+      "simplified": "开始",
+      "pinyin": "kai1 shi3",
+      "definitions": [
+        "to begin; to start",
+        "beginning; start"
+      ]
+    },
+    {
+      "id": "cedict:05d3bf87c50b7e21fb428e6d",
+      "traditional": "開車",
+      "simplified": "开车",
+      "pinyin": "kai1 che1",
+      "definitions": [
+        "to drive a car (or train etc)",
+        "(slang) to post sexual content online; to make a sexual joke"
+      ]
+    },
+    {
+      "id": "cedict:2c49d6cf66f6055e2ab9a9da",
+      "traditional": "閱讀",
+      "simplified": "阅读",
+      "pinyin": "yue4 du2",
+      "definitions": [
+        "to read",
+        "reading"
+      ]
+    },
+    {
+      "id": "cedict:2d4174058a33d485067d2699",
+      "traditional": "關心",
+      "simplified": "关心",
+      "pinyin": "guan1 xin1",
+      "definitions": [
+        "to be concerned about; to care about"
+      ]
+    },
+    {
+      "id": "cedict:c4fe5d106269632edeaed66b",
+      "traditional": "關閉",
+      "simplified": "关闭",
+      "pinyin": "guan1 bi4",
+      "definitions": [
+        "to close; to shut (a window etc)",
+        "(of a shop, school etc) to shut down"
+      ]
+    },
+    {
+      "id": "cedict:bb5bde6ad09c637e7ce1f2a4",
+      "traditional": "附近",
+      "simplified": "附近",
+      "pinyin": "fu4 jin4",
+      "definitions": [
+        "nearby; neighboring",
+        "(in the) vicinity (of); neighborhood"
+      ]
+    },
+    {
+      "id": "cedict:d175a488fa3dc78b4c5a22b1",
+      "traditional": "雞肉",
+      "simplified": "鸡肉",
+      "pinyin": "ji1 rou4",
+      "definitions": [
+        "chicken meat"
+      ]
+    },
+    {
+      "id": "cedict:6240db414fc53323e76c79f3",
+      "traditional": "雞蛋",
+      "simplified": "鸡蛋",
+      "pinyin": "ji1 dan4",
+      "definitions": [
+        "(chicken) egg",
+        "hen's egg",
+        "CL:個|个[ge4],打[da2]"
+      ]
+    },
+    {
+      "id": "cedict:491a4443c07b69cdf87e87ce",
+      "traditional": "離開",
+      "simplified": "离开",
+      "pinyin": "li2 kai1",
+      "definitions": [
+        "to depart; to leave"
+      ]
+    },
+    {
+      "id": "cedict:fadc1dde46d4c726e89e1c61",
+      "traditional": "雨",
+      "simplified": "雨",
+      "pinyin": "yu3",
+      "definitions": [
+        "rain",
+        "CL:陣|阵[zhen4],場|场[chang2]"
+      ]
+    },
+    {
+      "id": "cedict:0b62371207181712a7a66a5f",
+      "traditional": "雨",
+      "simplified": "雨",
+      "pinyin": "yu4",
+      "definitions": [
+        "(literary) to rain",
+        "(of rain, snow etc) to fall",
+        "to precipitate",
+        "to wet"
+      ]
+    },
+    {
+      "id": "cedict:c777f4bdde69619c88b34e33",
+      "traditional": "雨傘",
+      "simplified": "雨伞",
+      "pinyin": "yu3 san3",
+      "definitions": [
+        "umbrella",
+        "CL:把[ba3]"
+      ]
+    },
+    {
+      "id": "cedict:b7b33b7ab61d168e82f89770",
+      "traditional": "雪",
+      "simplified": "雪",
+      "pinyin": "Xue3",
+      "definitions": [
+        "surname Xue"
+      ]
+    },
+    {
+      "id": "cedict:9ed64b8261f738eef78a0e83",
+      "traditional": "雪",
+      "simplified": "雪",
+      "pinyin": "xue3",
+      "definitions": [
+        "snow",
+        "CL:場|场[chang2]",
+        "(literary) to wipe away (a humiliation etc)"
+      ]
+    },
+    {
+      "id": "cedict:8811a92b994d72a2d6e6512c",
+      "traditional": "雲",
+      "simplified": "云",
+      "pinyin": "Yun2",
+      "definitions": [
+        "surname Yun",
+        "short name for Yunnan 雲南|云南[Yun2 nan2]"
+      ]
+    },
+    {
+      "id": "cedict:f425325e2724478f81305b9f",
+      "traditional": "雲",
+      "simplified": "云",
+      "pinyin": "yun2",
+      "definitions": [
+        "cloud",
+        "CL:朵[duo3]"
+      ]
+    },
+    {
+      "id": "cedict:c947241515caa531917af1a8",
+      "traditional": "電腦",
+      "simplified": "电脑",
+      "pinyin": "dian4 nao3",
+      "definitions": [
+        "computer",
+        "CL:臺|台[tai2]"
+      ]
+    },
+    {
+      "id": "cedict:2c5f0208485733efb09be774",
+      "traditional": "電視",
+      "simplified": "电视",
+      "pinyin": "dian4 shi4",
+      "definitions": [
+        "television; TV",
+        "CL:臺|台[tai2],部[bu4]"
+      ]
+    },
+    {
+      "id": "cedict:5c692bc37ae12c28f4484420",
+      "traditional": "電話",
+      "simplified": "电话",
+      "pinyin": "dian4 hua4",
+      "definitions": [
+        "telephone",
+        "CL:部[bu4]",
+        "phone call",
+        "CL:通[tong1]",
+        "phone number"
+      ]
+    },
+    {
+      "id": "cedict:5ffba36ab23385cc2ae315c7",
+      "traditional": "需要",
+      "simplified": "需要",
+      "pinyin": "xu1 yao4",
+      "definitions": [
+        "to need; to want; to demand; to require",
+        "needs"
+      ]
+    },
+    {
+      "id": "cedict:75eb13f49f32c0492e87a0f4",
+      "traditional": "鞋子",
+      "simplified": "鞋子",
+      "pinyin": "xie2 zi5",
+      "definitions": [
+        "shoe"
+      ]
+    },
+    {
+      "id": "cedict:7c2ee943804c56ba63cb7386",
+      "traditional": "音符",
+      "simplified": "音符",
+      "pinyin": "yin1 fu2",
+      "definitions": [
+        "(music) note",
+        "phonetic component of a Chinese character",
+        "phonetic symbol",
+        "phonogram"
+      ]
+    },
+    {
+      "id": "cedict:995c72ada8a27cf20f07a681",
+      "traditional": "預訂",
+      "simplified": "预订",
+      "pinyin": "yu4 ding4",
+      "definitions": [
+        "to place an order",
+        "to book ahead"
+      ]
+    },
+    {
+      "id": "cedict:a11159aa9bab66ed6b76f1d4",
+      "traditional": "頭",
+      "simplified": "头",
+      "pinyin": "tou2",
+      "definitions": [
+        "head",
+        "hair style",
+        "the top",
+        "end",
+        "beginning or end",
+        "a stub",
+        "remnant",
+        "chief",
+        "boss",
+        "side",
+        "aspect",
+        "first",
+        "leading",
+        "classifier for pigs or livestock",
+        "CL:個|个[ge4]"
+      ]
+    },
+    {
+      "id": "cedict:47bbe4f2958a652cc46f0820",
+      "traditional": "頭",
+      "simplified": "头",
+      "pinyin": "tou5",
+      "definitions": [
+        "suffix for nouns"
+      ]
+    },
+    {
+      "id": "cedict:9b5c6f4aaf09e8970671e509",
+      "traditional": "頭髮",
+      "simplified": "头发",
+      "pinyin": "tou2 fa5",
+      "definitions": [
+        "hair (on the head)"
+      ]
+    },
+    {
+      "id": "cedict:b2f3a7b5e5148138b5b9fcf6",
+      "traditional": "風",
+      "simplified": "风",
+      "pinyin": "feng1",
+      "definitions": [
+        "wind",
+        "news",
+        "style",
+        "custom",
+        "manner",
+        "CL:陣|阵[zhen4],絲|丝[si1]"
+      ]
+    },
+    {
+      "id": "cedict:253db23780fa98a485b9a211",
+      "traditional": "飛",
+      "simplified": "飞",
+      "pinyin": "fei1",
+      "definitions": [
+        "to fly"
+      ]
+    },
+    {
+      "id": "cedict:f6a45d9d4b76ecc4b302f338",
+      "traditional": "飛機",
+      "simplified": "飞机",
+      "pinyin": "fei1 ji1",
+      "definitions": [
+        "airplane",
+        "CL:架[jia4]"
+      ]
+    },
+    {
+      "id": "cedict:5b5859aa94d518c1082aaa16",
+      "traditional": "食物",
+      "simplified": "食物",
+      "pinyin": "shi2 wu4",
+      "definitions": [
+        "food"
+      ]
+    },
+    {
+      "id": "cedict:a54b35c7190409ec1dba9549",
+      "traditional": "飢餓",
+      "simplified": "饥饿",
+      "pinyin": "ji1 e4",
+      "definitions": [
+        "hunger",
+        "starvation",
+        "famine"
+      ]
+    },
+    {
+      "id": "cedict:35acf2c1667225154897acc1",
+      "traditional": "飯店",
+      "simplified": "饭店",
+      "pinyin": "fan4 dian4",
+      "definitions": [
+        "restaurant",
+        "hotel",
+        "CL:家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:a5d894c74afa8b6508150d72",
+      "traditional": "餐廳",
+      "simplified": "餐厅",
+      "pinyin": "can1 ting1",
+      "definitions": [
+        "dining hall",
+        "dining room",
+        "restaurant",
+        "CL:間|间[jian1],家[jia1]"
+      ]
+    },
+    {
+      "id": "cedict:5c3501175a8300bf3fb1e94e",
+      "traditional": "香蕉",
+      "simplified": "香蕉",
+      "pinyin": "xiang1 jiao1",
+      "definitions": [
+        "banana",
+        "CL:根[gen1],把[ba3]"
+      ]
+    },
+    {
+      "id": "cedict:2d51854fa7c40e044d8361c3",
+      "traditional": "馬",
+      "simplified": "马",
+      "pinyin": "Ma3",
+      "definitions": [
+        "surname Ma",
+        "abbr. for Malaysia 馬來西亞|马来西亚[Ma3 lai2 xi1 ya4]"
+      ]
+    },
+    {
+      "id": "cedict:b1bd2c5b4fc83a24a5f0761d",
+      "traditional": "馬",
+      "simplified": "马",
+      "pinyin": "ma3",
+      "definitions": [
+        "horse",
+        "CL:匹[pi3]",
+        "horse or cavalry piece in Chinese chess",
+        "knight in Western chess"
+      ]
+    },
+    {
+      "id": "cedict:ebaf5ef4043a07460f82a51f",
+      "traditional": "馬鈴薯",
+      "simplified": "马铃薯",
+      "pinyin": "ma3 ling2 shu3",
+      "definitions": [
+        "potato"
+      ]
+    },
+    {
+      "id": "cedict:2f148c29ec413310567d0d7d",
+      "traditional": "骯髒",
+      "simplified": "肮脏",
+      "pinyin": "ang1 zang1",
+      "definitions": [
+        "dirty; filthy",
+        "despicable"
+      ]
+    },
+    {
+      "id": "cedict:1698f6072c5c7f90cb5e9a54",
+      "traditional": "高",
+      "simplified": "高",
+      "pinyin": "Gao1",
+      "definitions": [
+        "surname Gao"
+      ]
+    },
+    {
+      "id": "cedict:191a67cde9371478a3d263f6",
+      "traditional": "高",
+      "simplified": "高",
+      "pinyin": "gao1",
+      "definitions": [
+        "high",
+        "tall",
+        "above average",
+        "loud",
+        "your (honorific)"
+      ]
+    },
+    {
+      "id": "cedict:644b67baa83859d494f052ac",
+      "traditional": "魚",
+      "simplified": "鱼",
+      "pinyin": "Yu2",
+      "definitions": [
+        "surname Yu"
+      ]
+    },
+    {
+      "id": "cedict:67ba3a14062b4225b08b35fb",
+      "traditional": "魚",
+      "simplified": "鱼",
+      "pinyin": "yu2",
+      "definitions": [
+        "fish (CL:條|条[tiao2],尾[wei3])",
+        "used in the names of various aquatic animals that are not fish (including abalone 鮑魚|鲍鱼[bao4 yu2], alligators and crocodiles 鱷魚|鳄鱼[e4 yu2] and octopi 章魚|章鱼[zhang1 yu2])"
+      ]
+    },
+    {
+      "id": "cedict:7e057fc776a4df3f8eb3779a",
+      "traditional": "鳥",
+      "simplified": "鸟",
+      "pinyin": "diao3",
+      "definitions": [
+        "variant of 屌[diao3]",
+        "penis"
+      ]
+    },
+    {
+      "id": "cedict:f444cf21161120c7f20c21ce",
+      "traditional": "鳥",
+      "simplified": "鸟",
+      "pinyin": "niao3",
+      "definitions": [
+        "bird",
+        "CL:隻|只[zhi1],群[qun2]",
+        "\"bird\" radical in Chinese characters (Kangxi radical 196)",
+        "(dialect) to pay attention to",
+        "(intensifier) damned",
+        "goddamn"
+      ]
+    },
+    {
+      "id": "cedict:d92d163d418f2b26cbec19c4",
+      "traditional": "鹽",
+      "simplified": "盐",
+      "pinyin": "yan2",
+      "definitions": [
+        "salt",
+        "CL:粒[li4]"
+      ]
+    },
+    {
+      "id": "cedict:d37be6ca7abab8d778cc7113",
+      "traditional": "麵包",
+      "simplified": "面包",
+      "pinyin": "mian4 bao1",
+      "definitions": [
+        "bread",
+        "CL:片[pian4],塊|块[kuai4]"
+      ]
+    },
+    {
+      "id": "cedict:e0e6222b0752817bfbfb1d53",
+      "traditional": "麵條",
+      "simplified": "面条",
+      "pinyin": "mian4 tiao2",
+      "definitions": [
+        "noodles"
+      ]
+    },
+    {
+      "id": "cedict:882d5ef3773986e1b59a69f9",
+      "traditional": "點燃",
+      "simplified": "点燃",
+      "pinyin": "dian3 ran2",
+      "definitions": [
+        "to ignite",
+        "to set on fire",
+        "aflame"
+      ]
+    },
+    {
+      "id": "cedict:82dbdfbb8a6b387197a40f80",
+      "traditional": "鼻子",
+      "simplified": "鼻子",
+      "pinyin": "bi2 zi5",
+      "definitions": [
+        "nose",
+        "CL:個|个[ge4],隻|只[zhi1]"
+      ]
+    }
+  ]
+}
