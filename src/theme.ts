@@ -1,0 +1,15 @@
+export const palette = {
+  teal: '#0F766E',
+  tealDark: '#115E59',
+  mint: '#CCFBF1',
+  mintSoft: '#F0FDFA',
+  amber: '#F59E0B',
+  coral: '#F97360',
+  ink: '#102A2A',
+  muted: '#637777',
+  line: '#DCE7E5',
+  paper: '#FFFFFF',
+  canvas: '#F6FAF9',
+  night: '#0C1919',
+  nightCard: '#142726',
+};
