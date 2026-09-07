@@ -8,7 +8,7 @@
     "android": "expo start --android",
     "web": "expo start --web",
     "predeploy": "expo export --platform web",
-    "deploy": "gh-pages --nojekyll -d dist",
+    "deploy": "gh-pages --dotfiles --nojekyll -d dist",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts"
   },
