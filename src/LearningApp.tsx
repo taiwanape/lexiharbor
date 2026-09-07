@@ -99,7 +99,7 @@ function Application() {
       else {
         const url = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
         const anchor = document.createElement('a'); anchor.href = url; anchor.download = recovery ? 'lexiharbor-recovery.json' : 'lexiharbor-backup.json'; anchor.click();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        setTimeout(() => { if (typeof URL.revokeObjectURL === 'function') URL.revokeObjectURL(url); }, 1000);
       }
     } catch (error) { setMessage(error instanceof Error ? error.message : '無法匯出備份，請稍後再試。'); }
   };

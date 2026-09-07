@@ -148,7 +148,18 @@ export function ContextReview({ data, colors, speak, onRead }: Omit<Props, 'onRe
 
 export function ReadingBackup({ data, colors }: Pick<Props, 'data' | 'colors'>) {
   const [mode, setMode] = useState<'export' | 'import' | null>(null); const [raw, setRaw] = useState(''); const [message, setMessage] = useState(''); const [busy, setBusy] = useState(false);
-  const download = async (recovery = false) => { try { const content = recovery ? await data.getRecoveryBackup() : exportReadingState(data.state); setRaw(content); setMode('export'); setMessage(''); if (Platform.OS === 'web') { const url = URL.createObjectURL(new Blob([content], { type: 'application/json' })); const link = document.createElement('a'); link.href = url; link.download = `lexiharbor-reading-${new Date().toISOString().slice(0, 10)}.json`; link.click(); setTimeout(() => URL.revokeObjectURL(url), 30000); } else await Share.share({ message: content }); } catch (error) { setMessage(errorText(error)); } };
+  const download = async (recovery = false) => {
+    try {
+      const content = recovery ? await data.getRecoveryBackup() : exportReadingState(data.state);
+      setRaw(content); setMode('export'); setMessage('');
+      if (Platform.OS === 'web') {
+        const url = URL.createObjectURL(new Blob([content], { type: 'application/json' }));
+        const link = document.createElement('a'); link.href = url;
+        link.download = `lexiharbor-reading-${new Date().toISOString().slice(0, 10)}.json`; link.click();
+        setTimeout(() => { if (typeof URL.revokeObjectURL === 'function') URL.revokeObjectURL(url); }, 30000);
+      } else await Share.share({ message: content });
+    } catch (error) { setMessage(errorText(error)); }
+  };
   const c = { color: colors.ink }, muted = { color: colors.muted }, surface = { backgroundColor: colors.card, borderColor: colors.line };
   return <><Text style={[styles.heading, c]}>閱讀與原句字卡備份</Text><Text style={[styles.body, muted]}>換裝置前先匯出。匯入會合併文章與字卡，不清空現在的紀錄。</Text><Button label="匯出閱讀與字卡" colors={colors} quiet onPress={() => void download()} /><Button label="匯入閱讀與字卡" colors={colors} quiet disabled={!data.ready} onPress={() => { setRaw(''); setMessage(''); setMode('import'); }} /><Button label="取回閱讀自動備份" colors={colors} quiet onPress={() => void download(true)} /><Message text={message} colors={colors} /><Sheet title="閱讀資料備份" open={Boolean(mode)} close={() => { if (!busy) setMode(null); }} colors={colors}><Text style={[styles.body, muted]}>{mode === 'import' ? '貼上之前匯出的閱讀備份。格式錯誤不會修改現有資料。' : '已準備下載。也可以複製下方文字保存。'}</Text><TextInput accessibilityLabel="閱讀備份內容" value={raw} onChangeText={setRaw} editable={!busy} multiline autoCapitalize="none" autoCorrect={false} style={[styles.input, styles.articleInput, c, surface]} />{mode === 'import' && <Button label={busy ? '合併中…' : '合併閱讀備份'} disabled={busy || !raw.trim()} colors={colors} onPress={() => { setBusy(true); setMessage(''); void data.importData(raw).then(() => { setMode(null); setMessage('閱讀備份已合併。'); }).catch((error: unknown) => setMessage(errorText(error))).finally(() => setBusy(false)); }} />}<Message text={message} colors={colors} /></Sheet></>;
 }
