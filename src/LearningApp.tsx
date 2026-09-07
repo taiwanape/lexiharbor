@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, Linking, Modal, Platform, Pressable, ScrollView, Share, StyleSheet, Text, TextInput, useColorScheme, View } from 'react-native';
+import { ActivityIndicator, Linking, Modal, Platform, Pressable, ScrollView, Share, StyleSheet, Text, TextInput, useColorScheme, useWindowDimensions, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { Icon, IconName } from './components/Icons';
@@ -12,11 +12,18 @@ import { usePronunciation } from './state/usePronunciation';
 import naturalVoices from './data/naturalVoiceManifest.json';
 import { ContextLibrary, ContextReview, ReadingBackup, ReadingFeedback, ReadingLibrary } from './screens/ReadingWorkspace';
 import { ReviewRating } from './types';
+import { AppColors, DESKTOP_BREAKPOINT, getAppColors, SIDEBAR_WIDTH, webFont } from './design/theme';
+import { getDueCards } from './domain/reading';
 import chineseData from '../public/data/cedict-sample.json';
 
 const reference = chineseData as ChineseSample;
+const readingArt = {
+  harbor: require('../assets/design/reading-harbor.webp'),
+  desk: require('../assets/design/city-desk.webp'),
+  bookshop: require('../assets/design/quiet-bookshop.webp'),
+};
 type Tab = 'reading' | 'search' | 'saved' | 'review' | 'settings';
-type Colors = { bg: string; card: string; ink: string; muted: string; line: string; soft: string };
+type Colors = AppColors;
 const tabs: { id: Tab; label: string; icon: IconName }[] = [
   { id: 'reading', label: '閱讀', icon: 'book-outline' },
   { id: 'search', label: '查字', icon: 'search-outline' },
@@ -24,20 +31,21 @@ const tabs: { id: Tab; label: string; icon: IconName }[] = [
   { id: 'review', label: '複習', icon: 'albums-outline' },
   { id: 'settings', label: '設定', icon: 'options-outline' },
 ];
+const pageTitles: Record<Tab, string> = { reading: '閱讀空間', search: '查字典', saved: '我的單字本', review: '今日複習', settings: '偏好與資料' };
 
 function Action({ label, onPress, icon, quiet = false, disabled = false, colors }: { label: string; onPress: () => void; icon?: IconName; quiet?: boolean; disabled?: boolean; colors: Colors }) {
-  return <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={[s.button, { backgroundColor: quiet ? colors.soft : '#27664D', opacity: disabled ? 0.45 : 1 }]}>
-    {icon && <Icon name={icon} size={18} color={quiet ? colors.ink : '#FFFFFF'} />}<Text style={[s.buttonText, { color: quiet ? colors.ink : '#FFFFFF' }]}>{label}</Text>
+  return <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({ pressed }) => [s.button, { backgroundColor: quiet ? colors.soft : colors.primary, opacity: disabled ? 0.45 : pressed ? 0.78 : 1, transform: [{ scale: pressed ? 0.98 : 1 }] }]}>
+    {icon && <Icon name={icon} size={18} color={quiet ? colors.ink : colors.onPrimary} />}<Text style={[s.buttonText, { color: quiet ? colors.ink : colors.onPrimary }]}>{label}</Text>
   </Pressable>;
 }
 function WordRow({ entry, saved, onOpen, onSave, colors }: { entry: LearningEntry; saved: boolean; onOpen: () => void; onSave: () => void; colors: Colors }) {
   return <View style={[s.wordRow, { backgroundColor: colors.card, borderColor: colors.line }]}>
     <Pressable accessibilityRole="button" accessibilityLabel={`查看 ${entry.word}`} onPress={onOpen} style={s.wordLink}><Text style={[s.word, { color: colors.ink }]}>{entry.word}</Text><Text style={[s.translation, { color: colors.muted }]}>{entry.translation}</Text></Pressable>
-    <Pressable accessibilityRole="button" accessibilityLabel={`${saved ? '取消收藏' : '收藏'} ${entry.word}`} onPress={onSave} style={s.iconButton}><Icon name={saved ? 'bookmark' : 'bookmark-outline'} color={saved ? '#B87829' : colors.muted} /></Pressable>
+    <Pressable accessibilityRole="button" accessibilityLabel={`${saved ? '取消收藏' : '收藏'} ${entry.word}`} onPress={onSave} style={s.iconButton}><Icon name={saved ? 'bookmark' : 'bookmark-outline'} color={saved ? colors.blue : colors.muted} /></Pressable>
   </View>;
 }
 function Empty({ title, description, colors }: { title: string; description: string; colors: Colors }) {
-  return <View style={[s.empty, { backgroundColor: colors.card, borderColor: colors.line }]}><Icon name="leaf-outline" size={32} color="#60906B" /><Text style={[s.sectionTitle, { color: colors.ink }]}>{title}</Text><Text style={[s.body, { color: colors.muted }]}>{description}</Text></View>;
+  return <View style={[s.empty, { backgroundColor: colors.card, borderColor: colors.line }]}><Icon name="leaf-outline" size={32} color={colors.blue} /><Text style={[s.sectionTitle, { color: colors.ink }]}>{title}</Text><Text style={[s.body, { color: colors.muted }]}>{description}</Text></View>;
 }
 
 function Application() {
@@ -45,9 +53,10 @@ function Application() {
   const reader = useReading();
   const pronunciation = usePronunciation(naturalVoices.clips);
   const system = useColorScheme();
+  const { width } = useWindowDimensions();
+  const desktop = width >= DESKTOP_BREAKPOINT;
   const dark = data.theme === 'dark' || data.theme === 'system' && system === 'dark';
-  const colors: Colors = dark ? { bg: '#102322', card: '#1A3230', ink: '#F0F7F3', muted: '#AAC0B8', line: '#34514B', soft: '#244B41' }
-    : { bg: '#F5F7F2', card: '#FFFFFF', ink: '#183D33', muted: '#657A70', line: '#DEE7DE', soft: '#E9F0E7' };
+  const colors = getAppColors(dark, Platform.OS === 'web');
   const [tab, setTab] = useState<Tab>('reading');
   const [reviewMode, setReviewMode] = useState<'context' | 'dictionary'>('context');
   const [mode, setMode] = useState<'learning' | 'reference'>('learning');
@@ -71,6 +80,7 @@ function Application() {
     : learningSample.slice(0, 10).map((entry) => entry.word), [data.state.savedWords]);
   const due = useMemo(() => getDueWords(data.state, reviewCandidates, clock), [data.state, reviewCandidates, clock]);
   const reviewEntry = due[0] ? findLearningWord(due[0]) : undefined;
+  const contextDue = useMemo(() => getDueCards(reader.state, clock).length, [reader.state, clock]);
   const textColor = { color: colors.ink }, mutedColor = { color: colors.muted };
   const cardColor = { backgroundColor: colors.card, borderColor: colors.line };
   useEffect(() => { const timer = setInterval(() => setClock(Date.now()), 1000); return () => clearInterval(timer); }, []);
@@ -90,6 +100,17 @@ function Application() {
   const button = (label: string, onPress: () => void, quiet = false, icon?: IconName, disabled = false) => <Action label={label} onPress={onPress} quiet={quiet} icon={icon} colors={colors} disabled={disabled} />;
   const row = (entry: LearningEntry) => <WordRow key={entry.id} entry={entry} saved={data.state.savedWords.includes(entry.word)} onOpen={() => openWord(entry)} onSave={() => save(entry)} colors={colors} />;
   const empty = (title: string, description: string) => <Empty title={title} description={description} colors={colors} />;
+  const renderNavigation = (wide: boolean) => tabs.map((item) => {
+    const active = item.id === tab;
+    const count = item.id === 'saved' ? reader.state.cards.length + data.state.savedWords.length : item.id === 'review' ? contextDue : 0;
+    return <Pressable key={item.id} accessibilityRole="tab" accessibilityState={{ selected: active }} accessibilityLabel={item.label}
+      onPress={() => { setTab(item.id); setMessage(''); }}
+      style={({ pressed }) => [wide ? s.sideNavItem : s.navItem, { backgroundColor: active ? (wide ? colors.primary : colors.soft) : pressed ? colors.soft : 'transparent' }]}>
+      <Icon name={item.icon} size={wide ? 21 : 23} color={active && wide ? colors.onPrimary : active ? colors.ink : colors.muted} />
+      <Text style={[wide ? s.sideNavLabel : s.navLabel, { color: active && wide ? colors.onPrimary : active ? colors.ink : colors.muted }]}>{item.label}</Text>
+      {wide && count > 0 && <Text style={[s.navCount, { color: active ? colors.onPrimary : colors.muted }]}>{count}</Text>}
+    </Pressable>;
+  });
   const exportData = async (recovery = false) => {
     setMessage('');
     try {
@@ -106,18 +127,30 @@ function Application() {
 
   return <ReadingFeedback.Provider value={{ data: reader, speechStatus: pronunciation.status, stopSpeech: pronunciation.stop }}><SafeAreaView style={[s.safe, { backgroundColor: colors.bg }]} edges={['top', 'bottom']}>
     <StatusBar style={dark ? 'light' : 'dark'} />
-    <View style={[s.frame, { backgroundColor: colors.bg }]}>
-      <View style={[s.brandBar, { borderColor: colors.line }]}><View style={s.brand}><Icon name="book-outline" color={colors.ink} size={22} /><Text style={[s.brandText, textColor]}>LexiHarbor</Text></View><Text style={[s.badge, { backgroundColor: colors.soft, color: colors.ink }]}>閱讀試用版</Text></View>
+    <View style={[s.shell, desktop && s.shellWide]}>
+      {desktop && <ScrollView style={[s.sidebar, { backgroundColor: colors.card, borderColor: colors.line }]} contentContainerStyle={s.sidebarContent} keyboardShouldPersistTaps="handled">
+        <View style={s.sidebarBrand}><View style={[s.brandMark, { backgroundColor: colors.accent }]}><Icon name="book-outline" color={colors.onAccent} size={24} /></View><View><Text style={[s.brandText, textColor]}>LexiHarbor</Text><Text style={[s.brandSub, mutedColor]}>你的英文閱讀港口</Text></View></View>
+        <Text style={[s.sidebarEyebrow, mutedColor]}>我的學習</Text>
+        <View style={s.sideNav}>{renderNavigation(true)}</View>
+        <View style={{ flex: 1 }} />
+        <View style={[s.sideNote, { backgroundColor: colors.accentSoft }]}><Icon name="sparkles-outline" color={colors.ink} size={23} /><Text style={[s.sideNoteTitle, textColor]}>從好奇開始，{ '\n' }慢慢變成記得。</Text><Text style={[s.caption, mutedColor]}>每一張字卡，都留著你讀過的原句。</Text></View>
+        <View style={[s.sidebarFooter, { borderColor: colors.line }]}><Icon name="phone-portrait-outline" size={18} color={colors.muted} /><View><Text style={[s.sidebarFooterTitle, textColor]}>本機學習空間</Text><Text style={[s.caption, mutedColor]}>資料保存在這台裝置</Text></View></View>
+      </ScrollView>}
+      <View style={s.workspace}>
+      <View style={[s.brandBar, desktop && s.desktopBar, { borderColor: colors.line, backgroundColor: colors.card }]}>
+        {desktop ? <View><Text style={[s.headerTitle, textColor]}>{pageTitles[tab]}</Text><Text style={[s.caption, mutedColor]}>LEXIHARBOR / {tab.toUpperCase()}</Text></View> : <View style={s.brand}><View style={[s.brandMark, { backgroundColor: colors.accent }]}><Icon name="book-outline" color={colors.onAccent} size={21} /></View><Text style={[s.brandText, textColor]}>LexiHarbor</Text></View>}
+        <View style={s.headerMeta}>{desktop && <View style={s.headerStatus}><Icon name="shield-checkmark-outline" size={17} color={colors.muted} /><Text style={[s.caption, mutedColor]}>資料留在本機</Text></View>}<Text style={[s.badge, { backgroundColor: colors.accentSoft, color: colors.ink }]}>免費試用</Text></View>
+      </View>
       {!!pronunciation.status && <View style={[s.notice, { backgroundColor: colors.soft }]}><Text accessibilityLiveRegion="polite" style={[s.noticeText, textColor]}>{pronunciation.status}</Text>{button('停止播放', pronunciation.stop, true)}</View>}
       {!!reader.notice && <View style={[s.notice, { backgroundColor: colors.soft }]}><Text accessibilityRole="alert" style={[s.noticeText, textColor]}>{reader.notice}</Text>{reader.saveStatus === 'error' ? <Pressable accessibilityRole="button" accessibilityLabel="重試閱讀資料儲存" onPress={() => void reader.retrySave()}><Text style={[s.link, textColor]}>重試</Text></Pressable> : <Pressable accessibilityRole="button" accessibilityLabel="關閉閱讀提示" onPress={reader.dismissNotice}><Icon name="close" size={20} color={colors.ink} /></Pressable>}</View>}
       {(data.notice || message) && <View style={[s.notice, { backgroundColor: colors.soft }]}><Text style={[s.noticeText, textColor]}>{data.notice || message}</Text>
         {data.notice.includes('尚未存好') || data.notice.includes('仍無法儲存') || !data.ready ? <Pressable accessibilityRole="button" onPress={() => void data.retrySave()}><Text style={[s.link, textColor]}>{data.ready ? '重新儲存' : '重試'}</Text></Pressable> : <Pressable accessibilityLabel="關閉提示" onPress={() => { data.dismissNotice(); setMessage(''); }}><Icon name="close" size={20} color={colors.ink} /></Pressable>}
       </View>}
-      {!data.ready ? <View style={s.loading}><ActivityIndicator color="#27664D" /><Text style={mutedColor}>正在讀取學習紀錄…</Text></View> : <ScrollView style={s.main} contentContainerStyle={s.content} keyboardShouldPersistTaps="handled">
-        {tab === 'reading' && <><ReadingLibrary data={reader} colors={colors} speak={speak} onReview={() => { setReviewMode('context'); setTab('review'); }} /><View style={[s.about, cardColor]}><Text style={[s.sectionTitle, textColor]}>讓英文聽起來更自然</Text><Text style={[s.body, mutedColor]}>精選短文與例句已加入美式 AI 合成語音。這是模型生成，不是真人錄音，仍待人工校聽。</Text>{button('試聽自然 AI 發音', () => speak('Hello, welcome to LexiHarbor.', 'en-US'), false, 'volume-medium-outline')}<Text style={[s.caption, mutedColor]}>自訂文章、未覆蓋的單字與英式發音仍使用裝置語音；播放時會清楚標示。</Text></View></>}
+      {!data.ready ? <View style={s.loading}><ActivityIndicator color={colors.blue} /><Text style={mutedColor}>正在讀取學習紀錄…</Text></View> : <ScrollView style={s.main} contentContainerStyle={[s.content, desktop && s.desktopContent, tab !== 'reading' && s.narrowContent]} keyboardShouldPersistTaps="handled">
+        {tab === 'reading' && <ReadingLibrary data={reader} colors={colors} speak={speak} artwork={readingArt} onVoicePreview={() => speak('Hello, welcome to LexiHarbor.', 'en-US')} onReview={() => { setReviewMode('context'); setTab('review'); }} />}
         {tab === 'search' && <>
           <Text style={[s.eyebrow, mutedColor]}>一個字，慢慢學會。</Text><Text style={[s.title, textColor]}>今天想查什麼？</Text>
-          <View style={[s.search, cardColor]}><Icon name="search-outline" color={colors.muted} /><TextInput accessibilityLabel="搜尋英文或中文" placeholder="例如 apple、went、好奇" placeholderTextColor={colors.muted} value={query} onChangeText={setQuery} autoCapitalize="none" autoCorrect={false} style={[s.searchInput, textColor]} />{!!query && <Pressable accessibilityLabel="清除搜尋" onPress={() => setQuery('')} style={s.iconButton}><Icon name="close-circle" size={20} color={colors.muted} /></Pressable>}</View>
+          <View style={[s.search, cardColor, { borderColor: colors.controlBorder }]}><Icon name="search-outline" color={colors.muted} /><TextInput accessibilityLabel="搜尋英文或中文" placeholder="例如 apple、went、好奇" placeholderTextColor={colors.muted} value={query} onChangeText={setQuery} autoCapitalize="none" autoCorrect={false} style={[s.searchInput, textColor]} />{!!query && <Pressable accessibilityLabel="清除搜尋" onPress={() => setQuery('')} style={s.iconButton}><Icon name="close-circle" size={20} color={colors.muted} /></Pressable>}</View>
           <View style={s.segment}>{button('英文學習', () => setMode('learning'), mode !== 'learning')}{button('漢英參考', () => setMode('reference'), mode !== 'reference')}</View>
           <Text style={[s.caption, mutedColor]}>{mode === 'learning' ? `${learningSample.length} 個試用詞條 · 英文、詞形與中文查詢` : `${reference.entries.length} 筆漢英小樣 · 輸入英文可反查相關中文詞`}</Text>
           {mode === 'learning' ? query.trim() ? <><Text style={[s.sectionTitle, textColor]}>搜尋結果{results.length ? ` · ${results.length}` : ''}</Text>{results.length ? results.map(row) : empty('這個詞還沒收錄', '目前是小量試用詞庫。可以試試 apple、bank、run 或 take off。')}</> : <>
@@ -130,7 +163,6 @@ function Application() {
           </>}
         </>}
         {tab === 'saved' && <>
-          <Text style={[s.eyebrow, mutedColor]}>留下想記住的字</Text><Text style={[s.title, textColor]}>我的單字本</Text>
           <ContextLibrary data={reader} colors={colors} speak={speak} onReview={() => { setReviewMode('context'); setTab('review'); }} />
           <Text style={[s.sectionTitle, textColor]}>詞庫收藏與查詢紀錄</Text><View style={s.segment}>{button(`收藏 ${data.state.savedWords.length}`, () => setSegment('saved'), segment !== 'saved')}{button('最近查過', () => setSegment('history'), segment !== 'history')}</View>
           {(segment === 'saved' ? data.state.savedWords : data.state.history).length ? <>{(segment === 'saved' ? data.state.savedWords : data.state.history).map((word) => { const entry = findLearningWord(word); return entry ? row(entry) : <View key={word} style={[s.referenceRow, cardColor]}><Text style={[s.word, textColor]}>{word}</Text><Text style={mutedColor}>此字尚未收錄於新版小樣，原紀錄仍保留。</Text></View>; })}{segment === 'saved' && button('複習收藏的單字', () => { setReviewMode('dictionary'); setTab('review'); }, false, 'albums-outline')}</> : empty(segment === 'saved' ? '先收藏第一個單字' : '還沒有查詢紀錄', '在查字頁開啟單字，按下書籤就能加入單字本。')}
@@ -147,15 +179,26 @@ function Application() {
           </>}
         </>}
         {tab === 'settings' && <>
-          <Text style={[s.eyebrow, mutedColor]}>照自己的節奏</Text><Text style={[s.title, textColor]}>設定</Text><Text style={[s.sectionTitle, textColor]}>顯示模式</Text>
-          <View style={s.segment}>{([{ id: 'system', label: '跟隨系統' }, { id: 'light', label: '淺色' }, { id: 'dark', label: '深色' }] as { id: ThemePreference; label: string }[]).map((item) => <Action key={item.id} label={item.label} quiet={data.theme !== item.id} colors={colors} onPress={() => data.changeTheme(item.id)} />)}</View>
-          <Text style={[s.sectionTitle, textColor]}>英文發音</Text><View style={s.segment}>{button('美式', () => data.changeVoice('en-US'), data.voice !== 'en-US')}{button('英式', () => data.changeVoice('en-GB'), data.voice !== 'en-GB')}{button('試聽', () => speak('Hello, welcome to LexiHarbor.'), true)}</View><Text style={[s.caption, mutedColor]}>網頁版美式精選文章與例句：Kokoro AI 合成語音，非真人錄音。其他文字、英式及原生 App 目前使用裝置語音，播放時會標示來源。AI 音檔需連線載入，正式發音編校仍待完成。</Text>
-          <ReadingBackup data={reader} colors={colors} />
-          <Text style={[s.sectionTitle, textColor]}>詞庫收藏備份（不含閱讀）</Text><View style={s.stack}>{button('匯出詞庫收藏', () => void exportData(), true, 'download-outline')}{button('匯入詞庫收藏', () => { setBackup(''); setBackupMode('import'); setInfo('backup'); }, true, 'push-outline')}{button('匯出自動保留的舊資料', () => void exportData(true), true, 'time-outline')}</View>
-          <Text style={[s.sectionTitle, textColor]}>關於這個版本</Text><View style={[s.about, cardColor]}><Text style={[s.body, textColor]}>閱讀：貼上自己的文章、保存原句字卡與安排複習。{'\n'}英文學習：{learningSample.length} 個自行編寫的試用詞條。{'\n'}漢英參考：{reference.entries.length} 筆 CC-CEDICT 小樣。</Text><Text style={[s.body, mutedColor]}>內容仍在測試與編校中。本版不收費，不需要建立帳號。學習紀錄保存在這台裝置，換裝置前請分別匯出閱讀與詞庫收藏備份。</Text>{button('詞庫來源與授權', () => setInfo('sources'), true)}{button('隱私說明', () => setInfo('privacy'), true)}</View><Text style={[s.centerCaption, mutedColor]}>LexiHarbor · 0.3 閱讀試用版</Text>
+          <Text style={[s.eyebrow, mutedColor]}>照自己的節奏</Text><Text style={[s.title, textColor]}>設定</Text>
+          <View style={[s.settingsGroup, cardColor]}>
+            <Text style={[s.settingsHeading, textColor]}>顯示模式</Text>
+            <View style={s.segment}>{([{ id: 'system', label: '跟隨系統' }, { id: 'light', label: '淺色' }, { id: 'dark', label: '深色' }] as { id: ThemePreference; label: string }[]).map((item) => <Action key={item.id} label={item.label} quiet={data.theme !== item.id} colors={colors} onPress={() => data.changeTheme(item.id)} />)}</View>
+            <View style={[s.settingsDivider, { backgroundColor: colors.line }]} />
+            <Text style={[s.settingsHeading, textColor]}>英文發音</Text>
+            <View style={s.segment}>{button('美式', () => data.changeVoice('en-US'), data.voice !== 'en-US')}{button('英式', () => data.changeVoice('en-GB'), data.voice !== 'en-GB')}{button('試聽', () => speak('Hello, welcome to LexiHarbor.'), true)}</View>
+            <Text style={[s.caption, mutedColor]}>網頁版美式精選文章與例句：Kokoro AI 合成語音，非真人錄音。其他文字、英式及原生 App 目前使用裝置語音，播放時會標示來源。AI 音檔需連線載入，正式發音編校仍待完成。</Text>
+          </View>
+          <View style={[s.settingsGroup, cardColor]}><ReadingBackup data={reader} colors={colors} /></View>
+          <View style={[s.settingsGroup, cardColor]}>
+            <Text style={[s.settingsHeading, textColor]}>詞庫收藏備份（不含閱讀）</Text>
+            <View style={s.stack}>{button('匯出詞庫收藏', () => void exportData(), true, 'download-outline')}{button('匯入詞庫收藏', () => { setBackup(''); setBackupMode('import'); setInfo('backup'); }, true, 'push-outline')}{button('匯出自動保留的舊資料', () => void exportData(true), true, 'time-outline')}</View>
+          </View>
+          <View style={[s.settingsGroup, cardColor]}><Text style={[s.settingsHeading, textColor]}>關於這個版本</Text><Text style={[s.body, textColor]}>閱讀：貼上自己的文章、保存原句字卡與安排複習。{'\n'}英文學習：{learningSample.length} 個自行編寫的試用詞條。{'\n'}漢英參考：{reference.entries.length} 筆 CC-CEDICT 小樣。</Text><Text style={[s.body, mutedColor]}>內容仍在測試與編校中。本版不收費，不需要建立帳號。學習紀錄保存在這台裝置，換裝置前請分別匯出閱讀與詞庫收藏備份。</Text>{button('詞庫來源與授權', () => setInfo('sources'), true)}{button('隱私說明', () => setInfo('privacy'), true)}</View>
+          <Text style={[s.centerCaption, mutedColor]}>LexiHarbor · 0.4 閱讀設計試用版</Text>
         </>}
       </ScrollView>}
-      <View style={[s.nav, { backgroundColor: colors.card, borderColor: colors.line }]}>{tabs.map((item) => <Pressable key={item.id} accessibilityRole="tab" accessibilityState={{ selected: tab === item.id }} accessibilityLabel={item.label} onPress={() => { setTab(item.id); setMessage(''); }} style={[s.navItem, tab === item.id && { backgroundColor: colors.soft }]}><Icon name={item.icon} color={tab === item.id ? colors.ink : colors.muted} /><Text style={[s.navLabel, { color: tab === item.id ? colors.ink : colors.muted }]}>{item.label}</Text></Pressable>)}</View>
+      {!desktop && <View style={[s.nav, { backgroundColor: colors.card, borderColor: colors.line }]}>{renderNavigation(false)}</View>}
+      </View>
     </View>
     <Modal visible={Boolean(selected || selectedChinese || info)} animationType="slide" onRequestClose={close}>
       <SafeAreaView style={[s.safe, { backgroundColor: colors.bg }]}><View style={s.frame}><View style={s.modalHeader}><Text style={[s.caption, mutedColor]}>{selected ? '英文學習詞條' : selectedChinese ? 'CC-CEDICT 漢英詞條' : info === 'sources' ? '詞庫來源與授權' : info === 'backup' ? '學習資料備份' : '隱私說明'}</Text><Pressable accessibilityRole="button" accessibilityLabel="關閉詳情" onPress={close} style={s.iconButton}><Icon name="close" color={colors.ink} /></Pressable></View>
@@ -169,7 +212,7 @@ function Application() {
           {info === 'sources' && <><Text style={[s.title, textColor]}>每份內容都有出處</Text><Text style={[s.sectionTitle, textColor]}>英文學習小樣</Text><Text style={[s.body, mutedColor]}>本專案以 AI 輔助獨立編寫英文解釋、繁中意思與例句，經模型檢查；尚待人類編輯正式審閱。目前收錄 {learningSample.length} 個詞條，不代表完整字典。</Text><Text style={[s.sectionTitle, textColor]}>CC-CEDICT 漢英小樣</Text><Text style={[s.body, mutedColor]}>來源：CC-CEDICT，由 MDBG 維護、社群貢獻，延續 Paul Denisowski 於 1997 年發起的 CEDICT。{'\n\n'}授權：Creative Commons 姓名標示－相同方式分享 4.0 國際（CC BY-SA 4.0）。{'\n\n'}本版從已發布資料篩選小樣，轉為 JSON 並加入識別碼；這份衍生資料同樣依 CC BY-SA 4.0 分享。資料按原樣提供，不能保證完整或無誤。</Text><View style={s.stack}>{button('官方資料與出處', () => openLink('https://www.mdbg.net/chinese/dictionary?page=cedict'), true)}{button('完整授權條款', () => openLink('https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hant'), true)}{button('下載本版漢英小樣與來源紀錄', () => openLink('https://github.com/taiwanape/lexiharbor/tree/main/public/data'), true)}</View></>}
           {info === 'sources' && <><Text style={[s.sectionTitle, textColor]}>原創短文與自然 AI 語音</Text><Text style={[s.body, mutedColor]}>練習短文由本專案獨立編寫。美式精選音檔使用 Kokoro-82M 模型在開發端預先生成，非真人錄音；模型與生成程式有 Apache-2.0 授權，相關工具另有各自條款。音檔已做訊號檢查，尚未完成人工發音校聽。</Text>{button('語音來源、版本與完整授權', () => openLink('https://github.com/taiwanape/lexiharbor/blob/main/public/audio/NOTICE.md'), true)}</>}
           {info === 'privacy' && <><Text style={[s.title, textColor]}>你的學習紀錄</Text><Text style={[s.body, textColor]}>文章、原句字卡、收藏、查詢歷史、複習和顯示偏好保存在目前裝置的本機儲存。本試用版沒有帳號、廣告追蹤或收費功能，不主動上傳文章與學習紀錄。{'\n\n'}清除瀏覽器資料或移除 App 可能使本機紀錄消失，請定期分別匯出閱讀與詞庫收藏備份。匯出檔案由你自行保管，可能包含私人文章。{'\n\n'}精選 AI 音檔已預先生成；播放時向本站載入音檔，不會把文章送到 AI 生成服務。未覆蓋的文字使用裝置語音，是否連網與如何處理文字依該引擎而定。不要用不信任的引擎朗讀敏感內容。{'\n\n'}GitHub Pages 等網站主機可能處理 IP 與音檔請求等連線紀錄。「到 Cambridge 查證」會將選取的詞句帶入外部網址，適用對方政策。{'\n\n'}正式上架前仍需補齊開發者聯絡資訊與正式隱私政策。</Text></>}
-          {info === 'backup' && <><Text style={[s.title, textColor]}>{backupMode === 'import' ? '貼上你的備份' : '保存這份學習紀錄'}</Text><Text style={[s.body, mutedColor]}>{backupMode === 'import' ? '匯入會取代目前的收藏與複習紀錄；取代前會自動保留本機備份。' : '已準備備份檔。你也可以選取下方文字，複製保存。'}</Text><TextInput accessibilityLabel="學習備份內容" multiline editable={!importing} value={backup} onChangeText={setBackup} style={[s.backupInput, cardColor, textColor]} autoCapitalize="none" autoCorrect={false} />{backupMode === 'import' && button(importing ? '正在匯入…' : '匯入並取代目前紀錄', () => { setMessage(''); setImporting(true); void data.importData(backup).then(() => setInfo(null)).catch((error: Error) => setMessage(error.message)).finally(() => setImporting(false)); }, false, undefined, importing || !backup.trim())}</>}
+          {info === 'backup' && <><Text style={[s.title, textColor]}>{backupMode === 'import' ? '貼上你的備份' : '保存這份學習紀錄'}</Text><Text style={[s.body, mutedColor]}>{backupMode === 'import' ? '匯入會取代目前的收藏與複習紀錄；取代前會自動保留本機備份。' : '已準備備份檔。你也可以選取下方文字，複製保存。'}</Text><TextInput accessibilityLabel="學習備份內容" multiline editable={!importing} value={backup} onChangeText={setBackup} style={[s.backupInput, cardColor, textColor, { borderColor: colors.controlBorder }]} autoCapitalize="none" autoCorrect={false} />{backupMode === 'import' && button(importing ? '正在匯入…' : '匯入並取代目前紀錄', () => { setMessage(''); setImporting(true); void data.importData(backup).then(() => setInfo(null)).catch((error: Error) => setMessage(error.message)).finally(() => setImporting(false)); }, false, undefined, importing || !backup.trim())}</>}
           {!!message && <Text accessibilityRole="alert" style={[s.error, { color: dark ? '#FFD4A0' : '#96551A' }]}>{message}</Text>}
         </ScrollView>
       </View></SafeAreaView>
@@ -179,21 +222,37 @@ function Application() {
 
 export default function App() { return <SafeAreaProvider><Application /></SafeAreaProvider>; }
 
+const uiFont = Platform.OS === 'web' ? webFont : undefined;
 const s = StyleSheet.create({
-  safe: { flex: 1 }, frame: { flex: 1, width: '100%', maxWidth: 760, alignSelf: 'center' },
-  brandBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 22, paddingVertical: 16, borderBottomWidth: 1 }, brand: { flexDirection: 'row', alignItems: 'center', gap: 9 }, brandText: { fontSize: 19, fontWeight: '800', letterSpacing: -0.5 }, badge: { fontSize: 10, paddingHorizontal: 9, paddingVertical: 5, borderRadius: 6 },
-  main: { flex: 1 }, content: { padding: 22, paddingBottom: 36, gap: 12 }, eyebrow: { fontSize: 12, letterSpacing: 1.3, marginTop: 8 }, title: { fontSize: 30, fontWeight: '800', letterSpacing: -0.8, marginBottom: 10 },
-  search: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 14, gap: 8, borderWidth: 1, borderRadius: 16, minHeight: 58 }, searchInput: { flex: 1, fontSize: 16, minHeight: 54, minWidth: 0 }, segment: { flexDirection: 'row', gap: 8, flexWrap: 'wrap' },
-  button: { minHeight: 44, flexDirection: 'row', gap: 7, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 15, paddingVertical: 12, borderRadius: 12 }, buttonText: { fontSize: 13, fontWeight: '700', flexShrink: 1 }, caption: { fontSize: 11, lineHeight: 17 }, centerCaption: { textAlign: 'center', fontSize: 12, lineHeight: 20, marginTop: 10 },
-  sectionTitle: { fontSize: 18, fontWeight: '800', marginTop: 14, marginBottom: 2 }, body: { fontSize: 14, lineHeight: 23 }, between: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, justifyContent: 'space-between', alignItems: 'center' },
-  wordRow: { flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderRadius: 16, overflow: 'hidden' }, wordLink: { flex: 1, padding: 16 }, word: { fontSize: 20, fontWeight: '700', flexShrink: 1 }, translation: { fontSize: 13, marginTop: 5, lineHeight: 20 }, iconButton: { padding: 12, minWidth: 44, minHeight: 44, alignItems: 'center', justifyContent: 'center' },
-  daily: { padding: 23, borderRadius: 21, marginTop: 8, gap: 12, backgroundColor: '#214F3F' }, dailyLabel: { color: '#B8D7B7', fontSize: 11 }, dailyWord: { color: '#F5F8E9', fontWeight: '800', fontSize: 32, marginTop: 9 }, dailyMeaning: { color: '#DEEDD6', fontSize: 16, lineHeight: 25 }, dailyActions: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 6 },
-  referenceRow: { padding: 17, gap: 7, borderWidth: 1, borderRadius: 14 }, sourceLink: { fontSize: 11, lineHeight: 19, marginTop: 16, marginBottom: 4 }, empty: { padding: 25, gap: 12, borderWidth: 1, borderRadius: 18, alignItems: 'flex-start', marginVertical: 10 },
-  stats: { flexDirection: 'row', gap: 9 }, stat: { flex: 1, paddingVertical: 14, paddingHorizontal: 8, borderWidth: 1, borderRadius: 14, alignItems: 'center', gap: 5 }, statNumber: { fontSize: 25, fontWeight: '800' },
-  flashcard: { minHeight: 290, padding: 27, borderRadius: 22, borderWidth: 1, alignItems: 'center', justifyContent: 'center', gap: 20, marginTop: 7 }, flashWord: { fontSize: 36, fontWeight: '800', textAlign: 'center' }, flashMeaning: { fontSize: 21, lineHeight: 30, textAlign: 'center' }, ratings: { gap: 9, marginTop: 6 },
-  nav: { flexDirection: 'row', borderTopWidth: 1, paddingVertical: 10, paddingHorizontal: 12, gap: 6 }, navItem: { flex: 1, alignItems: 'center', paddingVertical: 8, borderRadius: 12, gap: 4 }, navLabel: { fontSize: 11, fontWeight: '600' },
-  notice: { padding: 12, flexDirection: 'row', alignItems: 'center', gap: 10 }, noticeText: { flex: 1, fontSize: 12, lineHeight: 19 }, link: { fontSize: 12, fontWeight: '700', textDecorationLine: 'underline' }, loading: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 15 },
-  about: { padding: 20, gap: 15, borderRadius: 18, borderWidth: 1 }, stack: { gap: 9 }, modalHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 8 },
-  detailWord: { fontSize: 38, fontWeight: '800', letterSpacing: -0.8 }, detailMeaning: { fontSize: 23, fontWeight: '700', lineHeight: 34, marginVertical: 8 }, definition: { padding: 20, borderRadius: 16, borderWidth: 1, gap: 12 }, definitionNumber: { fontSize: 11 }, definitionText: { fontSize: 16, lineHeight: 25, fontWeight: '600' }, example: { fontSize: 15, lineHeight: 25, fontStyle: 'italic' },
-  backupInput: { borderWidth: 1, borderRadius: 12, minHeight: 240, padding: 15, fontSize: 12, fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace', textAlignVertical: 'top' }, error: { fontSize: 13, lineHeight: 21, marginTop: 10 },
+  safe: { flex: 1 }, shell: { flex: 1, width: '100%' }, shellWide: { flexDirection: 'row' }, workspace: { flex: 1, minWidth: 0 },
+  frame: { flex: 1, width: '100%', maxWidth: 920, alignSelf: 'center' },
+  sidebar: { width: SIDEBAR_WIDTH, flexGrow: 0, flexShrink: 0, borderRightWidth: 1 },
+  sidebarContent: { flexGrow: 1, paddingHorizontal: 18, paddingTop: 32, paddingBottom: 22 },
+  sidebarBrand: { flexDirection: 'row', alignItems: 'center', gap: 9, marginBottom: 52 },
+  brandMark: { width: 36, height: 40, borderRadius: 12, alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
+  brandText: { fontSize: 19, fontFamily: uiFont, fontWeight: '800', letterSpacing: -0.7 }, brandSub: { fontSize: 12, fontFamily: uiFont, marginTop: 5 },
+  sidebarEyebrow: { fontFamily: uiFont, fontSize: 12, letterSpacing: 1.1, paddingLeft: 16, marginBottom: 14 },
+  sideNav: { gap: 7 }, sideNavItem: { minHeight: 50, flexDirection: 'row', gap: 13, alignItems: 'center', borderRadius: 14, paddingHorizontal: 16, paddingVertical: 13 },
+  sideNavLabel: { flex: 1, fontSize: 15, fontWeight: '600', fontFamily: uiFont }, navCount: { fontSize: 13, fontWeight: '600', fontFamily: uiFont },
+  sideNote: { borderRadius: 18, padding: 18, gap: 12, marginTop: 35, marginBottom: 22 }, sideNoteTitle: { fontSize: 18, lineHeight: 29, fontWeight: '700', fontFamily: uiFont },
+  sidebarFooter: { borderTopWidth: 1, paddingTop: 22, flexDirection: 'row', gap: 11, alignItems: 'center' }, sidebarFooterTitle: { fontSize: 13, fontWeight: '600', fontFamily: uiFont, marginBottom: 4 },
+  brandBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 20, minHeight: 73, paddingVertical: 15, borderBottomWidth: 1 },
+  desktopBar: { paddingHorizontal: 36, paddingVertical: 20, minHeight: 96 }, brand: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  headerTitle: { fontSize: 21, fontFamily: uiFont, fontWeight: '700', marginBottom: 5 }, headerMeta: { flexDirection: 'row', alignItems: 'center', gap: 18 }, headerStatus: { flexDirection: 'row', alignItems: 'center', gap: 7 },
+  badge: { fontSize: 12, fontWeight: '600', fontFamily: uiFont, paddingHorizontal: 13, paddingVertical: 7, borderRadius: 30 },
+  main: { flex: 1 }, content: { width: '100%', maxWidth: 1280, alignSelf: 'center', padding: 20, paddingBottom: 42, gap: 16 }, desktopContent: { padding: 32, paddingBottom: 48, gap: 20 }, narrowContent: { maxWidth: 940 },
+  eyebrow: { fontSize: 12, fontFamily: uiFont, letterSpacing: 1.1, marginTop: 8 }, title: { fontSize: 34, fontFamily: uiFont, fontWeight: '800', lineHeight: 46, letterSpacing: -0.8, marginBottom: 4 },
+  search: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 19, gap: 12, borderWidth: 1, borderRadius: 18, minHeight: 64 }, searchInput: { flex: 1, fontSize: 17, fontFamily: uiFont, minHeight: 62, minWidth: 0 }, segment: { flexDirection: 'row', gap: 9, flexWrap: 'wrap' },
+  button: { minHeight: 46, flexDirection: 'row', gap: 8, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 20, paddingVertical: 13, borderRadius: 28 }, buttonText: { fontSize: 14, fontFamily: uiFont, fontWeight: '700', flexShrink: 1 }, caption: { fontSize: 12, fontFamily: uiFont, lineHeight: 20 }, centerCaption: { textAlign: 'center', fontSize: 12, fontFamily: uiFont, lineHeight: 21, marginTop: 12 },
+  sectionTitle: { fontSize: 20, fontFamily: uiFont, fontWeight: '700', marginTop: 18, marginBottom: 3 }, body: { fontSize: 16, fontFamily: uiFont, lineHeight: 27 }, between: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, justifyContent: 'space-between', alignItems: 'center' },
+  wordRow: { flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderRadius: 18, overflow: 'hidden' }, wordLink: { flex: 1, padding: 20 }, word: { fontSize: 24, fontFamily: uiFont, fontWeight: '700', flexShrink: 1 }, translation: { fontSize: 15, fontFamily: uiFont, marginTop: 7, lineHeight: 24 }, iconButton: { padding: 13, minWidth: 46, minHeight: 46, alignItems: 'center', justifyContent: 'center' },
+  daily: { padding: 30, borderRadius: 24, marginTop: 8, gap: 14, backgroundColor: '#24334F' }, dailyLabel: { color: '#CFD7E9', fontSize: 13, fontFamily: uiFont }, dailyWord: { color: '#F2DC72', fontWeight: '600', fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : uiFont, fontSize: 42, marginTop: 10 }, dailyMeaning: { color: '#FFFFFF', fontSize: 19, fontFamily: uiFont, lineHeight: 29 }, dailyActions: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 },
+  referenceRow: { padding: 21, gap: 9, borderWidth: 1, borderRadius: 18 }, sourceLink: { fontSize: 12, fontFamily: uiFont, lineHeight: 21, marginTop: 18, marginBottom: 5 }, empty: { padding: 28, gap: 13, borderWidth: 1, borderRadius: 20, alignItems: 'flex-start', marginVertical: 10 },
+  stats: { flexDirection: 'row', gap: 12 }, stat: { flex: 1, paddingVertical: 21, paddingHorizontal: 8, borderWidth: 1, borderRadius: 18, alignItems: 'center', gap: 7 }, statNumber: { fontSize: 30, fontFamily: uiFont, fontWeight: '700' },
+  flashcard: { minHeight: 330, padding: 32, borderRadius: 26, borderWidth: 1, alignItems: 'center', justifyContent: 'center', gap: 25, marginTop: 10 }, flashWord: { fontSize: 44, fontWeight: '600', fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : uiFont, textAlign: 'center' }, flashMeaning: { fontSize: 24, fontFamily: uiFont, lineHeight: 34, textAlign: 'center' }, ratings: { gap: 10, marginTop: 8 },
+  nav: { flexDirection: 'row', borderTopWidth: 1, paddingVertical: 10, paddingHorizontal: 10, gap: 4 }, navItem: { flex: 1, alignItems: 'center', paddingVertical: 8, borderRadius: 16, gap: 5 }, navLabel: { fontSize: 12, fontFamily: uiFont, fontWeight: '600' },
+  notice: { paddingHorizontal: 20, paddingVertical: 10, flexDirection: 'row', alignItems: 'center', gap: 12 }, noticeText: { flex: 1, fontSize: 13, fontFamily: uiFont, lineHeight: 22 }, link: { fontSize: 14, fontFamily: uiFont, fontWeight: '600', textDecorationLine: 'underline' }, loading: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 16 },
+  about: { padding: 24, gap: 18, borderRadius: 22, borderWidth: 1 }, settingsGroup: { padding: 24, gap: 18, borderRadius: 22, borderWidth: 1 }, settingsHeading: { fontSize: 20, fontFamily: uiFont, lineHeight: 29, fontWeight: '700' }, settingsDivider: { height: 1, marginVertical: 2 }, stack: { gap: 10 }, modalHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 24, paddingTop: 15, paddingBottom: 10 },
+  detailWord: { fontSize: 44, fontFamily: uiFont, fontWeight: '800', letterSpacing: -0.8 }, detailMeaning: { fontSize: 25, fontFamily: uiFont, fontWeight: '700', lineHeight: 36, marginVertical: 10 }, definition: { padding: 24, borderRadius: 20, borderWidth: 1, gap: 15 }, definitionNumber: { fontSize: 12, fontFamily: uiFont }, definitionText: { fontSize: 18, fontFamily: uiFont, lineHeight: 29, fontWeight: '600' }, example: { fontSize: 19, lineHeight: 31, fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : uiFont, fontStyle: 'italic' },
+  backupInput: { borderWidth: 1, borderRadius: 16, minHeight: 240, padding: 18, fontSize: 14, fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace', textAlignVertical: 'top' }, error: { fontSize: 14, fontFamily: uiFont, lineHeight: 23, marginTop: 12 },
 });
