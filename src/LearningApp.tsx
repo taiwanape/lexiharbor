@@ -18,9 +18,10 @@ import chineseData from '../public/data/cedict-sample.json';
 
 const reference = chineseData as ChineseSample;
 const readingArt = {
-  harbor: require('../assets/design/reading-mascot.png'),
-  desk: require('../assets/design/city-desk.webp'),
-  bookshop: require('../assets/design/quiet-bookshop.webp'),
+  hero: require('../assets/design/reading-mascot.png'),
+  work: require('../assets/design/reading-work.png'),
+  weekend: require('../assets/design/reading-weekend.png'),
+  travel: require('../assets/design/reading-travel.png'),
 };
 type Tab = 'reading' | 'search' | 'saved' | 'review' | 'settings';
 type Colors = AppColors;

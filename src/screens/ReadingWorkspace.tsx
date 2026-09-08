@@ -10,7 +10,7 @@ import type { ReviewRating } from '../types';
 import type { AppColors } from '../design/theme';
 
 export type ReadingColors = AppColors;
-export type ReadingArtwork = { harbor: ImageSourcePropType; desk: ImageSourcePropType; bookshop: ImageSourcePropType };
+export type ReadingArtwork = { hero: ImageSourcePropType; work: ImageSourcePropType; weekend: ImageSourcePropType; travel: ImageSourcePropType };
 type ReaderData = ReturnType<typeof useReading>;
 type Props = { data: ReaderData; colors: ReadingColors; speak: (text: string) => void; onReview: () => void; onVoicePreview?: () => void; artwork?: ReadingArtwork };
 const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 11)}`;
@@ -35,7 +35,7 @@ function Sheet({ title, open, close, children, colors, scrollRef }: { title: str
 function SampleCard({ sample, index, artwork, desktop, colors, onPress }: { sample: typeof readingSamples[number]; index: number; artwork?: ImageSourcePropType; desktop: boolean; colors: ReadingColors; onPress: () => void }) {
   const [hovered, setHovered] = useState(false);
   return <Pressable accessibilityRole="button" accessibilityLabel={`試讀 ${sample.title}`} onPress={onPress} onHoverIn={() => setHovered(true)} onHoverOut={() => setHovered(false)} style={({ pressed }) => [styles.sampleCard, { backgroundColor: colors.card, borderColor: hovered ? colors.blue : colors.line, width: desktop ? '31.8%' : '100%', flexDirection: desktop ? 'column' : 'row', padding: desktop ? 0 : 12, opacity: pressed ? 0.78 : 1, transform: [{ translateY: desktop && hovered ? -3 : 0 }] }]}>
-    {artwork && <Image source={artwork} accessibilityIgnoresInvertColors resizeMode="cover" style={{ backgroundColor: colors.accentSoft, width: desktop ? '100%' : 96, height: desktop ? 164 : 106, borderRadius: desktop ? 0 : 10 }} />}
+    {artwork && <View style={{ backgroundColor: '#f9ebaf', width: desktop ? '100%' : 96, height: desktop ? 180 : 106, borderRadius: desktop ? 0 : 10, borderBottomWidth: desktop ? 1.5 : 0, borderColor: colors.line, padding: desktop ? 12 : 5, flexShrink: 0 }}><Image source={artwork} accessible={false} accessibilityIgnoresInvertColors resizeMode="contain" style={{ width: '100%', height: '100%' }} /></View>}
     <View style={[styles.sampleCopy, { padding: desktop ? 18 : 0, paddingLeft: desktop ? 18 : 14 }]}>
       <View style={styles.labelRow}><Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>{sample.tag} · 約 {sample.minutes} 分鐘</Text>{desktop && <Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>0{index + 1}</Text>}</View>
       <Text style={[styles.heading, { color: colors.ink, fontFamily: colors.font, fontSize: desktop ? 18 : 16, lineHeight: desktop ? 27 : 24 }]}>{sample.title}</Text>
@@ -114,7 +114,7 @@ export function ReadingLibrary({ data, colors, speak, onReview, onVoicePreview, 
   const removeArticle = () => attempt(() => { if (!removeId) return; data.change((state) => deleteArticle(state, removeId)); setRemoveId(null); setMessage('文章已移除，已收藏的原句字卡仍保留。'); });
   const c = { color: colors.ink, fontFamily: colors.font }, muted = { color: colors.muted, fontFamily: colors.font }, surface = { backgroundColor: colors.card, borderColor: colors.line };
   const startReading = () => { setCreating(true); setMessage(''); };
-  const sampleArtwork = [artwork?.desk, artwork?.bookshop, artwork?.harbor];
+  const sampleArtwork = [artwork?.work, artwork?.weekend, artwork?.travel];
   const dueCount = getDueCards(data.state).length;
 
   return <>
@@ -126,7 +126,7 @@ export function ReadingLibrary({ data, colors, speak, onReview, onVoicePreview, 
         <View style={[styles.actionRow, { alignItems: 'flex-start' }]}><Button label="貼上英文，開始閱讀" icon="add-outline" colors={colors} disabled={!data.ready} onPress={startReading} />{onVoicePreview && <Button label="試聽自然 AI 發音" icon="volume-medium-outline" quiet colors={colors} onPress={onVoicePreview} />}</View>
         <View style={styles.inlineRow}><Icon name={data.saveStatus === 'saved' ? 'checkmark-circle-outline' : 'cloud-outline'} size={15} color={colors.muted} /><Text style={[styles.meta, muted]}>{data.saveStatus === 'saving' ? '正在儲存…' : data.saveStatus === 'saved' ? '閱讀紀錄已存到這台裝置' : '請檢查儲存狀態'}</Text></View>
       </View>
-      {artwork?.harbor && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: colors.accentSoft }]}><Image source={artwork.harbor} accessibilityLabel="戴圓眼鏡、拿著星星書籤的書本小夥伴" resizeMode="contain" style={styles.fillImage} /></View>}
+      {artwork?.hero && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: colors.accentSoft }]}><Image source={artwork.hero} accessibilityLabel="戴圓眼鏡、拿著星星書籤的書本小夥伴" resizeMode="contain" style={styles.fillImage} /></View>}
     </View>
     <View style={[styles.statsStrip, surface]}>
       <View style={styles.stripStat}><Text style={[styles.stripValue, c]}>{data.state.articles.length}<Text style={[styles.statUnit, muted]}> 篇</Text></Text><Text style={[styles.meta, muted]}>我的閱讀</Text></View>
