@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Linking, Modal, Platform, Pressable, ScrollView, Share, StyleSheet, Text, TextInput, useColorScheme, useWindowDimensions, View } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { ActionButton as Action } from './components/ActionButton';
 import { Icon, IconName } from './components/Icons';
 import { learningSample, LearningEntry } from './data/learningSample';
 import { ChineseEntry, ChineseSample, dailyWord, findLearningWord, searchChineseEntries, searchLearningWords } from './domain/search';
@@ -34,11 +35,6 @@ const tabs: { id: Tab; label: string; icon: IconName }[] = [
 ];
 const pageTitles: Record<Tab, string> = { reading: '閱讀空間', search: '查字典', saved: '我的單字本', review: '今日複習', settings: '偏好與資料' };
 
-function Action({ label, onPress, icon, quiet = false, disabled = false, colors }: { label: string; onPress: () => void; icon?: IconName; quiet?: boolean; disabled?: boolean; colors: Colors }) {
-  return <Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({ pressed }) => [s.button, { backgroundColor: quiet ? colors.soft : colors.primary, opacity: disabled ? 0.45 : pressed ? 0.78 : 1, transform: [{ scale: pressed ? 0.98 : 1 }] }]}>
-    {icon && <Icon name={icon} size={18} color={quiet ? colors.ink : colors.onPrimary} />}<Text style={[s.buttonText, { color: quiet ? colors.ink : colors.onPrimary }]}>{label}</Text>
-  </Pressable>;
-}
 function WordRow({ entry, saved, onOpen, onSave, colors }: { entry: LearningEntry; saved: boolean; onOpen: () => void; onSave: () => void; colors: Colors }) {
   return <View style={[s.wordRow, { backgroundColor: colors.card, borderColor: colors.line }]}>
     <Pressable accessibilityRole="button" accessibilityLabel={`查看 ${entry.word}`} onPress={onOpen} style={s.wordLink}><Text style={[s.word, { color: colors.ink }]}>{entry.word}</Text><Text style={[s.translation, { color: colors.muted }]}>{entry.translation}</Text></Pressable>
