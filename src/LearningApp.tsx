@@ -18,7 +18,7 @@ import chineseData from '../public/data/cedict-sample.json';
 
 const reference = chineseData as ChineseSample;
 const readingArt = {
-  harbor: require('../assets/design/reading-harbor.webp'),
+  harbor: require('../assets/design/reading-mascot.png'),
   desk: require('../assets/design/city-desk.webp'),
   bookshop: require('../assets/design/quiet-bookshop.webp'),
 };

@@ -35,7 +35,7 @@ function Sheet({ title, open, close, children, colors, scrollRef }: { title: str
 function SampleCard({ sample, index, artwork, desktop, colors, onPress }: { sample: typeof readingSamples[number]; index: number; artwork?: ImageSourcePropType; desktop: boolean; colors: ReadingColors; onPress: () => void }) {
   const [hovered, setHovered] = useState(false);
   return <Pressable accessibilityRole="button" accessibilityLabel={`試讀 ${sample.title}`} onPress={onPress} onHoverIn={() => setHovered(true)} onHoverOut={() => setHovered(false)} style={({ pressed }) => [styles.sampleCard, { backgroundColor: colors.card, borderColor: hovered ? colors.blue : colors.line, width: desktop ? '31.8%' : '100%', flexDirection: desktop ? 'column' : 'row', padding: desktop ? 0 : 12, opacity: pressed ? 0.78 : 1, transform: [{ translateY: desktop && hovered ? -3 : 0 }] }]}>
-    {artwork && <Image source={artwork} accessibilityIgnoresInvertColors resizeMode="cover" style={{ backgroundColor: '#FBF0DA', width: desktop ? '100%' : 96, height: desktop ? 164 : 106, borderRadius: desktop ? 0 : 10 }} />}
+    {artwork && <Image source={artwork} accessibilityIgnoresInvertColors resizeMode="cover" style={{ backgroundColor: colors.accentSoft, width: desktop ? '100%' : 96, height: desktop ? 164 : 106, borderRadius: desktop ? 0 : 10 }} />}
     <View style={[styles.sampleCopy, { padding: desktop ? 18 : 0, paddingLeft: desktop ? 18 : 14 }]}>
       <View style={styles.labelRow}><Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>{sample.tag} · 約 {sample.minutes} 分鐘</Text>{desktop && <Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>0{index + 1}</Text>}</View>
       <Text style={[styles.heading, { color: colors.ink, fontFamily: colors.font, fontSize: desktop ? 18 : 16, lineHeight: desktop ? 27 : 24 }]}>{sample.title}</Text>
@@ -118,7 +118,7 @@ export function ReadingLibrary({ data, colors, speak, onReview, onVoicePreview, 
   const dueCount = getDueCards(data.state).length;
 
   return <>
-    <View style={[styles.hero, surface, { padding: desktop ? 32 : 22, flexDirection: heroWide ? 'row' : 'column' }]}>
+    <View style={[styles.hero, surface, { backgroundColor: colors.accentSoft, padding: desktop ? 32 : 22, flexDirection: heroWide ? 'row' : 'column' }]}>
       <View style={[styles.heroCopy, { flex: heroWide ? 1 : undefined }]}>
         <View style={styles.inlineRow}><View style={[styles.eyebrowDot, { backgroundColor: colors.blue }]} /><Text style={[styles.eyebrow, muted]}>YOUR EVERYDAY ENGLISH</Text></View>
         <Text style={[styles.heroTitle, c, desktop ? styles.heroTitleDesktop : styles.heroTitleMobile]}>把英文讀進{ '\n' }你的生活。</Text>
@@ -126,7 +126,7 @@ export function ReadingLibrary({ data, colors, speak, onReview, onVoicePreview, 
         <View style={[styles.actionRow, { alignItems: 'flex-start' }]}><Button label="貼上英文，開始閱讀" icon="add-outline" colors={colors} disabled={!data.ready} onPress={startReading} />{onVoicePreview && <Button label="試聽自然 AI 發音" icon="volume-medium-outline" quiet colors={colors} onPress={onVoicePreview} />}</View>
         <View style={styles.inlineRow}><Icon name={data.saveStatus === 'saved' ? 'checkmark-circle-outline' : 'cloud-outline'} size={15} color={colors.muted} /><Text style={[styles.meta, muted]}>{data.saveStatus === 'saving' ? '正在儲存…' : data.saveStatus === 'saved' ? '閱讀紀錄已存到這台裝置' : '請檢查儲存狀態'}</Text></View>
       </View>
-      {artwork?.harbor && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: '#FBF0DA' }]}><Image source={artwork.harbor} accessibilityLabel="一本書展開成有燈塔與帆船的小港口" resizeMode="contain" style={styles.fillImage} /></View>}
+      {artwork?.harbor && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: colors.accentSoft }]}><Image source={artwork.harbor} accessibilityLabel="戴圓眼鏡、拿著星星書籤的書本小夥伴" resizeMode="contain" style={styles.fillImage} /></View>}
     </View>
     <View style={[styles.statsStrip, surface]}>
       <View style={styles.stripStat}><Text style={[styles.stripValue, c]}>{data.state.articles.length}<Text style={[styles.statUnit, muted]}> 篇</Text></Text><Text style={[styles.meta, muted]}>我的閱讀</Text></View>
@@ -216,9 +216,9 @@ const styles = StyleSheet.create({
   sheetContent: { paddingTop: 28, gap: 18, paddingBottom: 48 },
   headerMark: { width: 5, height: 24, borderRadius: 3 },
   speechBar: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', paddingVertical: 10, gap: 12, borderBottomWidth: 1 },
-  hero: { borderWidth: 1, borderRadius: 24, gap: 24, overflow: 'hidden' },
+  hero: { borderWidth: 1.5, borderRadius: 24, gap: 24, overflow: 'hidden' },
   heroCopy: { gap: 18, justifyContent: 'center', minWidth: 0 },
-  heroTitle: { fontWeight: '700' },
+  heroTitle: { fontWeight: '800' },
   heroTitleDesktop: { fontSize: 48, lineHeight: 61, letterSpacing: -1.8 },
   heroTitleMobile: { fontSize: 36, lineHeight: 48, letterSpacing: -1.1 },
   heroArt: { alignSelf: 'center', borderRadius: 18, overflow: 'hidden' },
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
   buttonText: { fontSize: 14, lineHeight: 20, fontWeight: '600', flexShrink: 1 },
   iconButton: { minWidth: 44, minHeight: 44, padding: 11, borderRadius: 999, justifyContent: 'center', alignItems: 'center' },
   sectionRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 12, justifyContent: 'space-between', alignItems: 'center', marginTop: 16, marginBottom: 2 },
-  statsStrip: { flexDirection: 'row', borderWidth: 1, borderRadius: 16, paddingVertical: 16 },
+  statsStrip: { flexDirection: 'row', borderWidth: 1.5, borderRadius: 16, paddingVertical: 16 },
   stripStat: { flex: 1, minWidth: 0, alignItems: 'center', justifyContent: 'center', gap: 3 },
   stripDivider: { borderLeftWidth: 1 },
   stripValue: { fontSize: 27, lineHeight: 34, fontWeight: '600' },
@@ -244,33 +244,33 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 },
   twoColumn: { width: '48.8%' },
   fullWidth: { width: '100%' },
-  articleCard: { borderWidth: 1, borderRadius: 16, minHeight: 224, overflow: 'hidden' },
+  articleCard: { borderWidth: 1.5, borderRadius: 16, minHeight: 224, overflow: 'hidden' },
   articleOpen: { padding: 22, gap: 12, flex: 1 },
   articleDelete: { position: 'absolute', right: 10, top: 10 },
   articleIcon: { width: 34, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   preview: { fontSize: 15, lineHeight: 25 },
   libraryEmpty: { borderWidth: 1, borderStyle: 'dashed', borderRadius: 16, padding: 20, gap: 16, marginVertical: 4 },
-  empty: { borderWidth: 1, borderRadius: 24, padding: 28, gap: 14, marginVertical: 4 },
+  empty: { borderWidth: 1.5, borderRadius: 24, padding: 28, gap: 14, marginVertical: 4 },
   sampleGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 },
-  sampleCard: { borderWidth: 1, borderRadius: 16, overflow: 'hidden' },
+  sampleCard: { borderWidth: 1.5, borderRadius: 16, overflow: 'hidden' },
   sampleCopy: { flex: 1, gap: 9, minHeight: 106 },
   privacyNote: { flexDirection: 'row', gap: 9, alignItems: 'flex-start', borderTopWidth: 1, paddingTop: 18, marginTop: 8 },
-  contextCard: { borderWidth: 1, borderRadius: 16, padding: 24, gap: 16, minHeight: 240 },
+  contextCard: { borderWidth: 1.5, borderRadius: 16, padding: 24, gap: 16, minHeight: 240 },
   quoteBlock: { borderLeftWidth: 2, paddingLeft: 15 },
   countPill: { fontSize: 12, lineHeight: 20, paddingHorizontal: 14, paddingVertical: 6, borderRadius: 999, overflow: 'hidden' },
   fieldLabel: { fontSize: 14, lineHeight: 22, fontWeight: '600', marginTop: 8 },
-  input: { borderWidth: 1, borderRadius: 14, padding: 15, minHeight: 50, maxWidth: '100%', minWidth: 0, fontSize: 16, lineHeight: 26 },
+  input: { borderWidth: 1.5, borderRadius: 14, padding: 15, minHeight: 50, maxWidth: '100%', minWidth: 0, fontSize: 16, lineHeight: 26 },
   articleInput: { minHeight: 230, textAlignVertical: 'top' },
   readingText: { width: '100%', maxWidth: 760, alignSelf: 'center', fontSize: 23, lineHeight: 42, fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : undefined, marginVertical: 20 },
-  lookup: { padding: 24, borderWidth: 1, borderRadius: 24, gap: 16 },
+  lookup: { padding: 24, borderWidth: 1.5, borderRadius: 24, gap: 16 },
   readerLookup: { width: '100%', maxWidth: 760, alignSelf: 'center', borderTopWidth: 3 },
   lookupWord: { fontSize: 28, lineHeight: 38, fontWeight: '600', flexShrink: 1 },
   quote: { fontSize: 18, lineHeight: 30, fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : undefined },
-  message: { padding: 13, borderWidth: 1, borderRadius: 12, fontSize: 14, lineHeight: 24 },
+  message: { padding: 13, borderWidth: 1.5, borderRadius: 12, fontSize: 14, lineHeight: 24 },
   stats: { flexDirection: 'row', gap: 12, maxWidth: 780, width: '100%', alignSelf: 'center' },
-  stat: { borderWidth: 1, borderRadius: 16, padding: 16, alignItems: 'center', flex: 1, gap: 5 },
+  stat: { borderWidth: 1.5, borderRadius: 16, padding: 16, alignItems: 'center', flex: 1, gap: 5 },
   statValue: { fontSize: 28, lineHeight: 36, fontWeight: '600' },
-  reviewCard: { borderWidth: 1, borderRadius: 24, padding: 32, gap: 24, alignItems: 'stretch', marginVertical: 10, width: '100%', maxWidth: 780, alignSelf: 'center' },
+  reviewCard: { borderWidth: 1.5, borderRadius: 24, padding: 32, gap: 24, alignItems: 'stretch', marginVertical: 10, width: '100%', maxWidth: 780, alignSelf: 'center' },
   separator: { height: 1, width: '100%' },
   meaning: { fontSize: 25, lineHeight: 36, fontWeight: '600', textAlign: 'center' },
 });
