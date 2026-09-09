@@ -25,6 +25,6 @@ export function ActionButton({ label, onPress, colors, quiet = false, disabled =
 }
 
 const styles = StyleSheet.create({
-  button: { minHeight: 46, maxWidth: '100%', minWidth: 0, paddingHorizontal: 18, paddingVertical: 11, borderRadius: 999, borderWidth: 1.5, alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: 8 },
+  button: { minHeight: 46, maxWidth: '100%', minWidth: 0, paddingHorizontal: 18, paddingVertical: 11, borderRadius: 999, borderWidth: 1, alignItems: 'center', justifyContent: 'center', flexDirection: 'row', gap: 8 },
   label: { fontSize: 14, lineHeight: 22, fontWeight: '700', flexShrink: 1 },
 });

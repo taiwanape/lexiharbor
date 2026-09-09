@@ -23,7 +23,7 @@ function Sheet({ title, open, close, children, colors, scrollRef }: { title: str
   const feedback = useContext(ReadingFeedback);
   const { width, height } = useWindowDimensions();
   const desktop = width >= 1080;
-  return <Modal visible={open} transparent={desktop} animationType={desktop ? 'fade' : 'slide'} onRequestClose={close}><SafeAreaView style={[styles.sheetBackdrop, { backgroundColor: desktop ? 'rgba(12, 19, 35, 0.58)' : colors.bg }, desktop && { padding: 32 }]}><View style={[styles.frame, { backgroundColor: colors.bg }, desktop && { maxHeight: height - 64, borderRadius: 24, borderWidth: 1, borderColor: colors.line }]}><View style={[styles.sheetHeader, { borderColor: colors.line, paddingHorizontal: desktop ? 32 : 20 }]}><View style={styles.inlineRow}><View style={[styles.headerMark, { backgroundColor: colors.accent }]} /><Text style={[styles.heading, { color: colors.ink, fontFamily: colors.font }]}>{title}</Text></View><Pressable accessibilityRole="button" accessibilityLabel={`關閉${title}`} onPress={close} style={({ pressed }) => [styles.iconButton, { backgroundColor: colors.soft, transform: [{ translateY: pressed ? 1 : 0 }] }]}><Icon name="close" color={colors.ink} /></Pressable></View>
+  return <Modal visible={open} transparent={desktop} animationType={desktop ? 'fade' : 'slide'} onRequestClose={close}><SafeAreaView style={[styles.sheetBackdrop, { backgroundColor: desktop ? 'rgba(10, 10, 10, 0.58)' : colors.bg }, desktop && { padding: 32 }]}><View style={[styles.frame, { backgroundColor: colors.bg }, desktop && { maxHeight: height - 64, borderRadius: 24, borderWidth: 1, borderColor: colors.line }]}><View style={[styles.sheetHeader, { borderColor: colors.line, paddingHorizontal: desktop ? 32 : 20 }]}><View style={styles.inlineRow}><View style={[styles.headerMark, { backgroundColor: colors.accent }]} /><Text style={[styles.heading, { color: colors.ink, fontFamily: colors.font }]}>{title}</Text></View><Pressable accessibilityRole="button" accessibilityLabel={`關閉${title}`} onPress={close} style={({ pressed }) => [styles.iconButton, { backgroundColor: colors.soft, transform: [{ translateY: pressed ? 1 : 0 }] }]}><Icon name="close" color={colors.ink} /></Pressable></View>
     {feedback && feedback.data.saveStatus !== 'saved' && <View style={{ paddingHorizontal: desktop ? 32 : 20, paddingTop: 12, gap: 8 }}><Message text={feedback.data.notice || (feedback.data.saveStatus === 'saving' ? '正在儲存到這台裝置，請稍候。' : '正在讀取閱讀資料…')} colors={colors} />{feedback.data.saveStatus === 'error' && <Button label="重試儲存閱讀變更" colors={colors} onPress={() => void feedback.data.retrySave()} />}</View>}
     {!!feedback?.speechStatus && <View style={[styles.speechBar, { paddingHorizontal: desktop ? 32 : 20, borderColor: colors.line }]}><Text accessibilityLiveRegion="polite" style={[styles.meta, { color: colors.muted, fontFamily: colors.font, flex: 1 }]}>{feedback.speechStatus}</Text>{feedback.stopSpeech && <Button label="停止播放" quiet colors={colors} onPress={feedback.stopSpeech} />}</View>}
     <ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" contentContainerStyle={[styles.sheetContent, { paddingHorizontal: desktop ? 36 : 20 }]}>{children}</ScrollView></View></SafeAreaView></Modal>;
@@ -32,7 +32,7 @@ function Sheet({ title, open, close, children, colors, scrollRef }: { title: str
 function SampleCard({ sample, index, artwork, desktop, colors, onPress }: { sample: typeof readingSamples[number]; index: number; artwork?: ImageSourcePropType; desktop: boolean; colors: ReadingColors; onPress: () => void }) {
   const [hovered, setHovered] = useState(false);
   return <Pressable accessibilityRole="button" accessibilityLabel={`試讀 ${sample.title}`} onPress={onPress} onHoverIn={() => setHovered(true)} onHoverOut={() => setHovered(false)} style={({ pressed }) => [styles.sampleCard, { backgroundColor: colors.card, borderColor: hovered || pressed ? colors.blue : colors.line, width: desktop ? '31.8%' : '100%', flexDirection: desktop ? 'column' : 'row', padding: desktop ? 0 : 12, opacity: 1, transform: [{ translateY: desktop && hovered ? -3 : 0 }] }]}>
-    {artwork && <View style={{ backgroundColor: '#f9ebaf', width: desktop ? '100%' : 96, height: desktop ? 180 : 106, borderRadius: desktop ? 0 : 10, borderBottomWidth: desktop ? 1.5 : 0, borderColor: colors.line, padding: desktop ? 12 : 5, flexShrink: 0 }}><Image source={artwork} accessible={false} accessibilityIgnoresInvertColors resizeMode="contain" style={{ width: '100%', height: '100%' }} /></View>}
+    {artwork && <View style={{ backgroundColor: colors.soft, width: desktop ? '100%' : 96, height: desktop ? 180 : 106, borderRadius: desktop ? 0 : 10, borderBottomWidth: desktop ? 1 : 0, borderColor: colors.line, padding: desktop ? 12 : 5, flexShrink: 0 }}><Image source={artwork} accessible={false} accessibilityIgnoresInvertColors resizeMode="contain" style={{ width: '100%', height: '100%', ...(Platform.OS === 'web' ? { filter: 'grayscale(1)' } : {}) }} /></View>}
     <View style={[styles.sampleCopy, { padding: desktop ? 18 : 0, paddingLeft: desktop ? 18 : 14 }]}>
       <View style={styles.labelRow}><Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>{sample.tag} · 約 {sample.minutes} 分鐘</Text>{desktop && <Text style={[styles.meta, { color: colors.muted, fontFamily: colors.font }]}>0{index + 1}</Text>}</View>
       <Text style={[styles.heading, { color: colors.ink, fontFamily: colors.font, fontSize: desktop ? 18 : 16, lineHeight: desktop ? 27 : 24 }]}>{sample.title}</Text>
@@ -122,13 +122,13 @@ export function ReadingLibrary({ data, colors, speak, onReview, onVoicePreview, 
             {heroWide && <View style={styles.inlineRow}><View style={[styles.eyebrowDot, { backgroundColor: colors.blue }]} /><Text style={[styles.eyebrow, muted]}>YOUR EVERYDAY ENGLISH</Text></View>}
             <Text style={[styles.heroTitle, c, desktop ? styles.heroTitleDesktop : styles.heroTitleMobile]}>把英文讀進{ '\n' }你的生活。</Text>
           </View>
-          {!heroWide && artwork?.hero && <Image source={artwork.hero} accessible={false} resizeMode="contain" style={{ width: 76, height: 100, flexShrink: 0 }} />}
+          {!heroWide && artwork?.hero && <Image source={artwork.hero} accessible={false} resizeMode="contain" style={{ width: 76, height: 100, flexShrink: 0, ...(Platform.OS === 'web' ? { filter: 'grayscale(1)' } : {}) }} />}
         </View>
         <Text style={[styles.body, muted, { maxWidth: 390 }]}>從一篇想讀的文章開始。留下新單字、原句，還有屬於你的理解。</Text>
         <View style={[styles.actionRow, { alignItems: 'flex-start' }]}><Button label="貼上英文，開始閱讀" icon="add-outline" colors={colors} disabled={!data.ready} onPress={startReading} />{onVoicePreview && <Button label="試聽自然 AI 發音" icon="volume-medium-outline" quiet colors={colors} onPress={onVoicePreview} />}</View>
         <View style={styles.inlineRow}><Icon name={data.saveStatus === 'saved' ? 'checkmark-circle-outline' : 'cloud-outline'} size={15} color={colors.muted} /><Text style={[styles.meta, muted]}>{data.saveStatus === 'saving' ? '正在儲存…' : data.saveStatus === 'saved' ? '閱讀紀錄已存到這台裝置' : '請檢查儲存狀態'}</Text></View>
       </View>
-      {heroWide && artwork?.hero && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: colors.accentSoft }]}><Image source={artwork.hero} accessibilityLabel="戴圓眼鏡、拿著星星書籤的書本小夥伴" resizeMode="contain" style={styles.fillImage} /></View>}
+      {heroWide && artwork?.hero && <View style={[styles.heroArt, { width: heroWide ? '42%' : '100%', height: desktop ? 300 : heroWide ? 220 : 185, backgroundColor: colors.accentSoft }]}><Image source={artwork.hero} accessibilityLabel="戴圓眼鏡、拿著星星書籤的書本小夥伴" resizeMode="contain" style={{ ...styles.fillImage, ...(Platform.OS === 'web' ? { filter: 'grayscale(1)' } : {}) }} /></View>}
     </View>
     <View style={[styles.statsStrip, surface]}>
       <View style={styles.stripStat}><Text style={[styles.stripValue, c]}>{data.state.articles.length}<Text style={[styles.statUnit, muted]}> 篇</Text></Text><Text style={[styles.meta, muted]}>我的閱讀</Text></View>
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
   sheetContent: { paddingTop: 28, gap: 18, paddingBottom: 48 },
   headerMark: { width: 5, height: 24, borderRadius: 3 },
   speechBar: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', paddingVertical: 10, gap: 12, borderBottomWidth: 1 },
-  hero: { borderWidth: 1.5, borderRadius: 24, gap: 24, overflow: 'hidden' },
+  hero: { borderWidth: 1, borderRadius: 24, gap: 24, overflow: 'hidden' },
   heroCopy: { gap: 18, justifyContent: 'center', minWidth: 0 },
   heroTitle: { fontWeight: '800' },
   heroTitleDesktop: { fontSize: 48, lineHeight: 61, letterSpacing: -1.8 },
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
   buttonText: { fontSize: 14, lineHeight: 20, fontWeight: '600', flexShrink: 1 },
   iconButton: { minWidth: 44, minHeight: 44, padding: 11, borderRadius: 999, justifyContent: 'center', alignItems: 'center' },
   sectionRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 12, justifyContent: 'space-between', alignItems: 'center', marginTop: 16, marginBottom: 2 },
-  statsStrip: { flexDirection: 'row', borderWidth: 1.5, borderRadius: 16, paddingVertical: 16 },
+  statsStrip: { flexDirection: 'row', borderWidth: 1, borderRadius: 16, paddingVertical: 16 },
   stripStat: { flex: 1, minWidth: 0, alignItems: 'center', justifyContent: 'center', gap: 3 },
   stripDivider: { borderLeftWidth: 1 },
   stripValue: { fontSize: 27, lineHeight: 34, fontWeight: '600' },
@@ -246,33 +246,33 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 },
   twoColumn: { width: '48.8%' },
   fullWidth: { width: '100%' },
-  articleCard: { borderWidth: 1.5, borderRadius: 16, minHeight: 224, overflow: 'hidden' },
+  articleCard: { borderWidth: 1, borderRadius: 16, minHeight: 224, overflow: 'hidden' },
   articleOpen: { padding: 22, gap: 12, flex: 1 },
   articleDelete: { position: 'absolute', right: 10, top: 10 },
   articleIcon: { width: 34, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
   preview: { fontSize: 15, lineHeight: 25 },
   libraryEmpty: { borderWidth: 1, borderStyle: 'dashed', borderRadius: 16, padding: 20, gap: 16, marginVertical: 4 },
-  empty: { borderWidth: 1.5, borderRadius: 24, padding: 28, gap: 14, marginVertical: 4 },
+  empty: { borderWidth: 1, borderRadius: 24, padding: 28, gap: 14, marginVertical: 4 },
   sampleGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 },
-  sampleCard: { borderWidth: 1.5, borderRadius: 16, overflow: 'hidden' },
+  sampleCard: { borderWidth: 1, borderRadius: 16, overflow: 'hidden' },
   sampleCopy: { flex: 1, gap: 9, minHeight: 106 },
   privacyNote: { flexDirection: 'row', gap: 9, alignItems: 'flex-start', borderTopWidth: 1, paddingTop: 18, marginTop: 8 },
-  contextCard: { borderWidth: 1.5, borderRadius: 16, padding: 24, gap: 16, minHeight: 240 },
+  contextCard: { borderWidth: 1, borderRadius: 16, padding: 24, gap: 16, minHeight: 240 },
   quoteBlock: { borderLeftWidth: 2, paddingLeft: 15 },
   countPill: { fontSize: 12, lineHeight: 20, paddingHorizontal: 14, paddingVertical: 6, borderRadius: 999, overflow: 'hidden' },
   fieldLabel: { fontSize: 14, lineHeight: 22, fontWeight: '600', marginTop: 8 },
-  input: { borderWidth: 1.5, borderRadius: 14, padding: 15, minHeight: 50, maxWidth: '100%', minWidth: 0, fontSize: 16, lineHeight: 26 },
+  input: { borderWidth: 1, borderRadius: 14, padding: 15, minHeight: 50, maxWidth: '100%', minWidth: 0, fontSize: 16, lineHeight: 26 },
   articleInput: { minHeight: 230, textAlignVertical: 'top' },
   readingText: { width: '100%', maxWidth: 760, alignSelf: 'center', fontSize: 23, lineHeight: 42, fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : undefined, marginVertical: 20 },
-  lookup: { padding: 24, borderWidth: 1.5, borderRadius: 24, gap: 16 },
+  lookup: { padding: 24, borderWidth: 1, borderRadius: 24, gap: 16 },
   readerLookup: { width: '100%', maxWidth: 760, alignSelf: 'center', borderTopWidth: 3 },
   lookupWord: { fontSize: 28, lineHeight: 38, fontWeight: '600', flexShrink: 1 },
   quote: { fontSize: 18, lineHeight: 30, fontFamily: Platform.OS === 'web' ? 'Georgia, serif' : undefined },
-  message: { padding: 13, borderWidth: 1.5, borderRadius: 12, fontSize: 14, lineHeight: 24 },
+  message: { padding: 13, borderWidth: 1, borderRadius: 12, fontSize: 14, lineHeight: 24 },
   stats: { flexDirection: 'row', gap: 12, maxWidth: 780, width: '100%', alignSelf: 'center' },
-  stat: { borderWidth: 1.5, borderRadius: 16, padding: 16, alignItems: 'center', flex: 1, gap: 5 },
+  stat: { borderWidth: 1, borderRadius: 16, padding: 16, alignItems: 'center', flex: 1, gap: 5 },
   statValue: { fontSize: 28, lineHeight: 36, fontWeight: '600' },
-  reviewCard: { borderWidth: 1.5, borderRadius: 24, padding: 32, gap: 24, alignItems: 'stretch', marginVertical: 10, width: '100%', maxWidth: 780, alignSelf: 'center' },
+  reviewCard: { borderWidth: 1, borderRadius: 24, padding: 32, gap: 24, alignItems: 'stretch', marginVertical: 10, width: '100%', maxWidth: 780, alignSelf: 'center' },
   separator: { height: 1, width: '100%' },
   meaning: { fontSize: 25, lineHeight: 36, fontWeight: '600', textAlign: 'center' },
 });

@@ -23,15 +23,15 @@ export const webFont = "'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-se
 export function getAppColors(dark: boolean, web = false): AppColors {
   return {
     ...(dark ? {
-      bg: '#201c2b', card: '#2c253a', ink: '#fff8e9', muted: '#d1c4df',
-      line: '#7b698f', controlBorder: '#a895ba', soft: '#3d324e', primary: '#d3ed89', onPrimary: '#222125',
-      accent: '#f8da69', onAccent: '#282428', accentSoft: '#494026', blue: '#cbb5ff',
+      bg: '#101010', card: '#1b1b1b', ink: '#f5f5ef', muted: '#c6c6bd',
+      line: '#444444', controlBorder: '#888888', soft: '#292929', primary: '#39ff14', onPrimary: '#0a0a0a',
+      accent: '#39ff14', onAccent: '#0a0a0a', accentSoft: '#21351b', blue: '#9fea87',
     } : {
-      bg: '#fffaf0', card: '#FFFFFF', ink: '#272329', muted: '#716778',
-      line: '#302a34', controlBorder: '#81718a', soft: '#eadff7', primary: '#2c2631', onPrimary: '#FFFFFF',
-      accent: '#f8da69', onAccent: '#282428', accentSoft: '#f9ebaf', blue: '#7152a0',
+      bg: '#f7f6f2', card: '#FFFFFF', ink: '#0a0a0a', muted: '#575751',
+      line: '#e5e3dc', controlBorder: '#817f77', soft: '#efeee9', primary: '#0a0a0a', onPrimary: '#FFFFFF',
+      accent: '#39ff14', onAccent: '#0a0a0a', accentSoft: '#ecffe6', blue: '#22610f',
     }),
-    shadow: dark ? '#000000' : '#302637',
+    shadow: '#000000',
     dark,
     font: web ? webFont : undefined,
   };
